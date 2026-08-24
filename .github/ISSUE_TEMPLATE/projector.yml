@@ -1,0 +1,63 @@
+name: Proposer un vidéoprojecteur
+description: Proposer une fiche vérifiable pour la banque StageMark
+title: "[Projecteur] Marque — Modèle"
+labels:
+  - projector-catalog
+body:
+  - type: markdown
+    attributes:
+      value: Merci de citer uniquement des sources constructeur officielles. La proposition sera vérifiée avant intégration.
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Fabricant
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Modèle exact
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Fiche constructeur officielle
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: specifications
+    attributes:
+      label: Caractéristiques
+      description: Résolution, valeur et unité exacte de luminosité (ANSI, ISO, centre ou constructeur), technologie, source lumineuse, poids, dimensions, connectique et orientations autorisées.
+    validations:
+      required: true
+  - type: textarea
+    id: lenses
+    attributes:
+      label: Objectifs et rapports de projection
+      description: Une ligne par objectif, avec rapport minimal et maximal et lien constructeur si différent.
+    validations:
+      required: true
+  - type: input
+    id: image
+    attributes:
+      label: Lien facultatif vers un visuel officiel
+      description: Lien stable, taille, SHA-256, attribution et licence autorisant explicitement la redistribution. Sans ces éléments, StageMark utilisera une silhouette.
+  - type: input
+    id: image_license
+    attributes:
+      label: Licence du visuel (facultatif)
+      description: URL des conditions de licence et titulaire des droits. Un filigrane ne constitue pas une autorisation.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: Les informations viennent de sources officielles et ne contiennent aucune donnée personnelle.
+          required: true
+        - label: Je comprends que la fiche doit être vérifiée avant publication.
+          required: true
+        - label: Je n’affirme un droit de redistribution du visuel que si une licence explicite le permet.
+          required: true

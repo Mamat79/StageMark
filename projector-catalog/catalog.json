@@ -1,0 +1,938 @@
+{
+  "formatVersion": 2,
+  "catalogVersion": "2026.08.22.1",
+  "updatedAt": "2026-08-22T15:30:00.000Z",
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "StageMark projector catalog — Mamat / SiLeMi/o"
+  },
+  "projectors": [
+    {
+      "id": "epson-eb-pq2010b",
+      "manufacturer": "Epson",
+      "model": "EB-PQ2010B",
+      "nativeWidthPx": 3840,
+      "nativeHeightPx": 2160,
+      "brightness": {
+        "value": 10000,
+        "unit": "manufacturer-lm"
+      },
+      "displayTechnology": "3LCD",
+      "lightSource": "Laser",
+      "installation": {
+        "orientationModes": [
+          "ceiling",
+          "table"
+        ],
+        "notes": "Plafond, table ou structure selon la notice constructeur"
+      },
+      "weightKg": 18.8,
+      "status": "current",
+      "verifiedAt": "2026-08-17",
+      "sources": [
+        {
+          "kind": "product-page",
+          "url": "https://www.epson.eu/en_EU/products/projector/professional/eb-pq2010b-projector/p/40780",
+          "verifiedAt": "2026-08-17"
+        }
+      ],
+      "technical": {},
+      "lenses": [
+        {
+          "id": "elplx02s-1",
+          "name": "ELPLX02S",
+          "throwRatioMin": 0.34,
+          "throwRatioMax": 0.34
+        },
+        {
+          "id": "elplu03s-2",
+          "name": "ELPLU03S",
+          "throwRatioMin": 0.46,
+          "throwRatioMax": 0.56
+        },
+        {
+          "id": "elplu04-3",
+          "name": "ELPLU04",
+          "throwRatioMin": 0.62,
+          "throwRatioMax": 0.75
+        },
+        {
+          "id": "elplw05-4",
+          "name": "ELPLW05",
+          "throwRatioMin": 0.74,
+          "throwRatioMax": 1.04
+        },
+        {
+          "id": "elplw08-5",
+          "name": "ELPLW08",
+          "throwRatioMin": 0.83,
+          "throwRatioMax": 1.17
+        },
+        {
+          "id": "elplw06-6",
+          "name": "ELPLW06",
+          "throwRatioMin": 1.15,
+          "throwRatioMax": 1.57
+        }
+      ]
+    },
+    {
+      "id": "epson-eb-pu1008b",
+      "manufacturer": "Epson",
+      "model": "EB-PU1008B",
+      "nativeWidthPx": 1920,
+      "nativeHeightPx": 1200,
+      "brightness": {
+        "value": 8500,
+        "unit": "manufacturer-lm"
+      },
+      "displayTechnology": "3LCD",
+      "lightSource": "Laser",
+      "installation": {
+        "orientationModes": [
+          "ceiling",
+          "table"
+        ],
+        "notes": "Plafond, table ou structure avec les supports approuvés par Epson"
+      },
+      "weightKg": 16.3,
+      "status": "current",
+      "verifiedAt": "2026-08-17",
+      "sources": [
+        {
+          "kind": "product-page",
+          "url": "https://www.epson.eu/en_EU/products/projector/professional/eb-pu1008b-projector/p/32085",
+          "verifiedAt": "2026-08-17"
+        }
+      ],
+      "technical": {},
+      "lenses": [
+        {
+          "id": "elplx01s-ust-1",
+          "name": "ELPLX01S UST",
+          "throwRatioMin": 0.35,
+          "throwRatioMax": 0.35
+        },
+        {
+          "id": "elplu03s-2",
+          "name": "ELPLU03S",
+          "throwRatioMin": 0.65,
+          "throwRatioMax": 0.78
+        },
+        {
+          "id": "elplu04-3",
+          "name": "ELPLU04",
+          "throwRatioMin": 0.87,
+          "throwRatioMax": 1.05
+        },
+        {
+          "id": "elplw05-4",
+          "name": "ELPLW05",
+          "throwRatioMin": 1.04,
+          "throwRatioMax": 1.46
+        },
+        {
+          "id": "elplw08-5",
+          "name": "ELPLW08",
+          "throwRatioMin": 1.17,
+          "throwRatioMax": 1.66
+        },
+        {
+          "id": "elplm08-6",
+          "name": "ELPLM08",
+          "throwRatioMin": 1.44,
+          "throwRatioMax": 2.32
+        },
+        {
+          "id": "elplm15-7",
+          "name": "ELPLM15",
+          "throwRatioMin": 2.16,
+          "throwRatioMax": 3.48
+        },
+        {
+          "id": "elplm10-8",
+          "name": "ELPLM10",
+          "throwRatioMin": 3.32,
+          "throwRatioMax": 5.06
+        },
+        {
+          "id": "elplm11-9",
+          "name": "ELPLM11",
+          "throwRatioMin": 4.85,
+          "throwRatioMax": 7.38
+        },
+        {
+          "id": "elpll08-10",
+          "name": "ELPLL08",
+          "throwRatioMin": 7.21,
+          "throwRatioMax": 10.11
+        }
+      ]
+    },
+    {
+      "id": "barco-g50-w7",
+      "manufacturer": "Barco",
+      "model": "G50-W7",
+      "nativeWidthPx": 1920,
+      "nativeHeightPx": 1200,
+      "brightness": {
+        "value": 6300,
+        "unit": "manufacturer-lm"
+      },
+      "displayTechnology": "DLP 1 puce",
+      "lightSource": "Laser phosphore",
+      "installation": {
+        "orientationModes": [
+          "free-360"
+        ],
+        "notes": "Rotation 360°, sans restriction constructeur"
+      },
+      "weightKg": 11.8,
+      "status": "current",
+      "verifiedAt": "2026-08-17",
+      "sources": [
+        {
+          "kind": "product-page",
+          "url": "https://www.barco.com/en/product/g50-w7",
+          "verifiedAt": "2026-08-17"
+        }
+      ],
+      "technical": {},
+      "lenses": [
+        {
+          "id": "g-ust-90-1",
+          "name": "G UST 90°",
+          "throwRatioMin": 0.37,
+          "throwRatioMax": 0.4
+        },
+        {
+          "id": "g-short-throw-2",
+          "name": "G Short Throw",
+          "throwRatioMin": 0.65,
+          "throwRatioMax": 0.75
+        },
+        {
+          "id": "g-short-throw-ring-3",
+          "name": "G Short Throw + ring",
+          "throwRatioMin": 0.75,
+          "throwRatioMax": 0.95
+        },
+        {
+          "id": "g-wide-4",
+          "name": "G Wide",
+          "throwRatioMin": 0.95,
+          "throwRatioMax": 1.22
+        },
+        {
+          "id": "g-standard-5",
+          "name": "G Standard",
+          "throwRatioMin": 1.22,
+          "throwRatioMax": 1.53
+        },
+        {
+          "id": "g-long-zoom-6",
+          "name": "G Long Zoom",
+          "throwRatioMin": 1.52,
+          "throwRatioMax": 2.92
+        },
+        {
+          "id": "g-ultra-long-zoom-7",
+          "name": "G Ultra Long Zoom",
+          "throwRatioMin": 2.9,
+          "throwRatioMax": 5.5
+        }
+      ]
+    },
+    {
+      "id": "panasonic-pt-rez12",
+      "manufacturer": "Panasonic",
+      "model": "PT-REZ12",
+      "nativeWidthPx": 1920,
+      "nativeHeightPx": 1200,
+      "brightness": {
+        "value": 12000,
+        "unit": "manufacturer-lm"
+      },
+      "displayTechnology": "DLP 1 puce",
+      "lightSource": "Laser",
+      "installation": {
+        "orientationModes": [
+          "free-360"
+        ],
+        "notes": "Plafond/sol, avant/arrière, installation libre à 360°"
+      },
+      "weightKg": 28.7,
+      "status": "current",
+      "verifiedAt": "2026-08-17",
+      "sources": [
+        {
+          "kind": "product-page",
+          "url": "https://docs.connect.panasonic.com/projector/products/rez12/spec/",
+          "verifiedAt": "2026-08-17"
+        }
+      ],
+      "technical": {},
+      "lenses": [
+        {
+          "id": "et-c1u100-1",
+          "name": "ET-C1U100",
+          "throwRatioMin": 0.308,
+          "throwRatioMax": 0.33
+        },
+        {
+          "id": "et-c1u200-2",
+          "name": "ET-C1U200",
+          "throwRatioMin": 0.38,
+          "throwRatioMax": 0.38
+        },
+        {
+          "id": "et-c1w300-3",
+          "name": "ET-C1W300",
+          "throwRatioMin": 0.55,
+          "throwRatioMax": 0.69
+        },
+        {
+          "id": "et-c1w400-4",
+          "name": "ET-C1W400",
+          "throwRatioMin": 0.68,
+          "throwRatioMax": 0.95
+        },
+        {
+          "id": "et-c1w500-5",
+          "name": "ET-C1W500",
+          "throwRatioMin": 0.94,
+          "throwRatioMax": 1.39
+        },
+        {
+          "id": "et-c1s600-fourni-6",
+          "name": "ET-C1S600 (fourni)",
+          "throwRatioMin": 1.36,
+          "throwRatioMax": 2.1
+        },
+        {
+          "id": "et-c1t700-7",
+          "name": "ET-C1T700",
+          "throwRatioMin": 2.07,
+          "throwRatioMax": 3.38
+        },
+        {
+          "id": "et-c1t800-8",
+          "name": "ET-C1T800",
+          "throwRatioMin": 3.3,
+          "throwRatioMax": 6.6
+        }
+      ]
+    },
+    {
+      "id": "panasonic-pt-rz120",
+      "manufacturer": "Panasonic",
+      "model": "PT-RZ120",
+      "nativeWidthPx": 1920,
+      "nativeHeightPx": 1200,
+      "brightness": {
+        "value": 12000,
+        "unit": "manufacturer-lm"
+      },
+      "displayTechnology": "DLP 1 puce",
+      "lightSource": "Laser",
+      "installation": {
+        "orientationModes": [
+          "ceiling",
+          "table"
+        ],
+        "notes": "Plafond/sol, avant/arrière selon la notice constructeur"
+      },
+      "weightKg": 23.6,
+      "status": "legacy",
+      "verifiedAt": "2026-08-17",
+      "sources": [
+        {
+          "kind": "product-page",
+          "url": "https://docs.connect.panasonic.com/projector/products/rz120/",
+          "verifiedAt": "2026-08-17"
+        }
+      ],
+      "technical": {},
+      "lenses": [
+        {
+          "id": "et-dle020-1",
+          "name": "ET-DLE020",
+          "throwRatioMin": 0.28,
+          "throwRatioMax": 0.299
+        },
+        {
+          "id": "et-dle035-2",
+          "name": "ET-DLE035",
+          "throwRatioMin": 0.38,
+          "throwRatioMax": 0.38
+        },
+        {
+          "id": "et-dle060-3",
+          "name": "ET-DLE060",
+          "throwRatioMin": 0.6,
+          "throwRatioMax": 0.801
+        },
+        {
+          "id": "et-dle055-4",
+          "name": "ET-DLE055",
+          "throwRatioMin": 0.785,
+          "throwRatioMax": 0.785
+        },
+        {
+          "id": "et-dle085-5",
+          "name": "ET-DLE085",
+          "throwRatioMin": 0.782,
+          "throwRatioMax": 0.977
+        },
+        {
+          "id": "et-dle105-6",
+          "name": "ET-DLE105",
+          "throwRatioMin": 0.978,
+          "throwRatioMax": 1.32
+        },
+        {
+          "id": "et-dle150-7",
+          "name": "ET-DLE150",
+          "throwRatioMin": 1.3,
+          "throwRatioMax": 1.89
+        },
+        {
+          "id": "et-dle170-fourni-8",
+          "name": "ET-DLE170 (fourni)",
+          "throwRatioMin": 1.71,
+          "throwRatioMax": 2.41
+        },
+        {
+          "id": "et-dle250-9",
+          "name": "ET-DLE250",
+          "throwRatioMin": 2.27,
+          "throwRatioMax": 3.62
+        },
+        {
+          "id": "et-dle350-10",
+          "name": "ET-DLE350",
+          "throwRatioMin": 3.58,
+          "throwRatioMax": 5.45
+        },
+        {
+          "id": "et-dle450-11",
+          "name": "ET-DLE450",
+          "throwRatioMin": 5.36,
+          "throwRatioMax": 8.58
+        }
+      ]
+    },
+    {
+      "id": "christie-4k13-hs",
+      "manufacturer": "Christie",
+      "model": "4K13-HS",
+      "nativeWidthPx": 3840,
+      "nativeHeightPx": 2160,
+      "brightness": {
+        "value": 12500,
+        "unit": "manufacturer-lm"
+      },
+      "displayTechnology": "DLP 1 puce",
+      "lightSource": "Laser phosphore",
+      "installation": {
+        "orientationModes": [
+          "ceiling"
+        ],
+        "notes": "Montage d’installation ; vérifier le guide selon la position"
+      },
+      "weightKg": 43.5,
+      "status": "current",
+      "verifiedAt": "2026-08-17",
+      "sources": [
+        {
+          "kind": "product-page",
+          "url": "https://www.christiedigital.com/products/projectors/all-projectors/hs-series/christie-4k13-hs/",
+          "verifiedAt": "2026-08-17"
+        }
+      ],
+      "technical": {},
+      "lenses": [
+        {
+          "id": "900-300413-ust-fixe-1",
+          "name": "900-300413 UST fixe",
+          "throwRatioMin": 0.38,
+          "throwRatioMax": 0.38
+        },
+        {
+          "id": "140-144100-2",
+          "name": "140-144100",
+          "throwRatioMin": 0.65,
+          "throwRatioMax": 0.75
+        },
+        {
+          "id": "140-115108-3",
+          "name": "140-115108",
+          "throwRatioMin": 1.02,
+          "throwRatioMax": 1.36
+        },
+        {
+          "id": "140-109101-4",
+          "name": "140-109101",
+          "throwRatioMin": 1.2,
+          "throwRatioMax": 1.5
+        },
+        {
+          "id": "140-110103-5",
+          "name": "140-110103",
+          "throwRatioMin": 1.5,
+          "throwRatioMax": 2
+        },
+        {
+          "id": "140-111104-6",
+          "name": "140-111104",
+          "throwRatioMin": 2,
+          "throwRatioMax": 4
+        },
+        {
+          "id": "140-116109-7",
+          "name": "140-116109",
+          "throwRatioMin": 4,
+          "throwRatioMax": 7.2
+        },
+        {
+          "id": "140-145101-8",
+          "name": "140-145101",
+          "throwRatioMin": 7.2,
+          "throwRatioMax": 10.8
+        }
+      ]
+    },
+    {
+      "id": "epson-eb-pu2220b",
+      "manufacturer": "Epson",
+      "model": "EB-PU2220B",
+      "nativeWidthPx": 1920,
+      "nativeHeightPx": 1200,
+      "brightness": {
+        "value": 20000,
+        "unit": "manufacturer-lm"
+      },
+      "displayTechnology": "3LCD",
+      "lightSource": "Laser",
+      "installation": {
+        "orientationModes": [
+          "ceiling",
+          "table",
+          "portrait"
+        ],
+        "notes": "Plafond, table ou structure ; adaptateurs portrait et inclinaison disponibles"
+      },
+      "weightKg": 24.4,
+      "status": "current",
+      "verifiedAt": "2026-08-17",
+      "sources": [
+        {
+          "kind": "product-page",
+          "url": "https://www.epson.eu/en_EU/products/projector/professional/eb-pu2220b-projector/p/34365",
+          "verifiedAt": "2026-08-17"
+        }
+      ],
+      "technical": {},
+      "lenses": [
+        {
+          "id": "elplx02s-elplx02ws-1",
+          "name": "ELPLX02S / ELPLX02WS",
+          "throwRatioMin": 0.35,
+          "throwRatioMax": 0.35
+        },
+        {
+          "id": "elplu03s-2",
+          "name": "ELPLU03S",
+          "throwRatioMin": 0.48,
+          "throwRatioMax": 0.57
+        },
+        {
+          "id": "elplu04-3",
+          "name": "ELPLU04",
+          "throwRatioMin": 0.64,
+          "throwRatioMax": 0.77
+        },
+        {
+          "id": "elplw08-4",
+          "name": "ELPLW08",
+          "throwRatioMin": 0.86,
+          "throwRatioMax": 1.21
+        },
+        {
+          "id": "elplw06-5",
+          "name": "ELPLW06",
+          "throwRatioMin": 1.19,
+          "throwRatioMax": 1.62
+        },
+        {
+          "id": "elplm15-6",
+          "name": "ELPLM15",
+          "throwRatioMin": 1.57,
+          "throwRatioMax": 2.56
+        },
+        {
+          "id": "elplm10-7",
+          "name": "ELPLM10",
+          "throwRatioMin": 2.42,
+          "throwRatioMax": 3.71
+        },
+        {
+          "id": "elplm11-8",
+          "name": "ELPLM11",
+          "throwRatioMin": 3.54,
+          "throwRatioMax": 5.41
+        },
+        {
+          "id": "elpll08-9",
+          "name": "ELPLL08",
+          "throwRatioMin": 5.27,
+          "throwRatioMax": 7.41
+        }
+      ]
+    },
+    {
+      "id": "panasonic-pt-rq25k",
+      "manufacturer": "Panasonic",
+      "model": "PT-RQ25K",
+      "nativeWidthPx": 3840,
+      "nativeHeightPx": 2400,
+      "brightness": {
+        "value": 20000,
+        "unit": "manufacturer-lm"
+      },
+      "displayTechnology": "DLP 3 puces avec Quad Pixel Drive",
+      "lightSource": "Laser",
+      "installation": {
+        "orientationModes": [
+          "free-360"
+        ],
+        "notes": "Plafond/sol, avant/arrière, installation libre à 360°"
+      },
+      "weightKg": 35,
+      "status": "current",
+      "verifiedAt": "2026-08-17",
+      "sources": [
+        {
+          "kind": "product-page",
+          "url": "https://docs.connect.panasonic.com/projector/products/rq25k/spec/",
+          "verifiedAt": "2026-08-17"
+        }
+      ],
+      "technical": {},
+      "lenses": [
+        {
+          "id": "et-d75le95-1",
+          "name": "ET-D75LE95",
+          "throwRatioMin": 0.437,
+          "throwRatioMax": 0.437
+        },
+        {
+          "id": "et-d3leu100-et-d3leu101-2",
+          "name": "ET-D3LEU100 / ET-D3LEU101",
+          "throwRatioMin": 0.447,
+          "throwRatioMax": 0.447
+        },
+        {
+          "id": "et-d3lew50-3",
+          "name": "ET-D3LEW50",
+          "throwRatioMin": 0.838,
+          "throwRatioMax": 0.838
+        },
+        {
+          "id": "et-d3lew200-et-d3lew201-4",
+          "name": "ET-D3LEW200 / ET-D3LEW201",
+          "throwRatioMin": 0.779,
+          "throwRatioMax": 1.03
+        },
+        {
+          "id": "et-d3lew300-5",
+          "name": "ET-D3LEW300",
+          "throwRatioMin": 0.924,
+          "throwRatioMax": 1.12
+        },
+        {
+          "id": "et-d3lew60-6",
+          "name": "ET-D3LEW60",
+          "throwRatioMin": 1.11,
+          "throwRatioMax": 1.32
+        },
+        {
+          "id": "et-d75le6-7",
+          "name": "ET-D75LE6",
+          "throwRatioMin": 1.11,
+          "throwRatioMax": 1.32
+        },
+        {
+          "id": "et-d3lew600-8",
+          "name": "ET-D3LEW600",
+          "throwRatioMin": 1.12,
+          "throwRatioMax": 1.55
+        },
+        {
+          "id": "et-d3lew10-9",
+          "name": "ET-D3LEW10",
+          "throwRatioMin": 1.52,
+          "throwRatioMax": 2.07
+        },
+        {
+          "id": "et-d75le10-10",
+          "name": "ET-D75LE10",
+          "throwRatioMin": 1.56,
+          "throwRatioMax": 2.01
+        },
+        {
+          "id": "et-d3les20-11",
+          "name": "ET-D3LES20",
+          "throwRatioMin": 2,
+          "throwRatioMax": 2.9
+        },
+        {
+          "id": "et-d3les250-12",
+          "name": "ET-D3LES250",
+          "throwRatioMin": 2,
+          "throwRatioMax": 2.9
+        },
+        {
+          "id": "et-d75le20-13",
+          "name": "ET-D75LE20",
+          "throwRatioMin": 2,
+          "throwRatioMax": 2.9
+        },
+        {
+          "id": "et-d3let30-14",
+          "name": "ET-D3LET30",
+          "throwRatioMin": 2.88,
+          "throwRatioMax": 5.61
+        },
+        {
+          "id": "et-d75le30-15",
+          "name": "ET-D75LE30",
+          "throwRatioMin": 2.89,
+          "throwRatioMax": 5.61
+        },
+        {
+          "id": "et-d3let40-16",
+          "name": "ET-D3LET40",
+          "throwRatioMin": 5.54,
+          "throwRatioMax": 8.9
+        },
+        {
+          "id": "et-d75le40-17",
+          "name": "ET-D75LE40",
+          "throwRatioMin": 5.55,
+          "throwRatioMax": 8.86
+        },
+        {
+          "id": "et-d3let80-18",
+          "name": "ET-D3LET80",
+          "throwRatioMin": 8.83,
+          "throwRatioMax": 16.6
+        },
+        {
+          "id": "et-d75le8-19",
+          "name": "ET-D75LE8",
+          "throwRatioMin": 8.83,
+          "throwRatioMax": 16.6
+        }
+      ]
+    },
+    {
+      "id": "barco-udm-4k15",
+      "manufacturer": "Barco",
+      "model": "UDM-4K15",
+      "nativeWidthPx": 3840,
+      "nativeHeightPx": 2400,
+      "brightness": {
+        "value": 14000,
+        "unit": "manufacturer-lm"
+      },
+      "displayTechnology": "DLP 3 puces",
+      "lightSource": "Laser phosphore",
+      "installation": {
+        "orientationModes": [
+          "free-360"
+        ],
+        "notes": "Installation libre à 360°"
+      },
+      "weightKg": 48,
+      "status": "current",
+      "verifiedAt": "2026-08-17",
+      "sources": [
+        {
+          "kind": "product-page",
+          "url": "https://www.barco.com/en/product/udm-4k15",
+          "verifiedAt": "2026-08-17"
+        }
+      ],
+      "technical": {},
+      "lenses": [
+        {
+          "id": "tld-0-37-fixe-1",
+          "name": "TLD+ 0.37 fixe",
+          "throwRatioMin": 0.37,
+          "throwRatioMax": 0.37
+        },
+        {
+          "id": "tld-0-65-0-85-2",
+          "name": "TLD+ 0.65–0.85",
+          "throwRatioMin": 0.65,
+          "throwRatioMax": 0.85
+        },
+        {
+          "id": "tld-0-8-1-16-3",
+          "name": "TLD+ 0.8–1.16",
+          "throwRatioMin": 0.8,
+          "throwRatioMax": 1.16
+        },
+        {
+          "id": "tld-1-25-1-6-4",
+          "name": "TLD+ 1.25–1.6",
+          "throwRatioMin": 1.25,
+          "throwRatioMax": 1.6
+        },
+        {
+          "id": "tld-1-5-2-0-5",
+          "name": "TLD+ 1.5–2.0",
+          "throwRatioMin": 1.5,
+          "throwRatioMax": 2
+        },
+        {
+          "id": "tld-2-0-2-8-6",
+          "name": "TLD+ 2.0–2.8",
+          "throwRatioMin": 2,
+          "throwRatioMax": 2.8
+        },
+        {
+          "id": "tld-2-8-4-5-7",
+          "name": "TLD+ 2.8–4.5",
+          "throwRatioMin": 2.8,
+          "throwRatioMax": 4.5
+        },
+        {
+          "id": "tld-4-5-7-5-8",
+          "name": "TLD+ 4.5–7.5",
+          "throwRatioMin": 4.5,
+          "throwRatioMax": 7.5
+        },
+        {
+          "id": "tld-7-5-11-5-9",
+          "name": "TLD+ 7.5–11.5",
+          "throwRatioMin": 7.5,
+          "throwRatioMax": 11.5
+        }
+      ]
+    },
+    {
+      "id": "christie-m-4k25-rgb",
+      "manufacturer": "Christie",
+      "model": "M 4K25 RGB",
+      "nativeWidthPx": 3840,
+      "nativeHeightPx": 2160,
+      "brightness": {
+        "value": 22500,
+        "unit": "manufacturer-lm"
+      },
+      "displayTechnology": "DLP 3 puces scellé",
+      "lightSource": "Laser RGB pur",
+      "installation": {
+        "orientationModes": [
+          "free-360"
+        ],
+        "notes": "Installation omnidirectionnelle"
+      },
+      "weightKg": 41.7,
+      "status": "current",
+      "verifiedAt": "2026-08-17",
+      "sources": [
+        {
+          "kind": "product-page",
+          "url": "https://www.christiedigital.com/products/projectors/all-projectors/m4k-rgb-series/m-4k25-rgb/",
+          "verifiedAt": "2026-08-17"
+        }
+      ],
+      "technical": {},
+      "lenses": [
+        {
+          "id": "ils1-118-131106-ust-fixe-1",
+          "name": "ILS1 118-131106 UST fixe",
+          "throwRatioMin": 0.37,
+          "throwRatioMax": 0.37
+        },
+        {
+          "id": "ils1-118-100110-fixe-2",
+          "name": "ILS1 118-100110 fixe",
+          "throwRatioMin": 0.67,
+          "throwRatioMax": 0.67
+        },
+        {
+          "id": "ils1-118-132107-uhc-fixe-3",
+          "name": "ILS1 118-132107 UHC fixe",
+          "throwRatioMin": 0.67,
+          "throwRatioMax": 0.67
+        },
+        {
+          "id": "ils1-118-130105-4",
+          "name": "ILS1 118-130105",
+          "throwRatioMin": 0.8,
+          "throwRatioMax": 1.16
+        },
+        {
+          "id": "ils1-118-133108-uhc-5",
+          "name": "ILS1 118-133108 UHC",
+          "throwRatioMin": 0.8,
+          "throwRatioMax": 1.16
+        },
+        {
+          "id": "ils1-118-100117-fixe-6",
+          "name": "ILS1 118-100117 fixe",
+          "throwRatioMin": 1.1,
+          "throwRatioMax": 1.1
+        },
+        {
+          "id": "ils1-118-100111-7",
+          "name": "ILS1 118-100111",
+          "throwRatioMin": 1.16,
+          "throwRatioMax": 1.49
+        },
+        {
+          "id": "ils1-163-165103-uhc-8",
+          "name": "ILS1 163-165103 UHC",
+          "throwRatioMin": 1.28,
+          "throwRatioMax": 1.87
+        },
+        {
+          "id": "ils1-118-100112-9",
+          "name": "ILS1 118-100112",
+          "throwRatioMin": 1.4,
+          "throwRatioMax": 1.8
+        },
+        {
+          "id": "ils1-118-100113-10",
+          "name": "ILS1 118-100113",
+          "throwRatioMin": 1.8,
+          "throwRatioMax": 2.6
+        },
+        {
+          "id": "ils1-118-100114-11",
+          "name": "ILS1 118-100114",
+          "throwRatioMin": 2.6,
+          "throwRatioMax": 4.1
+        },
+        {
+          "id": "ils1-118-100115-12",
+          "name": "ILS1 118-100115",
+          "throwRatioMin": 4.1,
+          "throwRatioMax": 6.9
+        },
+        {
+          "id": "ils1-118-100116-13",
+          "name": "ILS1 118-100116",
+          "throwRatioMin": 6.9,
+          "throwRatioMax": 10.4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+*.exe
+*.dmg
+*.zip
+*.sha256
+*.part
+.DS_Store
+

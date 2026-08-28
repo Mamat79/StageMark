@@ -5,9 +5,10 @@ Le code source, le Worker de licence, les outils d’émission et les secrets re
 
 ## Télécharger
 
-La version stable actuelle est **2026.5** :
+Les versions stables actuelles sont **2026.6 sous Windows** et **2026.5 sous
+macOS** :
 
-- Windows 11 x64 : `StageMark-2026.5-Setup.exe` ;
+- Windows 11 x64 : `StageMark-2026.6-Setup.exe` ;
 - macOS Intel : `StageMark-2026.5-macOS-x64.dmg` ;
 - macOS Apple Silicon : `StageMark-2026.5-macOS-arm64.dmg`.
 
@@ -22,11 +23,19 @@ StageMark reste entièrement utilisable :
 - 30 jours sans rappel ;
 - après 30 jours, un rappel refermable au démarrage ;
 - licence permanente à **49 € TTC**, paiement unique, pour supprimer le rappel ;
-- même licence conservée après mise à jour, réinstallation compatible et changement entre Windows et macOS.
+- les licences historiques restent valables après mise à jour, réinstallation
+  compatible et changement entre Windows et macOS ;
+- Windows 2026.6 accepte aussi les licences V2 : activation Internet initiale,
+  trois installations par défaut, puis validation entièrement hors ligne et
+  bouton de désactivation du poste.
 
 Boutique officielle : <https://stagemark-license.mamat79-dce.workers.dev/buy>
 
-Le paiement est traité hors de l’application par Stripe. Le code reçu est vérifié localement et hors ligne. StageMark n’accède à aucune donnée bancaire et ne lie pas la licence à une machine. Il n’existe plus de parcours PayPal dans l’application.
+Le paiement est traité hors de l’application par Stripe. StageMark n’accède à
+aucune donnée bancaire. La boutique émet encore le format historique portable
+compatible avec Windows et macOS ; le passage commercial à V2 attend une
+version macOS signée et testée. Il n’existe plus de parcours PayPal dans
+l’application.
 
 ## Mise à jour
 
@@ -50,8 +59,14 @@ La banque distribuable se trouve dans [`projector-catalog/`](projector-catalog/R
 
 This public repository contains only verified **StageMark 2026** installers and their SHA-256 files. Source code, licensing services, issuing tools, and secrets remain in a separate private repository.
 
-The current stable version is **2026.5** for Windows 11 x64, macOS Intel, and macOS Apple Silicon. Download it from <https://github.com/Mamat79/StageMark/releases/latest>.
+The current stable versions are **2026.6 for Windows 11 x64** and **2026.5 for
+macOS Intel and Apple Silicon**. Download them from
+<https://github.com/Mamat79/StageMark/releases/latest>.
 
-StageMark provides 30 reminder-free days, remains fully usable afterwards with a dismissible startup reminder, and offers a permanent **€49 tax-included** one-time license. The same license remains valid across compatible updates, reinstallations, Windows, and macOS. Purchase at <https://stagemark-license.mamat79-dce.workers.dev/buy>.
+StageMark provides 30 reminder-free days, remains fully usable afterwards with
+a dismissible startup reminder, and offers a permanent **€49 tax-included**
+one-time license. Historical V1 licenses remain portable. Windows 2026.6 also
+supports installation-bound V2 licenses with offline validation after initial
+activation. Purchase at <https://stagemark-license.mamat79-dce.workers.dev/buy>.
 
 Windows and macOS packages are currently unsigned; macOS DMGs are not notarized.

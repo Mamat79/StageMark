@@ -1,5 +1,7 @@
 # StageMark 2026 — distribution officielle
 
+StageMark est une application de bureau hors connexion destinée aux techniciens de plateau. Elle dessine des repères en dimensions réelles, gère plusieurs plans et projette uniquement les graphismes utiles sur fond noir au moyen d’une calibration projective à quatre points. La version Windows 2026.6 ajoute les licences V2 ; les DMG macOS publics restent en 2026.5, non signés et non notariés, jusqu’à une validation Apple dédiée.
+
 Ce dépôt public distribue uniquement les installateurs vérifiés de **StageMark 2026** et leurs empreintes SHA-256.
 Le code source, le Worker de licence, les outils d’émission et les secrets restent dans un dépôt privé séparé.
 

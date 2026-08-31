@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title">
+  <title id="title">StageMark</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172936"/>
+      <stop offset="1" stop-color="#071015"/>
+    </linearGradient>
+    <linearGradient id="stage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bafaf0"/>
+      <stop offset="1" stop-color="#40cbb7"/>
+    </linearGradient>
+  </defs>
+  <rect x="34" y="34" width="956" height="956" rx="180" fill="url(#bg)" stroke="#31505d" stroke-width="6"/>
+  <path d="M238 236h548l112 550H126L238 236Z" fill="#0d1a21" stroke="url(#stage)" stroke-width="34" stroke-linejoin="round"/>
+  <path d="M512 236v550M190 624h644" fill="none" stroke="#75e6d5" stroke-width="18" stroke-dasharray="44 30" opacity=".5"/>
+  <path d="M126 786h772" stroke="#cafff8" stroke-width="45" stroke-linecap="round"/>
+  <g transform="translate(512 596)" stroke="#ffffff" stroke-width="46" stroke-linecap="round">
+    <path d="M-94-94 94 94M94-94-94 94"/>
+  </g>
+  <circle cx="512" cy="596" r="132" fill="none" stroke="#ff9f3f" stroke-width="24"/>
+  <circle cx="512" cy="596" r="23" fill="#ff9f3f"/>
+</svg>
+

@@ -1,74 +1,219 @@
-# StageMark 2026 — distribution officielle
+<p align="center">
+  <img src="branding/stagemark-logo.svg" width="520" alt="StageMark 2026">
+</p>
 
-StageMark est une application de bureau hors connexion destinée aux techniciens de plateau. Elle dessine des repères en dimensions réelles, gère plusieurs plans et projette uniquement les graphismes utiles sur fond noir au moyen d’une calibration projective à quatre points. La version Windows 2026.7.1 corrige la compatibilité des horodatages RFC3339 dans les projets `.stageflow` et conserve les licences V2. Aucun paquet macOS 2026.7.1 n’est publié avant une validation Apple dédiée.
+<h1 align="center">StageMark 2026</h1>
 
-Ce dépôt public distribue uniquement les installateurs vérifiés de **StageMark 2026** et leurs empreintes SHA-256.
-Le code source, le Worker de licence, les outils d’émission et les secrets restent dans un dépôt privé séparé.
+<p align="center">
+  <strong>Dessinez l’implantation. Calibrez la projection. Affichez uniquement les repères utiles.</strong><br>
+  Hors ligne · Français / English · Windows 11
+</p>
 
-## Télécharger
-
-La version stable actuelle est **2026.7.1 sous Windows** :
-
-- Windows 11 x64 : `StageMark-2026.7.1-Setup.exe`.
-
-La Release actuelle ne contient pas d’installeur macOS. Les futures constructions Intel et Apple Silicon ne seront publiées qu’après construction, signature, notarisation et recette sur Mac.
-
-Téléchargement : <https://github.com/Mamat79/StageMark/releases/latest>
-
-Chaque installateur possède un fichier `.sha256` séparé. Les binaires sont publiés uniquement comme assets de Release et ne sont jamais ajoutés à l’historique Git.
-
-## Licence
-
-StageMark reste entièrement utilisable :
-
-- 30 jours sans rappel ;
-- après 30 jours, un rappel refermable au démarrage ;
-- licence permanente à **49 € TTC**, paiement unique, pour supprimer le rappel ;
-- les licences historiques restent valables après mise à jour, réinstallation
-  compatible et changement entre Windows et macOS ;
-- Windows 2026.7.1 accepte aussi les licences V2 : activation Internet initiale,
-  trois installations par défaut, puis validation entièrement hors ligne et
-  bouton de désactivation du poste.
-
-Boutique officielle : <https://stagemark-license.mamat79-dce.workers.dev/buy>
-
-Le paiement est traité hors de l’application par Stripe. StageMark n’accède à
-aucune donnée bancaire. La boutique émet encore le format historique portable
-compatible avec Windows et macOS ; le passage commercial à V2 attend une
-version macOS signée et testée. Il n’existe plus de parcours PayPal dans
-l’application.
-
-## Mise à jour
-
-StageMark vérifie la dernière Release GitHub sans bloquer le démarrage. Le téléchargement et l’installation exigent toujours une confirmation, puis l’empreinte SHA-256 de l’installeur est contrôlée avant exécution.
-
-## Documentation et limites
-
-Les notices française et anglaise sont embarquées dans l’application et accessibles depuis l’aide.
-
-- L’installeur Windows n’est pas signé numériquement.
-- Les DMG macOS sont non signés et non notariés ; macOS peut demander une confirmation manuelle.
-- La validation sur vidéoprojecteur, MadMapper, téléphone et Stream Deck dépend du matériel réel et doit être effectuée sur site.
-
-## Banque de vidéoprojecteurs
-
-La banque distribuable se trouve dans [`projector-catalog/`](projector-catalog/README.md). Une fiche ou un visuel n’est accepté qu’après contrôle de sa source et de son droit de redistribution.
+<p align="center">
+  <a href="https://github.com/Mamat79/StageMark/releases/latest"><strong>⬇ Télécharger StageMark</strong></a>
+</p>
 
 ---
 
-# StageMark 2026 — official distribution
+## StageMark, à quoi ça sert ?
 
-This public repository contains only verified **StageMark 2026** installers and their SHA-256 files. Source code, licensing services, issuing tools, and secrets remain in a separate private repository.
+StageMark est un outil de préparation et de projection destiné aux techniciens
+de plateau, régisseurs, scénographes et équipes de production.
 
-The current stable version is **2026.7.1 for Windows 11 x64**. Download it from
-<https://github.com/Mamat79/StageMark/releases/latest>. No current macOS package
-is published; future Intel and Apple Silicon builds require dedicated Mac
-building, signing, notarization, and validation first.
+Il permet de dessiner une implantation en dimensions réelles, d’organiser
+plusieurs plans et d’envoyer sur le plateau uniquement les repères nécessaires :
+positions, axes, formes, textes, groupes d’affichage ou éléments de conduite.
 
-StageMark provides 30 reminder-free days, remains fully usable afterwards with
-a dismissible startup reminder, and offers a permanent **€49 tax-included**
-one-time license. Historical V1 licenses remain portable. Windows 2026.7.1 also
-supports installation-bound V2 licenses with offline validation after initial
-activation. Purchase at <https://stagemark-license.mamat79-dce.workers.dev/buy>.
+La projection reste sur fond noir et un **BLACKOUT** permanent permet de couper
+immédiatement l’image.
 
-Windows and macOS packages are currently unsigned; macOS DMGs are not notarized.
+## Un exemple concret
+
+Vous préparez un changement de plateau avec une batterie, un piano, des wedges,
+des pieds de micro et plusieurs positions d’artistes :
+
+1. créez le plan aux dimensions du plateau ;
+2. placez les objets et repères en millimètres ;
+3. regroupez les éléments qui doivent apparaître ensemble ;
+4. préparez plusieurs plans ou états d’affichage ;
+5. raccordez le vidéoprojecteur et affichez la mire ;
+6. calibrez les quatre coins de la zone utile ;
+7. affichez uniquement le groupe nécessaire pendant le changement ;
+8. déclenchez le blackout dès que la projection n’est plus utile.
+
+L’équipe de plateau voit des repères clairs, sans exposer l’interface de travail
+ni le fond du plan.
+
+## Ce que StageMark permet de faire
+
+### Dessiner une implantation précise
+
+- Plans en dimensions réelles.
+- Plusieurs unités d’affichage, avec mesures cohérentes.
+- Points, croix, cercles, carrés, triangles, lignes, flèches et rectangles.
+- Textes et objets personnalisables.
+- Symboles de plateau : wedges, pieds de micro, amplis, batterie, piano,
+  chaises et risers.
+- Cotations persistantes.
+- Alignement, distribution, duplication et groupes d’objets.
+- Fond de plan estompé pour servir de référence sans être projeté.
+
+### Organiser le spectacle
+
+- Plusieurs plans dans un même projet.
+- Groupes d’affichage instantanés.
+- Calque permanent pour le site et les obstacles.
+- Cues de conduite.
+- Annulation, rétablissement et récupération après une interruption.
+- Export ou impression des plans en A4.
+
+### Projeter en sécurité
+
+- Fenêtre de sortie séparée de l’éditeur.
+- Projection directe ou sortie Spout sous Windows.
+- Mire de calibration.
+- Correction géométrique par quatre points.
+- Commandes permanentes **AFFICHER** et **BLACKOUT**.
+- Raccourcis clavier et profils Stream Deck.
+- Prévol avant diffusion.
+
+### Contrôler depuis le plateau
+
+Un contrôleur local peut être ouvert depuis le navigateur d’un téléphone, d’une
+tablette ou d’un autre ordinateur connecté au même réseau local.
+
+Il permet de rappeler les plans et les cues utiles sans transformer StageMark
+en service cloud.
+
+### Préparer le vidéoprojecteur
+
+La banque intégrée aide à comparer des vidéoprojecteurs et objectifs pour la
+préparation d’une location ou d’une installation : luminosité, poids, rapport
+optique, orientation et informations utiles.
+
+Le choix final et la calibration doivent toujours être validés avec le matériel
+réel et les conditions du lieu.
+
+## Le même projet que le patch et le plan technique
+
+StageMark ouvre directement les projets <code>.stageflow</code>. StageFlow
+Desktop n’est pas obligatoire.
+
+Il peut lire le patch commun, placer des sources sans les ressaisir et reprendre
+un plan provenant de StageFlow ou d’AutoCAD.
+
+~~~mermaid
+flowchart LR
+    SF["StageFlow<br/>Patch + plan"] <--> P[("Projet .stageflow")]
+    SMT["SMT<br/>Préparation console"] <--> P
+    DCE["Dante Config Editor<br/>Réseau Dante"] <--> P
+    SM["StageMark<br/>Implantation + projection"] <--> P
+    CAD["AutoCAD<br/>Plan technique"] <--> P
+~~~
+
+- [StageFlow — patch, groupes, Excel et plan de scène](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest)
+- [SMT — transfert entre consoles et logiciels](https://github.com/Mamat79/Save-My-Time-SMT/releases/latest)
+- [Dante Config Editor — préparation Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
+
+Chaque logiciel reste autonome. Vous installez uniquement les outils utiles à
+votre production.
+
+## Télécharger StageMark
+
+La version stable actuelle est **StageMark 2026.7.1 pour Windows 11 x64**.
+
+**[Télécharger la dernière version](https://github.com/Mamat79/StageMark/releases/latest)**
+
+Les notices française et anglaise sont intégrées à l’application et accessibles
+depuis le bouton **Aide**.
+
+## Utilisation et licence
+
+StageMark offre 30 jours sans rappel au premier lancement. Ensuite,
+l’application et toutes ses fonctions restent utilisables ; un rappel apparaît
+simplement au démarrage.
+
+Une licence permanente à **49 € TTC**, en paiement unique, supprime ce rappel.
+
+**[Acheter une licence permanente StageMark](https://stagemark-license.mamat79-dce.workers.dev/buy)**
+
+## À savoir avant un spectacle
+
+- L’installeur Windows actuel n’est pas signé numériquement ; Windows peut
+  afficher un avertissement.
+- La calibration doit être vérifiée sur le vidéoprojecteur et dans le lieu réel.
+- Testez le blackout, la sortie, le contrôleur et les raccourcis avant
+  l’exploitation.
+- Les versions macOS seront publiées ultérieurement après leur validation
+  dédiée.
+
+---
+
+## English
+
+### What is StageMark for?
+
+StageMark is an offline stage-placement and projection tool for stage
+technicians, production teams and designers.
+
+It provides a real-size drawing workspace, multiple plans and a dedicated
+projection output. Only the required markers are displayed on a black
+background: positions, axes, shapes, labels, display groups and cues.
+
+A permanent **BLACKOUT** control immediately cuts the projected image.
+
+### Typical workflow
+
+1. Create a plan using the real stage dimensions.
+2. Place objects and markers in millimetres.
+3. Group the elements that must appear together.
+4. Prepare several plans or display states.
+5. Connect the projector and show the calibration pattern.
+6. Align the four corners of the useful projection area.
+7. Display only the required group during the stage change.
+8. Trigger blackout as soon as the markers are no longer needed.
+
+### Main features
+
+- Real-size stage plans and persistent dimensions.
+- Stage symbols, geometric shapes, text and custom objects.
+- Multiple plans, layers and instant display groups.
+- Reference background that is never projected by default.
+- Separate projection window.
+- Direct output or Spout output on Windows.
+- Four-point calibration and test pattern.
+- Permanent DISPLAY and BLACKOUT controls.
+- Cue workflow, keyboard shortcuts and Stream Deck profiles.
+- A4 plan export.
+- Local phone, tablet or browser controller.
+- Offline projector and lens catalogue.
+
+StageMark can open a <code>.stageflow</code> project on its own. The same
+project may also be used with StageFlow, SMT, Dante Config Editor and AutoCAD.
+
+### Download
+
+The current stable release is **StageMark 2026.7.1 for Windows 11 x64**.
+
+**[Download the latest StageMark release](https://github.com/Mamat79/StageMark/releases/latest)**
+
+French and English guides are included in the application.
+
+### Use and license
+
+StageMark starts with 30 reminder-free days. Afterwards, the application and
+all its features remain usable; only a startup reminder is displayed.
+
+A permanent **€49 tax-included** one-time license removes this reminder.
+
+**[Buy a permanent StageMark license](https://stagemark-license.mamat79-dce.workers.dev/buy)**
+
+### Before a show
+
+The current Windows installer is unsigned. Always validate the projector,
+calibration, output, blackout and controls with the real hardware before a
+production.
+
+---
+
+<p align="center"><strong>SiLeMI/O · By Mamat----[]---</strong></p>

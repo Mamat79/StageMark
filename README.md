@@ -102,6 +102,12 @@ Desktop n’est pas obligatoire.
 Il peut lire le patch commun, placer des sources sans les ressaisir et reprendre
 un plan provenant de StageFlow ou d’AutoCAD.
 
+Avec StageFlow LIVE, StageMark peut suivre automatiquement les nouvelles
+révisions de patch et de plan CAD lorsque l’éditeur est propre. Les changements
+locaux ne sont jamais écrasés : un conflit est signalé et reste à arbitrer. Ce
+suivi ne peut jamais afficher une image, retirer le **BLACKOUT**, changer
+l’écran de projection ou rappeler une cue.
+
 ~~~mermaid
 flowchart LR
     SF["StageFlow<br/>Patch + plan"] <--> P[("Projet .stageflow")]
@@ -120,7 +126,7 @@ votre production.
 
 ## Télécharger StageMark
 
-La version stable actuelle est **StageMark 2026.7.1 pour Windows 11 x64**.
+La version stable actuelle est **StageMark 2026.8 pour Windows 11 x64**.
 
 **[Télécharger la dernière version](https://github.com/Mamat79/StageMark/releases/latest)**
 
@@ -191,9 +197,14 @@ A permanent **BLACKOUT** control immediately cuts the projected image.
 StageMark can open a <code>.stageflow</code> project on its own. The same
 project may also be used with StageFlow, SMT, Dante Config Editor and AutoCAD.
 
+StageFlow LIVE can refresh Patch and CAD data automatically while the editor is
+clean. Local changes are never overwritten: StageMark reports a conflict for
+the operator to resolve. LIVE following can never show an image, remove
+**BLACKOUT**, change the projection display or recall a cue.
+
 ### Download
 
-The current stable release is **StageMark 2026.7.1 for Windows 11 x64**.
+The current stable release is **StageMark 2026.8 for Windows 11 x64**.
 
 **[Download the latest StageMark release](https://github.com/Mamat79/StageMark/releases/latest)**
 

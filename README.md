@@ -1,18 +1,17 @@
 # StageMark 2026 — distribution officielle
 
-StageMark est une application de bureau hors connexion destinée aux techniciens de plateau. Elle dessine des repères en dimensions réelles, gère plusieurs plans et projette uniquement les graphismes utiles sur fond noir au moyen d’une calibration projective à quatre points. La version Windows 2026.6 ajoute les licences V2 ; les DMG macOS publics restent en 2026.5, non signés et non notariés, jusqu’à une validation Apple dédiée.
+StageMark est une application de bureau hors connexion destinée aux techniciens de plateau. Elle dessine des repères en dimensions réelles, gère plusieurs plans et projette uniquement les graphismes utiles sur fond noir au moyen d’une calibration projective à quatre points. La version Windows 2026.7.1 corrige la compatibilité des horodatages RFC3339 dans les projets `.stageflow` et conserve les licences V2. Aucun paquet macOS 2026.7.1 n’est publié avant une validation Apple dédiée.
 
 Ce dépôt public distribue uniquement les installateurs vérifiés de **StageMark 2026** et leurs empreintes SHA-256.
 Le code source, le Worker de licence, les outils d’émission et les secrets restent dans un dépôt privé séparé.
 
 ## Télécharger
 
-Les versions stables actuelles sont **2026.6 sous Windows** et **2026.5 sous
-macOS** :
+La version stable actuelle est **2026.7.1 sous Windows** :
 
-- Windows 11 x64 : `StageMark-2026.6-Setup.exe` ;
-- macOS Intel : `StageMark-2026.5-macOS-x64.dmg` ;
-- macOS Apple Silicon : `StageMark-2026.5-macOS-arm64.dmg`.
+- Windows 11 x64 : `StageMark-2026.7.1-Setup.exe`.
+
+La Release actuelle ne contient pas d’installeur macOS. Les futures constructions Intel et Apple Silicon ne seront publiées qu’après construction, signature, notarisation et recette sur Mac.
 
 Téléchargement : <https://github.com/Mamat79/StageMark/releases/latest>
 
@@ -27,7 +26,7 @@ StageMark reste entièrement utilisable :
 - licence permanente à **49 € TTC**, paiement unique, pour supprimer le rappel ;
 - les licences historiques restent valables après mise à jour, réinstallation
   compatible et changement entre Windows et macOS ;
-- Windows 2026.6 accepte aussi les licences V2 : activation Internet initiale,
+- Windows 2026.7.1 accepte aussi les licences V2 : activation Internet initiale,
   trois installations par défaut, puis validation entièrement hors ligne et
   bouton de désactivation du poste.
 
@@ -61,13 +60,14 @@ La banque distribuable se trouve dans [`projector-catalog/`](projector-catalog/R
 
 This public repository contains only verified **StageMark 2026** installers and their SHA-256 files. Source code, licensing services, issuing tools, and secrets remain in a separate private repository.
 
-The current stable versions are **2026.6 for Windows 11 x64** and **2026.5 for
-macOS Intel and Apple Silicon**. Download them from
-<https://github.com/Mamat79/StageMark/releases/latest>.
+The current stable version is **2026.7.1 for Windows 11 x64**. Download it from
+<https://github.com/Mamat79/StageMark/releases/latest>. No current macOS package
+is published; future Intel and Apple Silicon builds require dedicated Mac
+building, signing, notarization, and validation first.
 
 StageMark provides 30 reminder-free days, remains fully usable afterwards with
 a dismissible startup reminder, and offers a permanent **€49 tax-included**
-one-time license. Historical V1 licenses remain portable. Windows 2026.6 also
+one-time license. Historical V1 licenses remain portable. Windows 2026.7.1 also
 supports installation-bound V2 licenses with offline validation after initial
 activation. Purchase at <https://stagemark-license.mamat79-dce.workers.dev/buy>.
 

@@ -99,8 +99,10 @@ réel et les conditions du lieu.
 
 ## Le même projet que le patch et le plan technique
 
-StageMark ouvre directement les projets <code>.stageflow</code>. StageFlow
-n’est pas obligatoire.
+Par défaut, StageMark crée, ouvre et enregistre ses propres projets autonomes
+<code>.stagemark</code>. Aucun autre logiciel n’est nécessaire. L’ouverture
+d’un projet partagé <code>.stageflow</code> est un parcours supplémentaire et
+StageFlow reste entièrement optionnel.
 
 Il peut lire le patch commun, placer des sources sans les ressaisir et reprendre
 un plan provenant de StageFlow ou d’AutoCAD.
@@ -114,17 +116,19 @@ l’écran de projection ou rappeler une cue.
 ~~~mermaid
 flowchart LR
     SF["StageFlow<br/>Patch + plan"] <--> P[("Projet .stageflow")]
-    SMT["Save My Time<br/>Préparation console"] <--> P
-    DCE["Dante Config Editor<br/>Réseau Dante"] <--> P
+    SMT["StageDesk<br/>Save My Time"] <--> P
     SM["StageMark<br/>Implantation + projection"] <--> P
     MON["StageMon<br/>Matrice d’écoute live"] <--> P
+    DCE["Dante Config Editor<br/>Réseau Dante"] <--> P
     CAD["AutoCAD<br/>Plan technique"] <--> P
 ~~~
 
 - [StageFlow — patch, groupes, Excel et plan de scène](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest)
-- [Save My Time — transfert entre consoles et logiciels](https://github.com/Mamat79/Save-My-Time-SMT/releases/latest)
-- [Dante Config Editor — préparation Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
+- [StageDesk — transfert entre consoles et logiciels](https://github.com/Mamat79/StageDesk/releases/latest) — sous-titre **Save My Time**
+- [StageMark — implantation et projection scéniques](https://github.com/Mamat79/StageMark/releases/latest)
 - [StageMon — matrice d’écoute live](https://github.com/Mamat79/StageMon/releases/latest)
+- [Dante Config Editor — préparation Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
+- [AutoCAD — plan technique et connecteur StageFlow](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest)
 
 Chaque logiciel reste autonome. Vous installez uniquement les outils utiles à
 votre production.
@@ -203,9 +207,12 @@ A permanent **BLACKOUT** control immediately cuts the projected image.
 - Local phone, tablet or browser controller.
 - Offline projector and lens catalogue.
 
-StageMark can open a <code>.stageflow</code> project on its own. The same
-project may also be used with StageFlow, Save My Time, Dante Config Editor,
-StageMon and AutoCAD.
+By default, StageMark creates, opens and saves its own standalone
+<code>.stagemark</code> projects. No other application is required. Opening a
+shared <code>.stageflow</code> project is an additional workflow and StageFlow
+remains entirely optional. The shared project can be used, in the canonical
+suite order, with StageFlow, StageDesk (subtitle: Save My Time), StageMark,
+StageMon, Dante Config Editor and AutoCAD.
 
 StageFlow LIVE can refresh Patch and CAD data automatically while the editor is
 clean. Local changes are never overwritten: StageMark reports a conflict for

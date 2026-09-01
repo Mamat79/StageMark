@@ -9,4 +9,6 @@
 *.exe binary
 *.dmg binary
 *.zip binary
+*.pdf binary
+*.png binary
 *.sha256 text eol=lf

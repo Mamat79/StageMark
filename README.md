@@ -11,6 +11,9 @@
 
 <p align="center">
   <a href="https://github.com/Mamat79/StageMark/releases/latest"><strong>⬇ Télécharger StageMark</strong></a>
+  · <a href="guides/StageMark-Notice-FR.pdf">Notice FR</a>
+  · <a href="guides/StageMark-Notice-EN.pdf">Guide EN</a>
+  · <a href="guides/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite</a>
 </p>
 
 ---
@@ -97,7 +100,7 @@ réel et les conditions du lieu.
 ## Le même projet que le patch et le plan technique
 
 StageMark ouvre directement les projets <code>.stageflow</code>. StageFlow
-Desktop n’est pas obligatoire.
+n’est pas obligatoire.
 
 Il peut lire le patch commun, placer des sources sans les ressaisir et reprendre
 un plan provenant de StageFlow ou d’AutoCAD.
@@ -111,15 +114,17 @@ l’écran de projection ou rappeler une cue.
 ~~~mermaid
 flowchart LR
     SF["StageFlow<br/>Patch + plan"] <--> P[("Projet .stageflow")]
-    SMT["SMT<br/>Préparation console"] <--> P
+    SMT["Save My Time<br/>Préparation console"] <--> P
     DCE["Dante Config Editor<br/>Réseau Dante"] <--> P
     SM["StageMark<br/>Implantation + projection"] <--> P
+    MON["StageMon<br/>Matrice d’écoute live"] <--> P
     CAD["AutoCAD<br/>Plan technique"] <--> P
 ~~~
 
 - [StageFlow — patch, groupes, Excel et plan de scène](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest)
-- [SMT — transfert entre consoles et logiciels](https://github.com/Mamat79/Save-My-Time-SMT/releases/latest)
+- [Save My Time — transfert entre consoles et logiciels](https://github.com/Mamat79/Save-My-Time-SMT/releases/latest)
 - [Dante Config Editor — préparation Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
+- [StageMon — matrice d’écoute live](https://github.com/Mamat79/StageMon/releases/latest)
 
 Chaque logiciel reste autonome. Vous installez uniquement les outils utiles à
 votre production.
@@ -131,7 +136,10 @@ La version stable actuelle est **StageMark 2026.8 pour Windows 11 x64**.
 **[Télécharger la dernière version](https://github.com/Mamat79/StageMark/releases/latest)**
 
 Les notices française et anglaise sont intégrées à l’application et accessibles
-depuis le bouton **Aide**.
+depuis le bouton **Aide**. Elles sont aussi disponibles directement :
+[français](guides/StageMark-Notice-FR.pdf),
+[English](guides/StageMark-Notice-EN.pdf) et
+[guide de la suite](guides/Guide-Suite-SiLeMIO-FR.pdf).
 
 ## Utilisation et licence
 
@@ -195,7 +203,8 @@ A permanent **BLACKOUT** control immediately cuts the projected image.
 - Offline projector and lens catalogue.
 
 StageMark can open a <code>.stageflow</code> project on its own. The same
-project may also be used with StageFlow, SMT, Dante Config Editor and AutoCAD.
+project may also be used with StageFlow, Save My Time, Dante Config Editor,
+StageMon and AutoCAD.
 
 StageFlow LIVE can refresh Patch and CAD data automatically while the editor is
 clean. Local changes are never overwritten: StageMark reports a conflict for

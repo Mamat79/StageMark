@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Dessinez l’implantation. Calibrez la projection. Affichez uniquement les repères utiles.</strong><br>
-  Hors ligne · Français / English · Windows 11
+  Hors ligne · Français / English · Windows 11 · macOS Intel / Apple Silicon
 </p>
 
 <p align="center">
@@ -131,7 +131,8 @@ votre production.
 
 ## Télécharger StageMark
 
-La version stable actuelle est **StageMark 2026.8 pour Windows 11 x64**.
+La version stable actuelle est **StageMark 2026.9.1** pour Windows 11 x64,
+macOS Apple Silicon et macOS Intel.
 
 **[Télécharger la dernière version](https://github.com/Mamat79/StageMark/releases/latest)**
 
@@ -155,11 +156,11 @@ Une licence permanente à **49 € TTC**, en paiement unique, supprime ce rappel
 
 - L’installeur Windows actuel n’est pas signé numériquement ; Windows peut
   afficher un avertissement.
+- Les images macOS actuelles ne sont ni signées avec un certificat Developer ID
+  ni notariées par Apple ; macOS peut donc afficher un avertissement Gatekeeper.
 - La calibration doit être vérifiée sur le vidéoprojecteur et dans le lieu réel.
 - Testez le blackout, la sortie, le contrôleur et les raccourcis avant
   l’exploitation.
-- Les versions macOS seront publiées ultérieurement après leur validation
-  dédiée.
 
 ---
 
@@ -213,7 +214,8 @@ the operator to resolve. LIVE following can never show an image, remove
 
 ### Download
 
-The current stable release is **StageMark 2026.8 for Windows 11 x64**.
+The current stable release is **StageMark 2026.9.1** for Windows 11 x64,
+macOS Apple Silicon and macOS Intel.
 
 **[Download the latest StageMark release](https://github.com/Mamat79/StageMark/releases/latest)**
 
@@ -230,9 +232,10 @@ A permanent **€49 tax-included** one-time license removes this reminder.
 
 ### Before a show
 
-The current Windows installer is unsigned. Always validate the projector,
-calibration, output, blackout and controls with the real hardware before a
-production.
+The current Windows installer is unsigned. The macOS disk images are not signed
+with an Apple Developer ID and are not notarized, so Gatekeeper may display a
+warning. Always validate the projector, calibration, output, blackout and
+controls with the real hardware before a production.
 
 ---
 

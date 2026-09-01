@@ -131,7 +131,7 @@ votre production.
 
 ## Télécharger StageMark
 
-La version stable actuelle est **StageMark 2026.9.1** pour Windows 11 x64,
+La version stable actuelle est **StageMark 2026.9.2** pour Windows 11 x64,
 macOS Apple Silicon et macOS Intel.
 
 **[Télécharger la dernière version](https://github.com/Mamat79/StageMark/releases/latest)**
@@ -214,7 +214,7 @@ the operator to resolve. LIVE following can never show an image, remove
 
 ### Download
 
-The current stable release is **StageMark 2026.9.1** for Windows 11 x64,
+The current stable release is **StageMark 2026.9.2** for Windows 11 x64,
 macOS Apple Silicon and macOS Intel.
 
 **[Download the latest StageMark release](https://github.com/Mamat79/StageMark/releases/latest)**

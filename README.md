@@ -16,6 +16,14 @@
   · <a href="guides/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-fr-poster.png" width="820" alt="Présentation vidéo StageMark"></a><br>
+  <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-fr.mp4">Présentation · FR</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-fr.vtt">Sous-titres FR</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-en.mp4">Presentation · EN</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-en.vtt">EN captions</a>
+</p>
+
 ---
 
 ## StageMark, à quoi ça sert ?

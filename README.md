@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="branding/stagemark-logo.svg" width="520" alt="StageMark 2026">
+  <img src="branding/stagemark-logo.png" width="520" alt="StageMark 2026">
 </p>
 
 <h1 align="center">StageMark 2026</h1>
@@ -17,11 +17,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-fr-poster.png" width="820" alt="Présentation vidéo StageMark"></a><br>
-  <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-fr.mp4">Présentation · FR</a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-fr.vtt">Sous-titres FR</a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-en.mp4">Presentation · EN</a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.2/stagemark-presentation-en.vtt">EN captions</a>
+  <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr-poster.png" width="820" alt="Présentation vidéo StageMark"></a><br>
+  <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr.mp4">Présentation · FR</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr.vtt">Sous-titres FR</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-en.mp4">Presentation · EN</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-en.vtt">EN captions</a>
 </p>
 
 ---
@@ -143,7 +143,7 @@ votre production.
 
 ## Télécharger StageMark
 
-La version stable actuelle est **StageMark 2026.9.2** pour Windows 11 x64,
+La version stable actuelle est **StageMark 2026.9.3** pour Windows 11 x64,
 macOS Apple Silicon et macOS Intel.
 
 **[Télécharger la dernière version](https://github.com/Mamat79/StageMark/releases/latest)**
@@ -229,7 +229,7 @@ the operator to resolve. LIVE following can never show an image, remove
 
 ### Download
 
-The current stable release is **StageMark 2026.9.2** for Windows 11 x64,
+The current stable release is **StageMark 2026.9.3** for Windows 11 x64,
 macOS Apple Silicon and macOS Intel.
 
 **[Download the latest StageMark release](https://github.com/Mamat79/StageMark/releases/latest)**

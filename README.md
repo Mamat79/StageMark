@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="branding/stagemark-logo.png" width="520" alt="StageMark 2026">
+  <img src="branding/stagemark-logo.png" width="256" alt="StageMark 2027">
 </p>
 
-<h1 align="center">StageMark 2026</h1>
+<h1 align="center">StageMark 2027</h1>
 
 <p align="center">
   <strong>Dessinez l’implantation. Calibrez la projection. Affichez uniquement les repères utiles.</strong><br>
@@ -17,6 +17,7 @@
 </p>
 
 <p align="center">
+  <em>Présentation de la version 2026 — interface précédente / Previous interface</em><br>
   <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr-poster.png" width="820" alt="Présentation vidéo StageMark"></a><br>
   <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr.mp4">Présentation · FR</a>
   · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr.vtt">Sous-titres FR</a>
@@ -116,35 +117,53 @@ Il peut lire le patch commun, placer des sources sans les ressaisir et reprendre
 un plan provenant de StageFlow ou d’AutoCAD.
 
 Avec StageFlow LIVE, StageMark peut suivre automatiquement les nouvelles
-révisions de patch et de plan CAD lorsque l’éditeur est propre. Les changements
+révisions de patch et de plan CAD ; leur adoption reste toujours une action
+explicite de l’opérateur, même lorsque l’éditeur est propre. Les changements
 locaux ne sont jamais écrasés : un conflit est signalé et reste à arbitrer. Ce
 suivi ne peut jamais afficher une image, retirer le **BLACKOUT**, changer
 l’écran de projection ou rappeler une cue.
 
+Le centre **Connexions** réunit l’association volontaire à une session LIVE
+et la vraie télécommande StageMark. L’ouverture du centre ne lance aucun
+service ni recherche. Un bandeau orange présente les changements de labels ;
+les acquittements restent locaux au poste et limités aux alertes présentes
+au clic. La pause des notifications de StageFlow est distincte du choix local.
+
+La console de lancement local de la suite est disponible sous Windows.
+Sur Mac, le projet local `.stageflow`, le LIVE réseau et la télécommande
+restent utilisables ; la présence dans cette console locale n’est pas portée.
+
 ~~~mermaid
 flowchart LR
     SF["StageFlow<br/>Patch + plan"] <--> P[("Projet .stageflow")]
-    SMT["StageDesk<br/>Save My Time"] <--> P
+    SMT["StageDesk"] <--> P
     SM["StageMark<br/>Implantation + projection"] <--> P
     MON["StageMon<br/>Matrice d’écoute live"] <--> P
     DCE["Dante Config Editor<br/>Réseau Dante"] <--> P
     CAD["AutoCAD<br/>Plan technique"] <--> P
 ~~~
 
-- [StageFlow — patch, groupes, Excel et plan de scène](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest)
-- [StageDesk — transfert entre consoles et logiciels](https://github.com/Mamat79/StageDesk/releases/latest) — sous-titre **Save My Time**
+- [StageFlow — patch, groupes, Excel et plan de scène](https://github.com/Mamat79/StageFlow/releases/latest)
+- [StageDesk — transfert entre consoles et logiciels](https://github.com/Mamat79/StageDesk/releases/latest)
 - [StageMark — implantation et projection scéniques](https://github.com/Mamat79/StageMark/releases/latest)
 - [StageMon — matrice d’écoute live](https://github.com/Mamat79/StageMon/releases/latest)
 - [Dante Config Editor — préparation Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
-- [AutoCAD — plan technique et connecteur StageFlow](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest)
+- [AutoCAD — plan technique et connecteur StageFlow](https://github.com/Mamat79/StageFlow/releases/latest)
 
 Chaque logiciel reste autonome. Vous installez uniquement les outils utiles à
 votre production.
 
 ## Télécharger StageMark
 
-La version stable actuelle est **StageMark 2026.9.3** pour Windows 11 x64,
+La version stable actuelle est **StageMark 2027** pour Windows 11 x64,
 macOS Apple Silicon et macOS Intel.
+
+- [Installeur Windows x64](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-Setup.exe)
+- [DMG macOS Intel](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-x64.dmg)
+- [DMG macOS Apple Silicon](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-arm64.dmg)
+
+Les empreintes SHA-256 et les notices sont jointes à la Release.
+Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
 **[Télécharger la dernière version](https://github.com/Mamat79/StageMark/releases/latest)**
 
@@ -219,17 +238,28 @@ By default, StageMark creates, opens and saves its own standalone
 <code>.stagemark</code> projects. No other application is required. Opening a
 shared <code>.stageflow</code> project is an additional workflow and StageFlow
 remains entirely optional. The shared project can be used, in the canonical
-suite order, with StageFlow, StageDesk (subtitle: Save My Time), StageMark,
+suite order, with StageFlow, StageDesk, StageMark,
 StageMon, Dante Config Editor and AutoCAD.
 
-StageFlow LIVE can refresh Patch and CAD data automatically while the editor is
-clean. Local changes are never overwritten: StageMark reports a conflict for
+StageFlow LIVE detects new Patch and CAD revisions, but adopting one always
+requires an explicit operator action, even while the editor is clean.
+Local changes are never overwritten: StageMark reports a conflict for
 the operator to resolve. LIVE following can never show an image, remove
 **BLACKOUT**, change the projection display or recall a cue.
 
+The **Connections** centre brings voluntary LIVE pairing and the existing
+StageMark Remote together. Opening it starts no service or discovery.
+Orange label-change notifications can be acknowledged on this workstation
+only; later arrivals remain pending. StageFlow notification pause and local
+reception are shown separately.
+
+The suite's local launch console is Windows-only. Local `.stageflow` projects,
+Network LIVE and the Remote remain available on Mac; local console presence
+has not been ported.
+
 ### Download
 
-The current stable release is **StageMark 2026.9.3** for Windows 11 x64,
+The current stable release is **StageMark 2027** for Windows 11 x64,
 macOS Apple Silicon and macOS Intel.
 
 **[Download the latest StageMark release](https://github.com/Mamat79/StageMark/releases/latest)**

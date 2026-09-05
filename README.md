@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/StageMark/releases/latest"><strong>⬇ Télécharger StageMark</strong></a>
+  <a href="#downloads"><strong>⬇ Télécharger StageMark</strong></a>
   · <a href="guides/StageMark-Notice-FR.pdf">Notice FR</a>
   · <a href="guides/StageMark-Notice-EN.pdf">Guide EN</a>
   · <a href="guides/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite</a>
@@ -129,9 +129,10 @@ service ni recherche. Un bandeau orange présente les changements de labels ;
 les acquittements restent locaux au poste et limités aux alertes présentes
 au clic. La pause des notifications de StageFlow est distincte du choix local.
 
-La console de lancement local de la suite est disponible sous Windows.
-Sur Mac, le projet local `.stageflow`, le LIVE réseau et la télécommande
-restent utilisables ; la présence dans cette console locale n’est pas portée.
+La déclaration de présence de StageMark et ses commandes par pipes locales
+sont réservées à Windows. Sur Mac, StageFlow peut lancer StageMark sur un
+projet local ; rejoindre LIVE reste explicite dans StageMark. Les projets
+locaux `.stageflow`, le LIVE réseau et la télécommande restent utilisables.
 
 ~~~mermaid
 flowchart LR
@@ -145,7 +146,7 @@ flowchart LR
 
 - [StageFlow — patch, groupes, Excel et plan de scène](https://github.com/Mamat79/StageFlow/releases/latest)
 - [StageDesk — transfert entre consoles et logiciels](https://github.com/Mamat79/StageDesk/releases/latest)
-- [StageMark — implantation et projection scéniques](https://github.com/Mamat79/StageMark/releases/latest)
+- [StageMark — implantation et projection scéniques](https://github.com/Mamat79/StageMark#downloads)
 - [StageMon — matrice d’écoute live](https://github.com/Mamat79/StageMon/releases/latest)
 - [Dante Config Editor — préparation Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
 - [AutoCAD — plan technique et connecteur StageFlow](https://github.com/Mamat79/StageFlow/releases/latest)
@@ -153,25 +154,35 @@ flowchart LR
 Chaque logiciel reste autonome. Vous installez uniquement les outils utiles à
 votre production.
 
+<a id="downloads"></a>
+
 ## Télécharger StageMark
 
-La version stable actuelle est **StageMark 2027** pour Windows 11 x64,
-macOS Apple Silicon et macOS Intel.
+**StageMark 2027** est disponible en version **2027.0.1 pour Windows 11 x64**
+et **2027 pour macOS Intel et Apple Silicon**.
 
-- [Installeur Windows x64](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-Setup.exe)
-- [DMG macOS Intel](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-x64.dmg)
-- [DMG macOS Apple Silicon](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-arm64.dmg)
+- [Windows x64 — 2027.0.1](https://github.com/Mamat79/StageMark/releases/download/v2027.0.1/StageMark-2027.0.1-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.1/StageMark-2027.0.1-Setup.exe.sha256)
+- [macOS Intel — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-x64.dmg)
+- [macOS Apple Silicon — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-arm64.dmg)
 
-Les empreintes SHA-256 et les notices sont jointes à la Release.
+La corrective Windows et son SHA-256 sont publiés séparément. Les DMG 2027.0.1
+ne sont pas encore proposés : leur validation visuelle reste à terminer.
+La Release commune « Latest » reste volontairement en 2027 pour préserver les
+mises à jour Mac ; la corrective Windows se télécharge directement ci-dessus.
+Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
-**[Télécharger la dernière version](https://github.com/Mamat79/StageMark/releases/latest)**
+**[Release Windows 2027.0.1](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.1)**
+· **[Release Mac 2027](https://github.com/Mamat79/StageMark/releases/tag/v2027)**
 
 Les notices française et anglaise sont intégrées à l’application et accessibles
 depuis le bouton **Aide**. Elles sont aussi disponibles directement :
 [français](guides/StageMark-Notice-FR.pdf),
-[English](guides/StageMark-Notice-EN.pdf) et
-[guide de la suite](guides/Guide-Suite-SiLeMIO-FR.pdf).
+[English](guides/StageMark-Notice-EN.pdf),
+[guide de la suite FR](guides/Guide-Suite-SiLeMIO-FR.pdf) et
+[suite guide EN](guides/SiLeMIO-Suite-Guide-EN.pdf).
+Le [manifeste des guides communs](guides/suite-guides-manifest.json) donne
+leurs tailles et empreintes pour vérifier les copies.
 
 ## Utilisation et licence
 
@@ -189,6 +200,10 @@ Une licence permanente à **49 € TTC**, en paiement unique, supprime ce rappel
   afficher un avertissement.
 - Les images macOS actuelles ne sont ni signées avec un certificat Developer ID
   ni notariées par Apple ; macOS peut donc afficher un avertissement Gatekeeper.
+- Le minimum macOS déclaré est 12 ; les contrôles natifs Intel/Apple Silicon
+  ont été réalisés sur macOS 15, pas sur toutes les versions intermédiaires.
+  Les signatures d’intégrité existantes sont préservées ; ne désactivez pas les
+  protections macOS.
 - La calibration doit être vérifiée sur le vidéoprojecteur et dans le lieu réel.
 - Testez le blackout, la sortie, le contrôleur et les raccourcis avant
   l’exploitation.
@@ -226,7 +241,7 @@ A permanent **BLACKOUT** control immediately cuts the projected image.
 - Multiple plans, layers and instant display groups.
 - Reference background that is never projected by default.
 - Separate projection window.
-- Direct output or Spout output on Windows.
+- Direct display output on Windows and macOS; Spout output on Windows only.
 - Four-point calibration and test pattern.
 - Permanent DISPLAY and BLACKOUT controls.
 - Cue workflow, keyboard shortcuts and Stream Deck profiles.
@@ -253,18 +268,29 @@ Orange label-change notifications can be acknowledged on this workstation
 only; later arrivals remain pending. StageFlow notification pause and local
 reception are shown separately.
 
-The suite's local launch console is Windows-only. Local `.stageflow` projects,
-Network LIVE and the Remote remain available on Mac; local console presence
-has not been ported.
+StageMark presence registration and local pipe commands are Windows-only.
+On Mac, StageFlow can launch StageMark on a local project; joining LIVE remains
+explicit inside StageMark. Local `.stageflow` projects, Network LIVE and the
+Remote remain available on Mac.
 
 ### Download
 
-The current stable release is **StageMark 2027** for Windows 11 x64,
-macOS Apple Silicon and macOS Intel.
+**StageMark 2027** is available as **2027.0.1 for Windows 11 x64** and
+**2027 for Intel and Apple Silicon Macs**.
 
-**[Download the latest StageMark release](https://github.com/Mamat79/StageMark/releases/latest)**
+- [Windows x64 — 2027.0.1](https://github.com/Mamat79/StageMark/releases/download/v2027.0.1/StageMark-2027.0.1-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.1/StageMark-2027.0.1-Setup.exe.sha256)
+- [Intel Mac — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-x64.dmg)
+- [Apple Silicon Mac — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-arm64.dmg)
 
-French and English guides are included in the application.
+The Windows corrective is a separate stable release. The 2027.0.1 DMGs are not
+published pending visual validation. The shared “Latest” release deliberately
+remains 2027 to preserve Mac updates; download the Windows corrective directly
+above. [Windows release notes](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.1)
+· [Mac release](https://github.com/Mamat79/StageMark/releases/tag/v2027).
+
+French and English manuals and common suite guides are included in the
+application. The [guide manifest](guides/suite-guides-manifest.json) records
+the exact common-guide sizes and checksums.
 
 ### Use and license
 
@@ -279,8 +305,10 @@ A permanent **€49 tax-included** one-time license removes this reminder.
 
 The current Windows installer is unsigned. The macOS disk images are not signed
 with an Apple Developer ID and are not notarized, so Gatekeeper may display a
-warning. Always validate the projector, calibration, output, blackout and
-controls with the real hardware before a production.
+warning. The declared macOS minimum is 12; native Intel/Apple Silicon checks ran
+on macOS 15, not on every intermediate release. Existing integrity signatures
+are preserved; do not disable macOS protections. Always validate the projector,
+calibration, output, blackout and controls with real hardware before a production.
 
 ---
 

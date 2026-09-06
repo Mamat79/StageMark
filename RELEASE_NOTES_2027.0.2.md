@@ -6,6 +6,16 @@ Public Mac downloads remain on [v2027](https://github.com/Mamat79/StageMark/rele
 
 ## Français
 
+**Paquet Windows remplacé le 6 septembre 2026, même version 2027.0.2.**
+Révision produit : `3bcc68c`. Les anciens tags sont conservés ; le nouveau build
+est identifié par son empreinte ci-dessous. Si StageMark est déjà en 2027.0.2,
+l’updater ne proposera pas ce lot comme une version supérieure : télécharger
+et lancer explicitement le nouvel installeur, après sauvegarde et fermeture.
+
+- Édition mobile enrichie : création nommée des formes natives, placement au toucher ou au centre, sélection par nom ou sur le dessin, mesures, déplacement coalescé et suppression confirmée. Les formes libres mobiles utilisent des segments droits ; la Plume/Bézier avancée reste sur le PC.
+- Les verrous natifs, le plan cible et une modification concurrente sont vérifiés avant édition. Un geste continu conserve une étape d’historique. Le QR direct et le portail StageFlow utilisent le même éditeur et les mêmes droits ; la prise de contrôle reste explicite.
+- Connexions clarifiées sans réorganiser le centre : sessions disponibles sur ce PC ou le réseau local, LIVE local actif, télécommande arrêtée ou active, lien privé copiable. Connexion, droit de piloter et diffusion sont indépendants.
+
 - Télécommande ouverte depuis StageFlow : la présence reste renouvelable tant que l’accès est actif et autorisé, sans coupure systématique après cinq minutes. L’inactivité, la révocation ou la fin de session invalident l’accès ; une autorisation expirée ne peut pas être réactivée par renouvellement. Aucune prise de contrôle ou commande de projection n’est déclenchée implicitement.
 - Les mises à jour sont désormais choisies parmi les Releases stables compatibles avec le système et l’architecture, indépendamment de la Release globale « Latest ». Aucun retour vers une version plus ancienne n’est proposé ; téléchargement et installation restent explicites, avec contrôle SHA-256.
 - Bandeau SiLeMIO harmonisé : Connexion StageFlow, état textuel, alertes séparées, thème actuel, FR/EN, Guide et Aide. Les commandes AFFICHER et BLACKOUT restent directement accessibles.
@@ -26,13 +36,13 @@ BLACKOUT demeure prioritaire ; aucune révision LIVE n’est adoptée automatiqu
 
 Cette Release Windows contient deux fichiers :
 
-- `StageMark-2027.0.2-Setup.exe` — **118 492 712 octets**.
+- `StageMark-2027.0.2-Setup.exe` — **118 500 658 octets**.
 - `StageMark-2027.0.2-Setup.exe.sha256` — fichier de contrôle de l’installeur.
 
 SHA-256 de l’installeur :
 
 ```text
-6FFD4E68D3C416D9FA6A77C80F765E2E01E74AE16071F51D478A70EB883C6F71
+82D1B252A7AFA8384600F3E307F81B6340B51184E7B552C798F6C4E6C4B2BF88
 ```
 
 Les paquets Mac existants ne sont pas remplacés par cette corrective Windows :
@@ -48,14 +58,28 @@ d’intégrité restent conservées et les protections macOS ne doivent pas êtr
 désactivées. Spout et l’intégration locale de présence/pipes StageMark restent
 spécifiques à Windows.
 
-Les vérifications logicielles incluent 827 tests Vitest et 15 tests Node,
-ainsi que des scénarios en navigateurs isolés. Elles ne constituent pas une
+Les vérifications logicielles incluent 857 tests Vitest et 15 tests Node,
+trois parcours mobiles isolés dont deux handoffs avec le vrai producteur
+StageFlow, et la comparaison de 71 fichiers runtime et 117 fichiers du paquet
+Windows. Les notices FR/EN (12 pages chacune) sont rendues et relues.
+La restauration du snapshot natif est testée, pas le bouton Undo dans Electron
+installé. Ces contrôles ne constituent pas une
 validation de deux PC physiques, d’un téléphone, du vidéoprojecteur, de la
 latence du blackout ou de l’imprimante du spectacle : ces essais restent à
 réaliser sur place. Les anciennes Releases restent disponibles. Aucun code
 source produit ni donnée privée n’est publié dans le dépôt de distribution.
 
 ## English
+
+**Windows files replaced on 6 September 2026, retaining version 2027.0.2.**
+Product revision: `3bcc68c`. Existing tags remain intact; the new build is
+identified by the checksum above. An installation already on 2027.0.2 will not
+offer this as a newer version: explicitly download and run the replacement
+after saving and closing the app.
+
+- Expanded mobile editor: named native objects, touch/centre placement, selection by name or on the drawing, measurements, coalesced dragging and confirmed deletion. Mobile free shapes use straight segments; advanced Pen/Bézier editing stays on the PC.
+- Native locks, the target plan and concurrent changes are checked before editing. A continuous drag uses one history step. The direct QR and StageFlow portal use the same editor and privileges; claiming control remains explicit.
+- The existing centre distinguishes available sessions on this PC or the LAN, active local LIVE and stopped/active remotes, with a copyable private link. Connection, pilot rights and output are separate states.
 
 - StageFlow handoff access remains renewable while active and authorized, avoiding a fixed five-minute interruption. Idle, revoked or ended sessions cannot be resurrected by renewal. Opening or renewing access never implicitly claims control or issues projection commands.
 - Update checks select the newest complete stable release for the current OS and architecture independently of global “Latest”, without offering downgrades. Download and installation remain explicit, with SHA-256 verification.
@@ -71,7 +95,7 @@ remain compatible. Price, licence keys, Control Hub and integer-millimetre
 geometry are unchanged. Output starts black; BLACKOUT retains priority and
 LIVE revisions still require explicit operator adoption.
 
-This release contains the Windows x64 installer (**118,492,712 bytes**) and its
+This release contains the Windows x64 installer (**118,500,658 bytes**) and its
 SHA-256 sidecar; the exact installer hash is shown above. Mac downloads remain
 on v2027: [Intel](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-x64.dmg)
 and [Apple Silicon](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-arm64.dmg).
@@ -82,7 +106,10 @@ release's direct download.
 Windows is unsigned. Existing Mac packages have no Apple Developer ID signature
 or notarization; their integrity signatures are preserved and macOS protections
 must not be disabled. Spout and StageMark local presence/pipe integration remain
-Windows-only. Software and isolated-browser checks are not physical two-PC,
+Windows-only. Checks include 857 Vitest and 15 Node tests, three mobile paths
+(both handoffs use the real StageFlow producer), exact runtime/installer contents
+and both 12-page manuals. Native snapshot restoration is tested, not the installed
+Electron Undo button. Software and isolated-browser checks are not physical two-PC,
 phone, projector, blackout-latency or printer acceptance. Validate the show’s
 actual hardware on site. Previous releases remain available; no product source
 or private data is included in the distribution repository.

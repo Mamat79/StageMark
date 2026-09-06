@@ -97,6 +97,12 @@ tablette ou d’un autre ordinateur connecté au même réseau local.
 Il permet de rappeler les plans et les cues utiles sans transformer StageMark
 en service cloud.
 
+Le lot Windows 2027.0.2 enrichit aussi le dessin mobile : créer un objet natif
+nommé, le placer au toucher, le sélectionner par nom, modifier ses mesures,
+le déplacer et confirmer sa suppression. Les verrous du plan sont respectés.
+Le QR direct et le portail StageFlow ouvrent le même éditeur ; la prise de
+contrôle reste explicite et aucune connexion ne démarre la projection.
+
 ### Préparer le vidéoprojecteur
 
 La banque intégrée aide à comparer des vidéoprojecteurs et objectifs pour la
@@ -173,6 +179,15 @@ par système et architecture, indépendamment de Latest. Pour une version Window
 antérieure, utilisez le téléchargement direct ci-dessus.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
+
+**Remplacement Windows du 6 septembre 2026 :** le numéro reste 2027.0.2, mais
+le paquet inclut désormais l’édition mobile enrichie. Un poste déjà en 2027.0.2
+ne le voit pas comme une version supérieure : télécharger puis lancer
+explicitement le remplacement, après sauvegarde et fermeture de StageMark.
+Le nouvel installeur fait **118 500 658 octets** ; son SHA-256 est
+`82D1B252A7AFA8384600F3E307F81B6340B51184E7B552C798F6C4E6C4B2BF88`.
+Le numéro seul ne distingue pas les deux constructions. Les paquets Mac ne
+changent pas et ne contiennent pas encore ce complément mobile.
 
 **[Release Windows 2027.0.2](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.2)**
 · **[Release Mac 2027](https://github.com/Mamat79/StageMark/releases/tag/v2027)**
@@ -251,6 +266,12 @@ A permanent **BLACKOUT** control immediately cuts the projected image.
 - Local phone, tablet or browser controller.
 - Offline projector and lens catalogue.
 
+The updated Windows 2027.0.2 build also supports named native objects, touch
+placement, selection by name, measurement editing, dragging and confirmed
+deletion on a phone. Native locks remain effective. The direct QR and StageFlow
+portal open the same editor; claiming control stays explicit and connecting
+never starts projection.
+
 By default, StageMark creates, opens and saves its own standalone
 <code>.stagemark</code> projects. No other application is required. Opening a
 shared <code>.stageflow</code> project is an additional workflow and StageFlow
@@ -289,6 +310,15 @@ published pending visual validation. The shared “Latest” release deliberatel
 remains 2027 to preserve Mac updates. From 2027.0.2, the updater selects complete
 correctives by OS and architecture independently of Latest. Earlier Windows
 versions should use the direct download above.
+
+**Windows replacement dated 6 September 2026:** the version stays 2027.0.2,
+with the expanded mobile editor. An existing 2027.0.2 installation will not
+offer this as a newer version: explicitly download and run the replacement
+after saving and closing StageMark. The new installer is **118,500,658 bytes**,
+SHA-256 `82D1B252A7AFA8384600F3E307F81B6340B51184E7B552C798F6C4E6C4B2BF88`.
+The version number alone does not distinguish the builds. Mac packages remain
+unchanged and do not yet include this mobile addition.
+
 [Windows release notes](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.2)
 · [Mac release](https://github.com/Mamat79/StageMark/releases/tag/v2027).
 

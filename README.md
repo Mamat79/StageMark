@@ -123,7 +123,7 @@ locaux ne sont jamais écrasés : un conflit est signalé et reste à arbitrer. 
 suivi ne peut jamais afficher une image, retirer le **BLACKOUT**, changer
 l’écran de projection ou rappeler une cue.
 
-Le centre **Connexions** réunit l’association volontaire à une session LIVE
+Le centre **Connexion StageFlow** réunit l’association volontaire à une session LIVE
 et la vraie télécommande StageMark. L’ouverture du centre ne lance aucun
 service ni recherche. Un bandeau orange présente les changements de labels ;
 les acquittements restent locaux au poste et limités aux alertes présentes
@@ -158,21 +158,23 @@ votre production.
 
 ## Télécharger StageMark
 
-**StageMark 2027** est disponible en version **2027.0.1 pour Windows 11 x64**
+**StageMark 2027** est disponible en version **2027.0.2 pour Windows 11 x64**
 et **2027 pour macOS Intel et Apple Silicon**.
 
-- [Windows x64 — 2027.0.1](https://github.com/Mamat79/StageMark/releases/download/v2027.0.1/StageMark-2027.0.1-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.1/StageMark-2027.0.1-Setup.exe.sha256)
+- [Windows x64 — 2027.0.2](https://github.com/Mamat79/StageMark/releases/download/v2027.0.2/StageMark-2027.0.2-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.2/StageMark-2027.0.2-Setup.exe.sha256)
 - [macOS Intel — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-x64.dmg)
 - [macOS Apple Silicon — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-arm64.dmg)
 
 La corrective Windows et son SHA-256 sont publiés séparément. Les DMG 2027.0.1
 ne sont pas encore proposés : leur validation visuelle reste à terminer.
 La Release commune « Latest » reste volontairement en 2027 pour préserver les
-mises à jour Mac ; la corrective Windows se télécharge directement ci-dessus.
+mises à jour Mac. Depuis 2027.0.2, l'updater choisit les correctives complètes
+par système et architecture, indépendamment de Latest. Pour une version Windows
+antérieure, utilisez le téléchargement direct ci-dessus.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
-**[Release Windows 2027.0.1](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.1)**
+**[Release Windows 2027.0.2](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.2)**
 · **[Release Mac 2027](https://github.com/Mamat79/StageMark/releases/tag/v2027)**
 
 Les notices française et anglaise sont intégrées à l’application et accessibles
@@ -262,7 +264,7 @@ Local changes are never overwritten: StageMark reports a conflict for
 the operator to resolve. LIVE following can never show an image, remove
 **BLACKOUT**, change the projection display or recall a cue.
 
-The **Connections** centre brings voluntary LIVE pairing and the existing
+The **StageFlow connection** centre brings voluntary LIVE pairing and the existing
 StageMark Remote together. Opening it starts no service or discovery.
 Orange label-change notifications can be acknowledged on this workstation
 only; later arrivals remain pending. StageFlow notification pause and local
@@ -275,17 +277,19 @@ Remote remain available on Mac.
 
 ### Download
 
-**StageMark 2027** is available as **2027.0.1 for Windows 11 x64** and
+**StageMark 2027** is available as **2027.0.2 for Windows 11 x64** and
 **2027 for Intel and Apple Silicon Macs**.
 
-- [Windows x64 — 2027.0.1](https://github.com/Mamat79/StageMark/releases/download/v2027.0.1/StageMark-2027.0.1-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.1/StageMark-2027.0.1-Setup.exe.sha256)
+- [Windows x64 — 2027.0.2](https://github.com/Mamat79/StageMark/releases/download/v2027.0.2/StageMark-2027.0.2-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.2/StageMark-2027.0.2-Setup.exe.sha256)
 - [Intel Mac — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-x64.dmg)
 - [Apple Silicon Mac — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-arm64.dmg)
 
 The Windows corrective is a separate stable release. The 2027.0.1 DMGs are not
 published pending visual validation. The shared “Latest” release deliberately
-remains 2027 to preserve Mac updates; download the Windows corrective directly
-above. [Windows release notes](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.1)
+remains 2027 to preserve Mac updates. From 2027.0.2, the updater selects complete
+correctives by OS and architecture independently of Latest. Earlier Windows
+versions should use the direct download above.
+[Windows release notes](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.2)
 · [Mac release](https://github.com/Mamat79/StageMark/releases/tag/v2027).
 
 French and English manuals and common suite guides are included in the

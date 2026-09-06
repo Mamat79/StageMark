@@ -1,0 +1,88 @@
+{
+  "edition": "v2027",
+  "bundleVersion": "2027.2",
+  "status": "publication-approved",
+  "publicationAllowed": true,
+  "files": [
+    {
+      "path": "scripts/generate-suite-guides.py",
+      "bytes": 80889,
+      "sha256": "bd1fc9333cabdceb74051f10a4ede43d2ef20aab9abde87ad068e1ef8a4e535c"
+    },
+    {
+      "path": "docs/guides/GUIDE-SUITE-FR.md",
+      "bytes": 20497,
+      "sha256": "b479c867ef73e478277f9f75468f3903cae0fb665c738fd897d1425c260046a1"
+    },
+    {
+      "path": "docs/guides/SUITE-GUIDE-EN.md",
+      "bytes": 17964,
+      "sha256": "049185929489fcde2e8f2890e7b6655e7e241bd1c11251e8ca215971e754478a"
+    },
+    {
+      "path": "integrations/streamdeck/com.silemio.stageflow.sdPlugin/commands.json",
+      "bytes": 4788,
+      "sha256": "8cba0b00a3771d4bcd9c8aae558fe2b39e5a4bd024a9147eb867eb40b544d5c6"
+    },
+    {
+      "path": "docs/media/ecosystem/suite-architecture-fr.svg",
+      "bytes": 7553,
+      "sha256": "2ffdf203e9054358cc837963171ce1e9463c6955ded5c90c8702d838dd330b2a"
+    },
+    {
+      "path": "docs/media/ecosystem/suite-architecture-en.svg",
+      "bytes": 7462,
+      "sha256": "3e94ed8818de005bb1af78da8007a92811ce40cba159fb734533afdc452782c6"
+    },
+    {
+      "path": "docs/media/ecosystem/suite-workflow-fr.svg",
+      "bytes": 6339,
+      "sha256": "bbeb222c76c51bcfe93dd3f743bf614eadc655cbb9731ec119dd2b338e74e2fd"
+    },
+    {
+      "path": "docs/media/ecosystem/suite-workflow-en.svg",
+      "bytes": 6271,
+      "sha256": "8db5aaaaee81ff4c4f5d392878bf59832579a43e1f88b889c9b13d1fc2c42e7b"
+    },
+    {
+      "path": "docs/media/ecosystem/suite-connections-fr.svg",
+      "bytes": 5568,
+      "sha256": "2c2671394f28af22b18ae7c3c83a0b096768a0b958271db29d5c34aa1c2699e8"
+    },
+    {
+      "path": "docs/media/ecosystem/suite-connections-en.svg",
+      "bytes": 5512,
+      "sha256": "459ef8fb491efc193d4d1a8648b6c7da23130dfaff82888e3f85662c348ace1f"
+    },
+    {
+      "path": "docs/media/ecosystem/captures/stageflow-2027-fr.png",
+      "bytes": 151684,
+      "sha256": "7526e5a42a56076a0b3cf78083685a2107408caa2bd81d067fb0243b85253d8c"
+    },
+    {
+      "path": "docs/media/ecosystem/captures/stageflow-2027-en.png",
+      "bytes": 115850,
+      "sha256": "947ebc2c5169de44e27e3605b324eff38b072db91ff860c28adcf305ad3abfad"
+    },
+    {
+      "path": "docs/media/ecosystem/captures/stagedesk-2027-fr.png",
+      "bytes": 146400,
+      "sha256": "a4d591bdab2c1aae10c7be7c4d5132d3afb961280d99b49011ebeff2f561360f"
+    },
+    {
+      "path": "docs/media/ecosystem/captures/stagedesk-2027-en.png",
+      "bytes": 145428,
+      "sha256": "5a2f886f3380938f3f359d949b73076ae18e514c7ee920756396e3d0101da096"
+    },
+    {
+      "path": "distribution/guides/Guide-Suite-SiLeMIO-FR.pdf",
+      "bytes": 405754,
+      "sha256": "e438d52a1012e2c91f9aaf935dc9db16ee77e9989eda692a26a27ac9bf75fc49"
+    },
+    {
+      "path": "distribution/guides/SiLeMIO-Suite-Guide-EN.pdf",
+      "bytes": 363318,
+      "sha256": "104d554c08f886032345eef7ec98cfbf2dddb283d6edee55e044cb3206953dbc"
+    }
+  ]
+}

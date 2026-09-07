@@ -180,12 +180,14 @@ antérieure, utilisez le téléchargement direct ci-dessus.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
-**Remplacement Windows du 6 septembre 2026 :** le numéro reste 2027.0.2, mais
-le paquet inclut désormais l’édition mobile enrichie. Un poste déjà en 2027.0.2
+**Remplacement Windows du 7 septembre 2026 :** le numéro reste 2027.0.2, mais
+le paquet ajoute l'en-tête compact, les noms LIVE indépendants des alertes,
+les acquittements locaux fiabilisés et les guides 2027.3, en conservant
+l’édition mobile enrichie. Un poste déjà en 2027.0.2
 ne le voit pas comme une version supérieure : télécharger puis lancer
 explicitement le remplacement, après sauvegarde et fermeture de StageMark.
-Le nouvel installeur fait **118 500 658 octets** ; son SHA-256 est
-`82D1B252A7AFA8384600F3E307F81B6340B51184E7B552C798F6C4E6C4B2BF88`.
+Le nouvel installeur fait **118 746 015 octets** ; son SHA-256 est
+`4B05FAE94278512623EB6A5F90C1E80EB6CADE57C46B74C72D6499362142DDD5`.
 Le numéro seul ne distingue pas les deux constructions. Les paquets Mac ne
 changent pas et ne contiennent pas encore ce complément mobile.
 
@@ -193,7 +195,8 @@ changent pas et ne contiennent pas encore ce complément mobile.
 · **[Release Mac 2027](https://github.com/Mamat79/StageMark/releases/tag/v2027)**
 
 Les notices française et anglaise sont intégrées à l’application et accessibles
-depuis le bouton **Aide**. Elles sont aussi disponibles directement :
+depuis le bouton **Guide** ; **Aide** propose aussi le guide de la suite.
+Elles sont également disponibles directement :
 [français](guides/StageMark-Notice-FR.pdf),
 [English](guides/StageMark-Notice-EN.pdf),
 [guide de la suite FR](guides/Guide-Suite-SiLeMIO-FR.pdf) et
@@ -311,11 +314,13 @@ remains 2027 to preserve Mac updates. From 2027.0.2, the updater selects complet
 correctives by OS and architecture independently of Latest. Earlier Windows
 versions should use the direct download above.
 
-**Windows replacement dated 6 September 2026:** the version stays 2027.0.2,
-with the expanded mobile editor. An existing 2027.0.2 installation will not
+**Windows replacement dated 7 September 2026:** the version stays 2027.0.2,
+adding the compact header, LIVE labels independent of notifications, reliable
+local acknowledgements and suite guides 2027.3, while retaining the expanded
+mobile editor. An existing 2027.0.2 installation will not
 offer this as a newer version: explicitly download and run the replacement
-after saving and closing StageMark. The new installer is **118,500,658 bytes**,
-SHA-256 `82D1B252A7AFA8384600F3E307F81B6340B51184E7B552C798F6C4E6C4B2BF88`.
+after saving and closing StageMark. The new installer is **118,746,015 bytes**,
+SHA-256 `4B05FAE94278512623EB6A5F90C1E80EB6CADE57C46B74C72D6499362142DDD5`.
 The version number alone does not distinguish the builds. Mac packages remain
 unchanged and do not yet include this mobile addition.
 

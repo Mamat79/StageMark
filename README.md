@@ -122,6 +122,8 @@ réel et les conditions du lieu.
 
 ### Préversion technique StageMark AR
 
+Le compagnon **0.1.1** ajoute une icône **AR**, un accueil adapté aux hautes résolutions et des instructions de connexion. Il accompagne l'unique StageMark pour ordinateur : pas d'édition Desktop AR séparée. Un téléphone classique peut découvrir le PC, mais cette APK n'affiche pas sa caméra et n'intègre pas ARCore. [Détails et limites du correctif](RELEASE_NOTES_AR_0.1.1.md).
+
 StageMark 2027.0.5 propose également un APK Android expérimental pour tester une superposition personnelle des repères avec XREAL Air 2 Ultra + Beam Pro. Le compagnon reçoit le plan actif en lecture seule sur le réseau local, s’associe par code éphémère et se calibre avec les marqueurs imprimables A/B/C.
 
 L’APK est signé avec une clé de développement. Son installation, son protocole et son paquet ont été vérifiés, mais sa précision, sa dérive et sa relocalisation doivent encore être mesurées sur le matériel réel avant tout usage critique. Il ne peut ni modifier le projet, ni afficher la sortie vidéoprojecteur, ni retirer un **BLACKOUT**.
@@ -185,14 +187,14 @@ séparément pour la recette XREAL.
 - [Windows x64 — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe.sha256)
 - [macOS Intel — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-x64.dmg)
 - [macOS Apple Silicon — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-arm64.dmg)
-- [StageMark AR 0.1.0 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.0-Development.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.0-Development.apk.sha256)
+- [StageMark AR 0.1.1 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.1-Development.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.1-Development.apk.sha256)
 
 Les paquets de bureau et leurs SHA-256 sont réunis dans la même Release stable.
 L’APK reste explicitement expérimental et ne constitue pas une application
 Android de production. Les anciennes Releases restent disponibles pour un
 retour à une version antérieure.
 
-[Manifeste SHA-256 complet de la version 2027.0.5](SHA256SUMS-2027.0.5)
+[Manifeste SHA-256 initial de la version 2027.0.5](SHA256SUMS-2027.0.5) ; la corrective APK 0.1.1 dispose de son SHA-256 séparé ci-dessus.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
@@ -320,13 +322,15 @@ provided separately for XREAL hardware testing.
 - [Windows x64 — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe.sha256)
 - [Intel Mac — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-x64.dmg)
 - [Apple Silicon Mac — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-arm64.dmg)
-- [StageMark AR 0.1.0 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.0-Development.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.0-Development.apk.sha256)
+- [StageMark AR 0.1.1 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.1-Development.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.1-Development.apk.sha256)
 
 Desktop packages and SHA-256 files are grouped in one stable Release. The APK
 is debug-signed and remains a technical preview: software checks passed, but
 physical accuracy, drift and relocalisation still require real XREAL testing.
 
-[Complete 2027.0.5 SHA-256 manifest](SHA256SUMS-2027.0.5)
+[Initial 2027.0.5 SHA-256 manifest](SHA256SUMS-2027.0.5); the 0.1.1 APK update has its own SHA-256 file above.
+
+Companion 0.1.1 adds an AR icon, readable setup and pairing instructions. There is only one StageMark Desktop application. Ordinary phones can discover the PC, but this APK has no ARCore camera view. [Update details and limitations](RELEASE_NOTES_AR_0.1.1.md).
 
 [StageMark 2027.0.5 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.5).
 

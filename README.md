@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Dessinez l’implantation. Calibrez la projection. Affichez uniquement les repères utiles.</strong><br>
-  Hors ligne · Français / English · Windows 11 · macOS Intel / Apple Silicon
+  Hors ligne · Français / English · Windows 11 · macOS Intel / Apple Silicon · préversion AR Android
 </p>
 
 <p align="center">
@@ -38,6 +38,14 @@ positions, axes, formes, textes, groupes d’affichage ou éléments de conduite
 
 La projection reste sur fond noir et un **BLACKOUT** permanent permet de couper
 immédiatement l’image.
+
+## Quel matériel faut-il ?
+
+- **Pour dessiner et préparer un plan**, aucun vidéoprojecteur n’est requis : StageMark fonctionne seul sur l’ordinateur et enregistre ses projets autonomes `.stagemark`.
+- **Pour faire apparaître les marques sur le sol**, il faut relier l’ordinateur à **un ou plusieurs vidéoprojecteurs**. Une grande scène, une puissance lumineuse limitée ou la réduction des ombres peut demander plusieurs appareils ou un logiciel de mapping.
+- **Pour voir personnellement les marques en réalité augmentée**, la préversion StageMark AR cible les [XREAL Air 2 Ultra](https://developer.xreal.com/) avec un [XREAL Beam Pro](https://www.xreal.com/beampro). Seul le porteur voit cette superposition : les lunettes ne remplacent pas la projection destinée aux artistes, aux techniciens ou au public.
+
+StageMark fournit l’image à projeter, mais ne commande pas l’alimentation physique du vidéoprojecteur. La sortie reste noire tant que l’opérateur n’utilise pas **AFFICHER**, et **BLACKOUT** reste prioritaire.
 
 ## Un exemple concret
 
@@ -97,7 +105,7 @@ tablette ou d’un autre ordinateur connecté au même réseau local.
 Il permet de rappeler les plans et les cues utiles sans transformer StageMark
 en service cloud.
 
-Le lot Windows 2027.0.2 enrichit aussi le dessin mobile : créer un objet natif
+StageMark 2027.0.5 enrichit aussi le dessin mobile : créer un objet natif
 nommé, le placer au toucher, le sélectionner par nom, modifier ses mesures,
 le déplacer et confirmer sa suppression. Les verrous du plan sont respectés.
 Le QR direct et le portail StageFlow ouvrent le même éditeur ; la prise de
@@ -111,6 +119,12 @@ optique, orientation et informations utiles.
 
 Le choix final et la calibration doivent toujours être validés avec le matériel
 réel et les conditions du lieu.
+
+### Préversion technique StageMark AR
+
+StageMark 2027.0.5 propose également un APK Android expérimental pour tester une superposition personnelle des repères avec XREAL Air 2 Ultra + Beam Pro. Le compagnon reçoit le plan actif en lecture seule sur le réseau local, s’associe par code éphémère et se calibre avec les marqueurs imprimables A/B/C.
+
+L’APK est signé avec une clé de développement. Son installation, son protocole et son paquet ont été vérifiés, mais sa précision, sa dérive et sa relocalisation doivent encore être mesurées sur le matériel réel avant tout usage critique. Il ne peut ni modifier le projet, ni afficher la sortie vidéoprojecteur, ni retirer un **BLACKOUT**.
 
 ## Le même projet que le patch et le plan technique
 
@@ -164,35 +178,23 @@ votre production.
 
 ## Télécharger StageMark
 
-**StageMark 2027** est disponible en version **2027.0.2 pour Windows 11 x64**
-et **2027 pour macOS Intel et Apple Silicon**.
+**StageMark 2027** est disponible en version **2027.0.5 pour Windows 11 x64,
+macOS Intel et macOS Apple Silicon**. Une préversion Android AR est proposée
+séparément pour la recette XREAL.
 
-- [Windows x64 — 2027.0.2](https://github.com/Mamat79/StageMark/releases/download/v2027.0.2/StageMark-2027.0.2-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.2/StageMark-2027.0.2-Setup.exe.sha256)
-- [macOS Intel — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-x64.dmg)
-- [macOS Apple Silicon — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-arm64.dmg)
+- [Windows x64 — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe.sha256)
+- [macOS Intel — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-x64.dmg)
+- [macOS Apple Silicon — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-arm64.dmg)
+- [StageMark AR 0.1.0 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.0-Development.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.0-Development.apk.sha256)
 
-La corrective Windows et son SHA-256 sont publiés séparément. Les DMG 2027.0.1
-ne sont pas encore proposés : leur validation visuelle reste à terminer.
-La Release commune « Latest » reste volontairement en 2027 pour préserver les
-mises à jour Mac. Depuis 2027.0.2, l'updater choisit les correctives complètes
-par système et architecture, indépendamment de Latest. Pour une version Windows
-antérieure, utilisez le téléchargement direct ci-dessus.
+Les paquets de bureau et leurs SHA-256 sont réunis dans la même Release stable.
+L’APK reste explicitement expérimental et ne constitue pas une application
+Android de production. Les anciennes Releases restent disponibles pour un
+retour à une version antérieure.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
-**Remplacement Windows du 7 septembre 2026 :** le numéro reste 2027.0.2, mais
-le paquet ajoute l'en-tête compact, les noms LIVE indépendants des alertes,
-les acquittements locaux fiabilisés et les guides 2027.3, en conservant
-l’édition mobile enrichie. Un poste déjà en 2027.0.2
-ne le voit pas comme une version supérieure : télécharger puis lancer
-explicitement le remplacement, après sauvegarde et fermeture de StageMark.
-Le nouvel installeur fait **118 746 015 octets** ; son SHA-256 est
-`4B05FAE94278512623EB6A5F90C1E80EB6CADE57C46B74C72D6499362142DDD5`.
-Le numéro seul ne distingue pas les deux constructions. Les paquets Mac ne
-changent pas et ne contiennent pas encore ce complément mobile.
-
-**[Release Windows 2027.0.2](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.2)**
-· **[Release Mac 2027](https://github.com/Mamat79/StageMark/releases/tag/v2027)**
+**[Release commune StageMark 2027.0.5](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.5)**
 
 Les notices française et anglaise sont intégrées à l’application et accessibles
 depuis le bouton **Guide** ; **Aide** propose aussi le guide de la suite.
@@ -243,6 +245,14 @@ background: positions, axes, shapes, labels, display groups and cues.
 
 A permanent **BLACKOUT** control immediately cuts the projected image.
 
+### Required hardware
+
+- No projector is needed to draw and prepare a standalone `.stagemark` project.
+- To make floor marks visible to the team, connect the computer to **one or more projectors**. Large stages, limited brightness or shadow reduction may require several projectors or mapping software.
+- The StageMark AR technical preview targets [XREAL Air 2 Ultra](https://developer.xreal.com/) and [XREAL Beam Pro](https://www.xreal.com/beampro) for a private overlay visible only to the wearer. It does not replace shared projection.
+
+StageMark supplies the video image but does not power the projector on or off. The output starts black, **DISPLAY** is explicit and **BLACKOUT** remains the priority control.
+
 ### Typical workflow
 
 1. Create a plan using the real stage dimensions.
@@ -269,7 +279,7 @@ A permanent **BLACKOUT** control immediately cuts the projected image.
 - Local phone, tablet or browser controller.
 - Offline projector and lens catalogue.
 
-The updated Windows 2027.0.2 build also supports named native objects, touch
+StageMark 2027.0.5 also supports named native objects, touch
 placement, selection by name, measurement editing, dragging and confirmed
 deletion on a phone. Native locks remain effective. The direct QR and StageFlow
 portal open the same editor; claiming control stays explicit and connecting
@@ -301,31 +311,20 @@ Remote remain available on Mac.
 
 ### Download
 
-**StageMark 2027** is available as **2027.0.2 for Windows 11 x64** and
-**2027 for Intel and Apple Silicon Macs**.
+**StageMark 2027** is available as **2027.0.5 for Windows 11 x64,
+Intel Macs and Apple Silicon Macs**. An experimental Android AR preview is
+provided separately for XREAL hardware testing.
 
-- [Windows x64 — 2027.0.2](https://github.com/Mamat79/StageMark/releases/download/v2027.0.2/StageMark-2027.0.2-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.2/StageMark-2027.0.2-Setup.exe.sha256)
-- [Intel Mac — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-x64.dmg)
-- [Apple Silicon Mac — 2027](https://github.com/Mamat79/StageMark/releases/download/v2027/StageMark-2027-macOS-arm64.dmg)
+- [Windows x64 — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe.sha256)
+- [Intel Mac — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-x64.dmg)
+- [Apple Silicon Mac — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-arm64.dmg)
+- [StageMark AR 0.1.0 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.0-Development.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.0-Development.apk.sha256)
 
-The Windows corrective is a separate stable release. The 2027.0.1 DMGs are not
-published pending visual validation. The shared “Latest” release deliberately
-remains 2027 to preserve Mac updates. From 2027.0.2, the updater selects complete
-correctives by OS and architecture independently of Latest. Earlier Windows
-versions should use the direct download above.
+Desktop packages and SHA-256 files are grouped in one stable Release. The APK
+is debug-signed and remains a technical preview: software checks passed, but
+physical accuracy, drift and relocalisation still require real XREAL testing.
 
-**Windows replacement dated 7 September 2026:** the version stays 2027.0.2,
-adding the compact header, LIVE labels independent of notifications, reliable
-local acknowledgements and suite guides 2027.3, while retaining the expanded
-mobile editor. An existing 2027.0.2 installation will not
-offer this as a newer version: explicitly download and run the replacement
-after saving and closing StageMark. The new installer is **118,746,015 bytes**,
-SHA-256 `4B05FAE94278512623EB6A5F90C1E80EB6CADE57C46B74C72D6499362142DDD5`.
-The version number alone does not distinguish the builds. Mac packages remain
-unchanged and do not yet include this mobile addition.
-
-[Windows release notes](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.2)
-· [Mac release](https://github.com/Mamat79/StageMark/releases/tag/v2027).
+[StageMark 2027.0.5 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.5).
 
 French and English manuals and common suite guides are included in the
 application. The [guide manifest](guides/suite-guides-manifest.json) records

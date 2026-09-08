@@ -191,6 +191,8 @@ Les paquets de bureau et leurs SHA-256 sont réunis dans la même Release stable
 L’APK reste explicitement expérimental et ne constitue pas une application
 Android de production. Les anciennes Releases restent disponibles pour un
 retour à une version antérieure.
+
+[Manifeste SHA-256 complet de la version 2027.0.5](SHA256SUMS-2027.0.5)
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
@@ -323,6 +325,8 @@ provided separately for XREAL hardware testing.
 Desktop packages and SHA-256 files are grouped in one stable Release. The APK
 is debug-signed and remains a technical preview: software checks passed, but
 physical accuracy, drift and relocalisation still require real XREAL testing.
+
+[Complete 2027.0.5 SHA-256 manifest](SHA256SUMS-2027.0.5)
 
 [StageMark 2027.0.5 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.5).
 

@@ -43,7 +43,7 @@ immédiatement l’image.
 
 - **Pour dessiner et préparer un plan**, aucun vidéoprojecteur n’est requis : StageMark fonctionne seul sur l’ordinateur et enregistre ses projets autonomes `.stagemark`.
 - **Pour faire apparaître les marques sur le sol**, il faut relier l’ordinateur à **un ou plusieurs vidéoprojecteurs**. Une grande scène, une puissance lumineuse limitée ou la réduction des ombres peut demander plusieurs appareils ou un logiciel de mapping.
-- **Pour voir personnellement les marques en réalité augmentée**, la préversion StageMark AR cible les [XREAL Air 2 Ultra](https://developer.xreal.com/) avec un [XREAL Beam Pro](https://www.xreal.com/beampro). Seul le porteur voit cette superposition : les lunettes ne remplacent pas la projection destinée aux artistes, aux techniciens ou au public.
+- **Pour voir personnellement les marques en réalité augmentée**, la préversion StageMark AR propose la caméra d'un [téléphone compatible ARCore](https://developers.google.com/ar/devices), dont le Galaxy A54 5G, ou les [XREAL Air 2 Ultra](https://developer.xreal.com/) avec un [XREAL Beam Pro](https://www.xreal.com/beampro). La superposition n'est visible que sur l'écran ou dans les lunettes : elle ne remplace pas la projection destinée à toute l'équipe.
 
 StageMark fournit l’image à projeter, mais ne commande pas l’alimentation physique du vidéoprojecteur. La sortie reste noire tant que l’opérateur n’utilise pas **AFFICHER**, et **BLACKOUT** reste prioritaire.
 
@@ -122,11 +122,11 @@ réel et les conditions du lieu.
 
 ### Préversion technique StageMark AR
 
-Le compagnon **0.1.1** ajoute une icône **AR**, un accueil adapté aux hautes résolutions et des instructions de connexion. Il accompagne l'unique StageMark pour ordinateur : pas d'édition Desktop AR séparée. Un téléphone classique peut découvrir le PC, mais cette APK n'affiche pas sa caméra et n'intègre pas ARCore. [Détails et limites du correctif](RELEASE_NOTES_AR_0.1.1.md).
+Le compagnon **0.1.1 build 3**, réédité le 9 septembre 2026, ajoute la **caméra Android ARCore** tout en conservant le mode XREAL, l'icône **AR** et l'accueil adapté aux hautes résolutions. Il accompagne l'unique StageMark pour ordinateur : pas d'édition Desktop AR séparée. Choisissez le mode téléphone, autorisez la caméra, puis relevez manuellement les centres A/B/C au sol avant de calibrer. [Démarrage rapide](guides/StageMark-AR-Demarrage.md) · [Détails et limites](RELEASE_NOTES_AR_0.1.1.md).
 
-StageMark 2027.0.5 propose également un APK Android expérimental pour tester une superposition personnelle des repères avec XREAL Air 2 Ultra + Beam Pro. Le compagnon reçoit le plan actif en lecture seule sur le réseau local, s’associe par code éphémère et se calibre avec les marqueurs imprimables A/B/C.
+Le compagnon reçoit le plan actif en lecture seule sur le réseau local et s'associe par code éphémère. Le mode téléphone nécessite Android 10 minimum, ARM64 et la compatibilité ARCore ; la première installation des services AR Google peut demander Internet. Les images caméra ne sont ni enregistrées ni envoyées par StageMark. Le mode XREAL conserve ses marqueurs imprimables A/B/C.
 
-L’APK est signé avec une clé de développement. Son installation, son protocole et son paquet ont été vérifiés, mais sa précision, sa dérive et sa relocalisation doivent encore être mesurées sur le matériel réel avant tout usage critique. Il ne peut ni modifier le projet, ni afficher la sortie vidéoprojecteur, ni retirer un **BLACKOUT**.
+L’APK est signé avec une clé de développement. Sa compilation, son identité, sa signature et son protocole ont été contrôlés ; le démarrage caméra, la précision, la dérive et la relocalisation doivent encore être testés sur le matériel réel avant tout usage critique. Il ne peut ni modifier le projet, ni afficher la sortie vidéoprojecteur, ni retirer un **BLACKOUT**.
 
 ## Le même projet que le patch et le plan technique
 
@@ -182,7 +182,7 @@ votre production.
 
 **StageMark 2027** est disponible en version **2027.0.5 pour Windows 11 x64,
 macOS Intel et macOS Apple Silicon**. Une préversion Android AR est proposée
-séparément pour la recette XREAL.
+séparément pour la recette ARCore téléphone et XREAL. Windows et les notices sont réédités le 9 septembre 2026 ; **les DMG Mac disponibles restent ceux de l'édition précédente**, en attendant leur reconstruction Codemagic. Ils ne sont pas présentés comme reconstruits.
 
 - [Windows x64 — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe.sha256)
 - [macOS Intel — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-x64.dmg)
@@ -194,7 +194,7 @@ L’APK reste explicitement expérimental et ne constitue pas une application
 Android de production. Les anciennes Releases restent disponibles pour un
 retour à une version antérieure.
 
-[Manifeste SHA-256 initial de la version 2027.0.5](SHA256SUMS-2027.0.5) ; la corrective APK 0.1.1 dispose de son SHA-256 séparé ci-dessus.
+[Manifeste SHA-256 actualisé de la version 2027.0.5](SHA256SUMS-2027.0.5), incluant l'APK 0.1.1 build 3 et les DMG existants inchangés. Le numéro Desktop étant conservé, téléchargez et réinstallez manuellement pour obtenir cette réédition. L'APK build 3 met à jour la précédente sans désinstallation.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
@@ -253,7 +253,7 @@ A permanent **BLACKOUT** control immediately cuts the projected image.
 
 - No projector is needed to draw and prepare a standalone `.stagemark` project.
 - To make floor marks visible to the team, connect the computer to **one or more projectors**. Large stages, limited brightness or shadow reduction may require several projectors or mapping software.
-- The StageMark AR technical preview targets [XREAL Air 2 Ultra](https://developer.xreal.com/) and [XREAL Beam Pro](https://www.xreal.com/beampro) for a private overlay visible only to the wearer. It does not replace shared projection.
+- The StageMark AR technical preview offers a camera overlay on an [ARCore-compatible phone](https://developers.google.com/ar/devices), including Galaxy A54 5G, or [XREAL Air 2 Ultra](https://developer.xreal.com/) with [XREAL Beam Pro](https://www.xreal.com/beampro). Only the phone user or glasses wearer sees this overlay; it does not replace shared projection.
 
 StageMark supplies the video image but does not power the projector on or off. The output starts black, **DISPLAY** is explicit and **BLACKOUT** remains the priority control.
 
@@ -317,7 +317,7 @@ Remote remain available on Mac.
 
 **StageMark 2027** is available as **2027.0.5 for Windows 11 x64,
 Intel Macs and Apple Silicon Macs**. An experimental Android AR preview is
-provided separately for XREAL hardware testing.
+provided separately for ARCore phone and XREAL hardware testing. Windows and manuals were refreshed on 9 September 2026. **The available Mac DMGs are unchanged from the previous edition**, pending a Codemagic rebuild.
 
 - [Windows x64 — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-Setup.exe.sha256)
 - [Intel Mac — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-x64.dmg)
@@ -326,11 +326,11 @@ provided separately for XREAL hardware testing.
 
 Desktop packages and SHA-256 files are grouped in one stable Release. The APK
 is debug-signed and remains a technical preview: software checks passed, but
-physical accuracy, drift and relocalisation still require real XREAL testing.
+physical accuracy, drift and relocalisation still require real phone and XREAL testing.
 
-[Initial 2027.0.5 SHA-256 manifest](SHA256SUMS-2027.0.5); the 0.1.1 APK update has its own SHA-256 file above.
+[Updated 2027.0.5 SHA-256 manifest](SHA256SUMS-2027.0.5), including APK 0.1.1 build 3 and unchanged Mac DMGs. Since the Desktop version number is retained, download and reinstall manually to obtain this reissue. APK build 3 updates the previous package in place.
 
-Companion 0.1.1 adds an AR icon, readable setup and pairing instructions. There is only one StageMark Desktop application. Ordinary phones can discover the PC, but this APK has no ARCore camera view. [Update details and limitations](RELEASE_NOTES_AR_0.1.1.md).
+Companion **0.1.1 build 3** adds an explicit ARCore phone-camera mode alongside XREAL. Allow camera access, scan a horizontal floor, aim and capture the measured A/B/C centres, then validate calibration. Android 10+, ARM64 and ARCore support are required; initial Google AR Services installation may need Internet. StageMark does not record or upload camera images. There is only one StageMark Desktop application. [Update details and limitations](RELEASE_NOTES_AR_0.1.1.md).
 
 [StageMark 2027.0.5 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.5).
 

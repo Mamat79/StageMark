@@ -1,10 +1,10 @@
 # StageMark AR — démarrage rapide plateau
 
-> Préversion technique 0.1.1 build 4 : caméra Android ARCore et lunettes XREAL. Signature de développement ; recette physique nécessaire sur chaque matériel. Ne remplace ni un vidéoprojecteur visible par tous, ni un instrument de mesure, ni la sécurité du plateau.
+> Préversion technique 0.1.1 build 5 : caméra Android ARCore et lunettes XREAL. Signature de développement ; recette physique nécessaire sur chaque matériel. Ne remplace ni un vidéoprojecteur visible par tous, ni un instrument de mesure, ni la sécurité du plateau.
 
 ## Téléphone ou lunettes ?
 
-L'APK **StageMark AR** accompagne l'unique application StageMark pour ordinateur. Choisissez **CAMÉRA DU TÉLÉPHONE** pour un Android ARCore (le Galaxy A54 5G figure dans la liste officielle Google), ou **LUNETTES XREAL** pour Air 2 Ultra + Beam Pro depuis MyGlasses. Le mode est choisi au démarrage ; relancez l'APK pour en changer. Le numéro visible reste 0.1.1 : vérifiez **build 4** à l'accueil pour distinguer cette mise à jour. Sur le PC, **Connexion → Réalité augmentée** guide matériel, placement A/B/C, connexion et validation. L’AR seule ne demande pas d’ouvrir la sortie vidéo.
+L'APK **StageMark AR** accompagne l'unique application StageMark pour ordinateur. Choisissez **CAMÉRA DU TÉLÉPHONE** pour un Android ARCore (le Galaxy A54 5G figure dans la liste officielle Google), ou **LUNETTES XREAL** pour Air 2 Ultra + Beam Pro depuis MyGlasses. Le mode est choisi au démarrage ; relancez l'APK pour en changer. Le numéro visible reste 0.1.1 : vérifiez **build 5** à l'accueil pour distinguer cette mise à jour. Sur le PC, **Connexion → Réalité augmentée** guide matériel, placement A/B/C, connexion et validation. L’AR seule ne demande pas d’ouvrir la sortie vidéo. Le Desktop 2027.0.5 guidé déjà installé reste compatible : seule l’APK est à remplacer pour ce correctif.
 
 ## Premier essai sur téléphone
 
@@ -13,11 +13,17 @@ L'APK **StageMark AR** accompagne l'unique application StageMark pour ordinateur
 3. Activez **Connexion → Réalité augmentée → ACTIVER STAGEMARK AR** sur le PC et utilisez le même Wi-Fi privé.
 4. Dans l'APK, choisissez **CAMÉRA DU TÉLÉPHONE**, autorisez la caméra. Si demandé, choisissez **INSTALLER LES SERVICES AR** : cette installation Google initiale peut nécessiter Internet. Aucun enregistrement ou transfert de caméra n'est effectué par StageMark.
 5. Saisissez le code à six chiffres du PC et **CONNECTER**. Bougez lentement le téléphone pour détecter un sol horizontal bien éclairé et texturé. Évitez tapis uni, reflets, obscurité et table.
-6. Visez précisément le centre A avec la croix centrale. Quand elle devient turquoise, touchez **RELEVER LE POINT A**, puis faites de même pour B et C. Touchez **VALIDER ET AFFICHER LES REPÈRES** : le calcul est automatique, aucun autre réglage manuel n’est demandé. Ce mode ne reconnaît pas automatiquement la lettre : c'est vous qui choisissez le bon centre. En cas d’échec, lisez la raison, comparez les distances mesurées/attendues et utilisez **Refaire A/B/C** pour reprendre seulement le point concerné.
+6. Placez la croix, au centre de la zone caméra dégagée, **au centre du motif noir/blanc A, pas au bord de la feuille**. Turquoise signifie **sol détecté**, pas marqueur reconnu. Touchez **RELEVER LE POINT A**, puis faites de même pour B et C. Depuis les réglages, revenez d’abord à la caméra : on ne peut pas relever un point sans voir la cible. Touchez **VALIDER ET AFFICHER LES REPÈRES** : le calcul est automatique. Si un écart est détecté, comparez les distances mesurées/attendues. Vous pouvez **ACCEPTER L’ÉCART ET AFFICHER L’AR** lorsque l’application le propose, ou reprendre un point avec **Refaire A/B/C**.
 7. Sur le PC, choisissez **AFFICHER AR** (la session démarre masquée). Vérifiez la croix MIC 1 à l'endroit mesuré. Marchez doucement, revenez et constatez l'écart. Un résidu faible de calibration ne garantit pas la précision réelle du suivi. Un plan vide est signalé : ajoutez un objet visible sur le PC.
 8. **RÉGLAGES** ouvre le panneau complet ; **RECOMMENCER A / B / C** efface la calibration. Pause, perte de suivi/réseau ou changement de géométrie masquent les marques et demandent de recalibrer. **QUITTER L'AR** libère la caméra. Le PC n'allume pas cette caméra à distance.
 
 Les autres téléphones doivent être compatibles ARCore, Android 10 minimum et ARM64. Le démarrage vérifie la disponibilité ; une incompatibilité ou un refus caméra est affiché, pas masqué par un faux aperçu. La caméra donne une vue personnelle sur l'écran, pas des marques lumineuses réelles sur le sol.
+
+### Si les feuilles ne sont pas placées exactement
+
+L’application indique l’écart de calcul et laisse choisir un **alignement approximatif** plutôt que bloquer un petit décalage. Après acceptation, **AR APPROXIMATIVE** reste visible : les marques peuvent être décalées. Cela ne déforme pas le plan et ne change pas la calibration du vidéoprojecteur. Vous pouvez replacer les feuilles et **RECOMMENCER A / B / C** quand vous le souhaitez.
+
+Une incohérence majeure reste bloquante : point manquant, triangle inversé/aplati, sol de hauteur différente, écart calculé maximal supérieur à 50 cm ou différence de distance supérieure à 15 %. Ces limites ne sont pas une précision garantie. Même avec un calcul cohérent, vérifiez une position indépendante au mètre ; le suivi peut dériver. Toute pause ou perte du suivi retire l’accord précédent et impose une nouvelle calibration.
 
 Si « Recherche de StageMark… » reste affiché, vérifier l'activation sur le PC et le réseau Wi-Fi privé commun. Si « StageMark trouvé » et le nom du projet apparaissent, la découverte a réussi : saisir le code du PC, puis **CONNECTER**. La découverte seule ne prouve ni la connexion, ni le suivi des lunettes, ni la calibration.
 
@@ -47,4 +53,4 @@ Deux cases indépendantes permettent **Afficher A/B/C sur le plan** et **Inclure
 
 **Écran du PC couvert par la projection ?** Ctrl+Maj+F12 (Cmd+Maj+F12 sur Mac), Échap dans la fenêtre de sortie, ou **FERMER LA SORTIE** ferment la vidéo, son rideau noir et Spout, sans quitter le projet ni arrêter l’AR. **BLACKOUT** garde volontairement l’écran noir ; fermer la sortie peut montrer le bureau sur le projecteur, ce n’est pas une extinction électrique.
 
-Téléchargements, empreintes et limites : [notes actuelles FR/EN](../RELEASE_NOTES_GUIDED_2027.0.5.md). Cette distribution ne contient aucun code source ni SDK de développement.
+Consultez les [téléchargements, changements et limites](../RELEASE_NOTES_AR_BUILD5.md).

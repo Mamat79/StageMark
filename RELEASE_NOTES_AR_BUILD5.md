@@ -1,5 +1,7 @@
 # StageMark AR 0.1.1 build 5 — viser clairement, accepter un écart
 
+**Remplacée par le [build 6](RELEASE_NOTES_AR_BUILD6.md), qui corrige le bouton de relevé.** Les fonctions ci-dessous sont conservées, mais l’empreinte build 5 n’est plus celle de l’APK téléchargeable.
+
 Correctif Android du 9 septembre 2026. **Seule l’APK est à remplacer** si vous avez déjà StageMark Desktop 2027.0.5 avec le guidage AR. Le numéro visible 0.1.1 est conservé ; vérifiez **build 5** dans les réglages. Windows et les DMG ne sont pas remplacés par ce correctif.
 
 ## Ce qui change

@@ -1,6 +1,6 @@
 # StageMark 2027.0.5 — guidage AR et sortie vidéo de secours
 
-**APK actuelle : build 5.** [Visée et tolérance, téléchargement et nouvelle empreinte](RELEASE_NOTES_AR_BUILD5.md). Les notes build 4 ci-dessous décrivent la livraison guidée précédente ; son empreinte APK n’est plus celle de l’asset remplacé. Windows et notices restent inchangés.
+**APK actuelle : build 6.** [Relevé tactile corrigé, téléchargement et nouvelle empreinte](RELEASE_NOTES_AR_BUILD6.md). Les notes build 4 ci-dessous décrivent la livraison guidée précédente ; son empreinte APK n’est plus celle de l’asset remplacé. Windows et notices restent inchangés.
 
 Réédition du 9 septembre 2026. **Windows et APK actualisés, numéros visibles conservés.** Réinstallez Windows manuellement et vérifiez **0.1.1 build 4** dans StageMark AR. Les DMG Mac présents sont inchangés, en attente d’une reconstruction Codemagic.
 

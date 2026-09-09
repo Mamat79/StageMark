@@ -1,10 +1,12 @@
 # StageMark AR — démarrage rapide plateau
 
-> Préversion technique 0.1.1 build 5 : caméra Android ARCore et lunettes XREAL. Signature de développement ; recette physique nécessaire sur chaque matériel. Ne remplace ni un vidéoprojecteur visible par tous, ni un instrument de mesure, ni la sécurité du plateau.
+> Préversion technique 0.1.1 build 6 : caméra Android ARCore et lunettes XREAL. Signature de développement ; recette physique nécessaire sur chaque matériel. Ne remplace ni un vidéoprojecteur visible par tous, ni un instrument de mesure, ni la sécurité du plateau.
 
 ## Téléphone ou lunettes ?
 
-L'APK **StageMark AR** accompagne l'unique application StageMark pour ordinateur. Choisissez **CAMÉRA DU TÉLÉPHONE** pour un Android ARCore (le Galaxy A54 5G figure dans la liste officielle Google), ou **LUNETTES XREAL** pour Air 2 Ultra + Beam Pro depuis MyGlasses. Le mode est choisi au démarrage ; relancez l'APK pour en changer. Le numéro visible reste 0.1.1 : vérifiez **build 5** à l'accueil pour distinguer cette mise à jour. Sur le PC, **Connexion → Réalité augmentée** guide matériel, placement A/B/C, connexion et validation. L’AR seule ne demande pas d’ouvrir la sortie vidéo. Le Desktop 2027.0.5 guidé déjà installé reste compatible : seule l’APK est à remplacer pour ce correctif.
+L'APK **StageMark AR** accompagne l'unique application StageMark pour ordinateur. Choisissez **CAMÉRA DU TÉLÉPHONE** pour un Android ARCore (le Galaxy A54 5G figure dans la liste officielle Google), ou **LUNETTES XREAL** pour Air 2 Ultra + Beam Pro depuis MyGlasses. Le mode est choisi au démarrage ; relancez l'APK pour en changer. Le numéro visible reste 0.1.1 : vérifiez **build 6** à l'accueil pour distinguer cette mise à jour. Sur le PC, **Connexion → Réalité augmentée** guide matériel, placement A/B/C, connexion et validation. L’AR seule ne demande pas d’ouvrir la sortie vidéo. Le Desktop 2027.0.5 guidé déjà installé reste compatible : seule l’APK est à remplacer pour ce correctif.
+
+Le build 6 corrige le bouton de relevé bloqué du build 5. Vous pouvez viser depuis votre hauteur normale : le motif n’a pas besoin de remplir l’écran. Le toucher recontrôle immédiatement le sol ; si le point ne peut pas être relevé, un message explique pourquoi. Aucun point ancien n’est réutilisé.
 
 ## Premier essai sur téléphone
 
@@ -53,4 +55,4 @@ Deux cases indépendantes permettent **Afficher A/B/C sur le plan** et **Inclure
 
 **Écran du PC couvert par la projection ?** Ctrl+Maj+F12 (Cmd+Maj+F12 sur Mac), Échap dans la fenêtre de sortie, ou **FERMER LA SORTIE** ferment la vidéo, son rideau noir et Spout, sans quitter le projet ni arrêter l’AR. **BLACKOUT** garde volontairement l’écran noir ; fermer la sortie peut montrer le bureau sur le projecteur, ce n’est pas une extinction électrique.
 
-Consultez les [téléchargements, changements et limites](../RELEASE_NOTES_AR_BUILD5.md).
+Consultez les [téléchargements, changements et limites](../RELEASE_NOTES_AR_BUILD6.md).

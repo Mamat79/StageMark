@@ -122,9 +122,9 @@ réel et les conditions du lieu.
 
 ### Préversion technique StageMark AR
 
-**Nouveau dans le build 6 :** bouton de relevé débloqué et échec expliqué. Fonctions conservées : cible dans la zone caméra dégagée, indication du centre à viser et possibilité d’accepter explicitement un écart limité. L’AR reste alors signalée comme approximative ; vous pouvez replacer les feuilles et refaire la calibration. Le plan et la calibration vidéo ne sont pas modifiés.
+**Nouveau dans le build 7 :** liaison des mouvements du téléphone à la caméra virtuelle corrigée ; veille automatique suspendue en AR au premier plan, restaurée à la sortie. Après verrouillage manuel ou interruption, A/B/C restent à refaire. Le relevé tactile, l’acceptation explicite d’un écart limité et les masques indépendants restent inchangés. Le rendu physique doit encore être confirmé sur appareil.
 
-Le compagnon **0.1.1 build 6**, réédité le 9 septembre 2026, propose la **caméra Android ARCore** et XREAL, un guidage A → B → C → validation automatique et la reprise de chaque point. **AFFICHER AR / MASQUER AR** sur le PC sont indépendants de la vidéo : vidéo seule, AR seule, les deux ou rien. **MASQUER POUR MOI** ne concerne qu’une personne et ne peut pas annuler le masque PC. Les feuilles A/B/C sont réutilisables, avec fiche de placement facultative par projet. [Démarrage rapide](guides/StageMark-AR-Demarrage.md) · [Réédition, téléchargements et limites](RELEASE_NOTES_AR_BUILD6.md).
+Le compagnon **0.1.1 build 7**, réédité le 9 septembre 2026, propose la **caméra Android ARCore** et XREAL, un guidage A → B → C → validation automatique et la reprise de chaque point. **AFFICHER AR / MASQUER AR** sur le PC sont indépendants de la vidéo : vidéo seule, AR seule, les deux ou rien. **MASQUER POUR MOI** ne concerne qu’une personne et ne peut pas annuler le masque PC. Les feuilles A/B/C sont réutilisables, avec fiche de placement facultative par projet. [Démarrage rapide](guides/StageMark-AR-Demarrage.md) · [Réédition, téléchargements et limites](RELEASE_NOTES_AR_BUILD7.md).
 
 **Écran noir qui recouvre le bureau ? Ctrl+Maj+F12**, Échap dans la sortie ou **FERMER SORTIE** ferment vidéo/rideau noir/Spout sans quitter le projet ni arrêter l’AR. BLACKOUT garde volontairement une fenêtre noire ouverte ; fermer peut montrer le bureau sur le projecteur.
 
@@ -198,7 +198,7 @@ L’APK reste explicitement expérimental et ne constitue pas une application
 Android de production. Les anciennes Releases restent disponibles pour un
 retour à une version antérieure.
 
-[Manifeste SHA-256 actualisé de la version 2027.0.5](SHA256SUMS-2027.0.5), incluant l'APK 0.1.1 build 6 et les DMG existants inchangés. Pour ce correctif Android seul, le Desktop guidé déjà installé n’a pas besoin d’être réinstallé. L'APK build 6 met à jour la précédente sans désinstallation.
+[Manifeste SHA-256 actualisé de la version 2027.0.5](SHA256SUMS-2027.0.5), incluant l'APK 0.1.1 build 7 et les DMG existants inchangés. Pour ce correctif Android seul, le Desktop guidé déjà installé n’a pas besoin d’être réinstallé. L'APK build 7 met à jour la précédente sans désinstallation.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
@@ -332,13 +332,13 @@ Desktop packages and SHA-256 files are grouped in one stable Release. The APK
 is debug-signed and remains a technical preview: software checks passed, but
 physical accuracy, drift and relocalisation still require real phone and XREAL testing.
 
-[Updated 2027.0.5 SHA-256 manifest](SHA256SUMS-2027.0.5), including APK 0.1.1 build 6 and unchanged Mac DMGs. This Android-only correction does not require reinstalling the existing guided Desktop. APK build 6 updates the previous package in place.
+[Updated 2027.0.5 SHA-256 manifest](SHA256SUMS-2027.0.5), including APK 0.1.1 build 7 and unchanged Mac DMGs. This Android-only correction does not require reinstalling the existing guided Desktop. APK build 7 updates the previous package in place.
 
-Companion **0.1.1 build 6** offers ARCore and XREAL, guided automatic A/B/C calibration, visible errors and individual recapture. **SHOW AR / HIDE AR** are independent of video; **hide for me** only affects one wearer and cannot override PC hide. Reusable marker sheets and an optional project placement PDF simplify setup. **Ctrl+Shift+F12** closes video/black curtain/Spout without quitting the project or stopping AR. Android 10+, ARM64 and ARCore support are required for phone mode; initial Google AR Services setup may need Internet. No camera recording/upload. [Downloads and limitations](RELEASE_NOTES_AR_BUILD6.md).
+Companion **0.1.1 build 7** offers ARCore and XREAL, guided automatic A/B/C calibration, visible errors and individual recapture. **SHOW AR / HIDE AR** are independent of video; **hide for me** only affects one wearer and cannot override PC hide. Reusable marker sheets and an optional project placement PDF simplify setup. **Ctrl+Shift+F12** closes video/black curtain/Spout without quitting the project or stopping AR. Android 10+, ARM64 and ARCore support are required for phone mode; initial Google AR Services setup may need Internet. No camera recording/upload. [Downloads and limitations](RELEASE_NOTES_AR_BUILD7.md).
 
 [StageMark 2027.0.5 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.5).
 
-**New in build 6:** capture button fixed with explicit failure feedback. Retained features: an unobscured camera target and explicit acceptance of limited calibration discrepancies, with a persistent approximate-AR warning. Reposition and recalibrate at any time. Plan scale and projector calibration are unchanged.
+**New in build 7:** corrected handheld camera pose bindings and automatic sleep prevention during foreground phone AR. Exit/background restores the previous policy; manual lock or interruption still requires recalibration. Capture-on-tap, explicit discrepancy acceptance and independent masks are unchanged. Physical device testing is still required.
 
 French and English manuals and common suite guides are included in the
 application. The [guide manifest](guides/suite-guides-manifest.json) records

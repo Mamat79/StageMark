@@ -1,5 +1,7 @@
 # StageMark AR 0.1.1 build 6 — bouton de relevé corrigé
 
+**Remplacée par le [build 7](RELEASE_NOTES_AR_BUILD7.md), correctif caméra téléphone et veille.** L’empreinte ci-dessous reste celle du build 6 archivé, pas de l’APK téléchargeable actuelle.
+
 Correctif Android du 9 septembre 2026. Le build 5 pouvait montrer une cible turquoise sans enregistrer A lorsque vous touchiez **RELEVER LE POINT A**. Un contrôle lié au cycle d’affichage empêchait le bouton de fonctionner ; ce n’était pas un problème de distance ou de taille du motif.
 
 Le build 6 vérifie le sol directement au toucher, sans utiliser un ancien point. Si le relevé est impossible, un message en donne la raison. La visée dégagée, la reprise des points et l’acceptation explicite d’un écart limité sont conservées. Le plan, la calibration vidéo et les masques PC/personnel ne changent pas.

@@ -12,9 +12,13 @@
 
 **Sécurité vidéo :** démarrage en noir, AFFICHER explicite. **Ctrl+Maj+F12** ferme la vidéo et son écran noir sans quitter le projet ni arrêter l’AR. Fermer une sortie peut montrer le bureau ; cela n’éteint pas électriquement le projecteur.
 
-**Limites :** l’AR reste une préversion. Une croix et ses changements de couleur ont été observés sur A54, mais précision, dérive et relocalisation ne sont pas qualifiées. XREAL et les autres lunettes ne sont pas déclarés validés physiquement. Un Wi-Fi d’hôtel peut isoler les appareils ; le relais USB utilisé en diagnostic n’est pas une fonction universelle sans configuration. Les paquets Windows sont sans certificat éditeur. Les nouveaux DMG macOS sont attendus de Codemagic ; conserver les téléchargements Mac 2027.0.5 jusqu’à leur validation.
+**macOS 2027.0.6 disponible :** Intel et Apple Silicon construits par Codemagic depuis le tag de cette version. DMG et fichiers SHA-256 téléchargés et vérifiés. Le paquet ARM64 a été lancé sur le runner M2 ; l’architecture Intel a été contrôlée, sans lancement natif Intel. Pas de signature Developer ID ni de notarisation.
 
-[Guide des parcours](https://github.com/Mamat79/StageMark/blob/main/guides/StageMark-Parcours-2027.0.6.md) · [Démarrage AR](https://github.com/Mamat79/StageMark/blob/main/guides/StageMark-AR-Demarrage.md) · [Empreintes SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/SHA256SUMS-2027.0.6)
+**Médias actualisés :** captures FR/EN du vrai renderer et présentations commentées de l’interface 2027.0.6. Projet fictif, sorties arrêtées, voix synthétique et sous-titres. Ce ne sont pas des images de projection physique ni une preuve de précision AR.
+
+**Limites :** l’AR reste une préversion. Une croix et ses changements de couleur ont été observés sur A54, mais précision, dérive et relocalisation ne sont pas qualifiées. XREAL et les autres lunettes ne sont pas déclarés validés physiquement. Un Wi-Fi d’hôtel peut isoler les appareils ; le relais USB utilisé en diagnostic n’est pas une fonction universelle sans configuration. Les paquets Windows sont sans certificat éditeur.
+
+[Guide des parcours](https://github.com/Mamat79/StageMark/blob/main/guides/StageMark-Parcours-2027.0.6.md) · [Démarrage AR](https://github.com/Mamat79/StageMark/blob/main/guides/StageMark-AR-Demarrage.md) · [Empreintes SHA-256 complètes](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/SHA256SUMS-2027.0.6-complete)
 
 ## English
 
@@ -26,4 +30,8 @@ Live mode focuses on plans, cues, SHOW, BLACKOUT and independent AR visibility. 
 
 Video still opens black and requires explicit SHOW. **Ctrl+Shift+F12** closes video/black curtain/Spout without closing the project or stopping AR; the desktop may then appear on the projector. This is not a physical power command.
 
-AR remains a development preview. A cross and live colour changes were observed on A54; physical accuracy, drift, relocalisation and XREAL hardware qualification are incomplete. Hotel networks may isolate devices; the diagnostic USB relay is not an automatic production feature. Windows packages are unsigned. New Mac DMGs are pending Codemagic validation; retain existing 2027.0.5 links until then. Developer ID signing and notarisation are not introduced.
+**macOS 2027.0.6 is available:** Codemagic built Intel and Apple Silicon DMGs from this release tag. Both downloads and SHA-256 sidecars were verified. ARM64 was smoke-tested on the M2 runner; Intel architecture was checked without a native Intel launch. Developer ID signing and notarisation are not introduced.
+
+**Updated media:** genuine FR/EN renderer screenshots and narrated presentations of the 2027.0.6 interface. Fictional project, outputs stopped, synthetic voice and captions. These are not physical projection footage or evidence of AR accuracy.
+
+AR remains a development preview. A cross and live colour changes were observed on A54; physical accuracy, drift, relocalisation and XREAL hardware qualification are incomplete. Hotel networks may isolate devices; the diagnostic USB relay is not an automatic production feature. Windows packages are unsigned.

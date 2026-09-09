@@ -17,13 +17,17 @@
 </p>
 
 <p align="center">
-  <em>Présentation de la version 2026 — interface précédente / Previous interface</em><br>
-  <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr-poster.png" width="820" alt="Présentation vidéo StageMark"></a><br>
-  <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr.mp4">Présentation · FR</a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-fr.vtt">Sous-titres FR</a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-en.mp4">Presentation · EN</a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2026.9.3/stagemark-presentation-en.vtt">EN captions</a>
+  <em>Interface 2027.0.6 — présentation commentée / Narrated presentation</em><br>
+  <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/stagemark-2027.0.6-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/stagemark-2027.0.6-presentation-fr-poster.png" width="820" alt="StageMark 2027.0.6 : dessin du plateau et nouveau parcours"></a><br>
+  <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/stagemark-2027.0.6-presentation-fr.mp4">Présentation · FR</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/stagemark-2027.0.6-presentation-fr.vtt">Sous-titres FR</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/stagemark-2027.0.6-presentation-en.mp4">Presentation · EN</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/stagemark-2027.0.6-presentation-en.vtt">EN captions</a>
 </p>
+
+Captures du vrai renderer, projet fictif, sorties arrêtées. Montage commenté par voix synthétique ; aucune démonstration de précision AR ou de projection réelle. / Actual renderer captures, fictional project, outputs stopped. Synthetic narration; not a hardware or AR-accuracy demonstration.
+
+![Conduite StageMark 2027.0.6 : plans, cues et commandes indépendantes](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/stagemark-2027.0.6-live-fr.png)
 
 ---
 
@@ -184,11 +188,11 @@ votre production.
 
 ## Télécharger StageMark
 
-**StageMark 2027.0.6 pour Windows 11 x64** et **StageMark AR 0.1.1 build 12** sont disponibles. Les liens macOS restent provisoirement en 2027.0.5 jusqu’à validation des nouveaux DMG par Codemagic ; ils ne sont pas présentés comme reconstruits.
+**StageMark 2027.0.6 pour Windows 11 x64, macOS Intel et Apple Silicon** et **StageMark AR 0.1.1 build 12** sont disponibles. Les DMG sont construits par Codemagic depuis le même tag source que Windows et leurs SHA-256 sont vérifiés.
 
 - [Windows x64 — 2027.0.6](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-2027.0.6-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-2027.0.6-Setup.exe.sha256)
-- [macOS Intel — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-x64.dmg)
-- [macOS Apple Silicon — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-arm64.dmg)
+- [macOS Intel — 2027.0.6](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-2027.0.6-macOS-x64.dmg)
+- [macOS Apple Silicon — 2027.0.6](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-2027.0.6-macOS-arm64.dmg)
 - [StageMark AR 0.1.1 build 12 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-AR-0.1.1-Development.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-AR-0.1.1-Development.apk.sha256)
 
 Les paquets de bureau et leurs SHA-256 sont réunis dans la même Release stable.
@@ -196,7 +200,7 @@ L’APK reste explicitement expérimental et ne constitue pas une application
 Android de production. Les anciennes Releases restent disponibles pour un
 retour à une version antérieure.
 
-[Manifeste SHA-256 de la version 2027.0.6](SHA256SUMS-2027.0.6). Mettre à jour le Desktop pour la nouvelle organisation ; l’APK build 12 remplace la précédente sans désinstallation.
+[Manifeste SHA-256 complet de la version 2027.0.6](SHA256SUMS-2027.0.6-complete). Mettre à jour le Desktop pour la nouvelle organisation ; l’APK build 12 remplace la précédente sans désinstallation.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
@@ -228,8 +232,7 @@ Une licence permanente à **49 € TTC**, en paiement unique, supprime ce rappel
   afficher un avertissement.
 - Les images macOS actuelles ne sont ni signées avec un certificat Developer ID
   ni notariées par Apple ; macOS peut donc afficher un avertissement Gatekeeper.
-- Le minimum macOS déclaré est 12 ; les contrôles natifs Intel/Apple Silicon
-  ont été réalisés sur macOS 15, pas sur toutes les versions intermédiaires.
+- Le minimum macOS déclaré est 12. Pour 2027.0.6, le paquet Apple Silicon a été lancé sur le runner M2 ; l’architecture Intel a été contrôlée, sans lancement natif Intel. Toutes les versions de macOS ne sont pas qualifiées.
   Les signatures d’intégrité existantes sont préservées ; ne désactivez pas les
   protections macOS.
 - La calibration doit être vérifiée sur le vidéoprojecteur et dans le lieu réel.
@@ -317,18 +320,18 @@ Remote remain available on Mac.
 
 ### Download
 
-**StageMark 2027.0.6 for Windows 11 x64** and **StageMark AR 0.1.1 build 12** are available. Mac links temporarily remain on 2027.0.5 until the new Codemagic DMGs are validated; they are not presented as rebuilt.
+**StageMark 2027.0.6 for Windows 11 x64, Intel Mac and Apple Silicon Mac** and **StageMark AR 0.1.1 build 12** are available. Codemagic built both DMGs from the same source tag as Windows; their SHA-256 hashes are verified.
 
 - [Windows x64 — 2027.0.6](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-2027.0.6-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-2027.0.6-Setup.exe.sha256)
-- [Intel Mac — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-x64.dmg)
-- [Apple Silicon Mac — 2027.0.5](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-2027.0.5-macOS-arm64.dmg)
+- [Intel Mac — 2027.0.6](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-2027.0.6-macOS-x64.dmg)
+- [Apple Silicon Mac — 2027.0.6](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-2027.0.6-macOS-arm64.dmg)
 - [StageMark AR 0.1.1 build 12 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-AR-0.1.1-Development.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.6/StageMark-AR-0.1.1-Development.apk.sha256)
 
 Desktop packages and SHA-256 files are grouped in one stable Release. The APK
 is debug-signed and remains a technical preview: software checks passed, but
 physical accuracy, drift and relocalisation still require real phone and XREAL testing.
 
-[2027.0.6 SHA-256 manifest](SHA256SUMS-2027.0.6). Update Desktop for the reorganised workflow; APK build 12 updates the previous companion in place.
+[Complete 2027.0.6 SHA-256 manifest](SHA256SUMS-2027.0.6-complete). Update Desktop for the reorganised workflow; APK build 12 updates the previous companion in place.
 
 Companion **0.1.1 build 12** offers ARCore and XREAL, scrollable touch UI, accessible actions, separate settings and A/B/C calibration. **SHOW AR / HIDE AR** are independent of video; **hide for me** cannot override PC hide. Reusable marker sheets and an optional project placement PDF simplify setup. **Ctrl+Shift+F12** closes video/black curtain/Spout without quitting the project or stopping AR. Android 10+, ARM64 and ARCore support are required for phone mode; initial Google AR Services setup may need Internet. No camera recording/upload. [Workflow and limitations](RELEASE_NOTES_2027.0.6.md).
 
@@ -353,8 +356,7 @@ A permanent **€49 tax-included** one-time license removes this reminder.
 
 The current Windows installer is unsigned. The macOS disk images are not signed
 with an Apple Developer ID and are not notarized, so Gatekeeper may display a
-warning. The declared macOS minimum is 12; native Intel/Apple Silicon checks ran
-on macOS 15, not on every intermediate release. Existing integrity signatures
+warning. The declared macOS minimum is 12. For 2027.0.6, the Apple Silicon package was smoke-tested on the M2 runner; Intel architecture was checked without a native Intel launch. Not every macOS release is qualified. Existing integrity signatures
 are preserved; do not disable macOS protections. Always validate the projector,
 calibration, output, blackout and controls with real hardware before a production.
 

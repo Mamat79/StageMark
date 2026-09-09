@@ -1,5 +1,7 @@
 # StageMark AR 0.1.1 — compagnon Android expérimental
 
+**Version disponible : build 4**, guidage et masquage indépendant. [Téléchargements actuels, SHA-256 et limites](RELEASE_NOTES_GUIDED_2027.0.5.md). Les notes build 3 ci-dessous sont historiques, leurs empreintes ne sont plus celles de l’asset 0.1.1 remplacé.
+
 ## Réédition du 9 septembre 2026 — build 3
 
 Cette préversion accompagne la même application StageMark Desktop **2027.0.5**. L'installeur Windows et les notices FR/EN sont actualisés ; les DMG macOS restent pour le moment ceux de l'édition précédente, avant reconstruction Codemagic. Aucun changement de licences, projets, projection, télécommande ou BLACKOUT.

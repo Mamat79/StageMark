@@ -1,31 +1,50 @@
-# StageMark AR — premier essai sur téléphone
+# StageMark AR — démarrage rapide plateau
 
-Préversion **0.1.1 build 3**, Android 10 minimum, ARM64 et téléphone [compatible ARCore](https://developers.google.com/ar/devices), dont le Galaxy A54 5G. La caméra et la précision doivent encore être validées sur chaque appareil. Les repères sont visibles sur l'écran du téléphone, pas réellement projetés au sol.
+> Préversion technique 0.1.1 build 4 : caméra Android ARCore et lunettes XREAL. Signature de développement ; recette physique nécessaire sur chaque matériel. Ne remplace ni un vidéoprojecteur visible par tous, ni un instrument de mesure, ni la sécurité du plateau.
 
-1. Installez la nouvelle [APK build 3](https://github.com/Mamat79/StageMark/releases/download/v2027.0.5/StageMark-AR-0.1.1-Development.apk?build=3) par-dessus l'ancienne, puis vérifiez **build 3** à l'accueil. Ne désinstallez pas l'application pour cette mise à jour.
-2. Sur le PC, créez une scène de **2 m de large × 2 m de profondeur**, dans un espace dégagé réellement mesuré. Ajoutez une croix MIC 1 à **X 0 / Y 1 m** et enregistrez normalement.
-3. Matérialisez les centres **A : X -1 m / Y 0**, **B : X +1 m / Y 0**, **C : X 0 / Y 2 m** avec de petits repères adhésifs mesurés. A et B sont les coins avant, C le milieu du fond. La mesure réelle doit correspondre à celle du logiciel.
-4. Sur le PC : **Connexion → Réalité augmentée → ACTIVER STAGEMARK AR**. PC et téléphone doivent utiliser le même Wi-Fi privé.
-5. Dans l'APK : **CAMÉRA DU TÉLÉPHONE**, puis autorisez la caméra. Si proposé, **INSTALLER LES SERVICES AR** ; cette installation Google initiale peut nécessiter Internet. StageMark ne filme ni n'envoie les images de caméra.
-6. Saisissez le code à six chiffres du PC, puis **CONNECTER**. Déplacez doucement le téléphone pour détecter un sol horizontal éclairé et texturé, sans reflets. Ne visez pas une table.
-7. Visez le centre A avec la croix centrale. Lorsqu'elle devient turquoise, touchez **RELEVER LE POINT A**. Répétez pour B et C, puis **CALIBRER LA SCÈNE**. Le téléphone ne reconnaît pas les lettres : vous choisissez les bons centres.
-8. Contrôlez physiquement MIC 1 à l'endroit mesuré. Marchez doucement puis revenez : constatez l'écart. Un faible résidu mathématique ne certifie pas la précision du suivi.
-9. **RÉGLAGES** ouvre le panneau complet. **RECOMMENCER A / B / C** efface la calibration. Pause, perte de suivi ou de réseau et changement de géométrie demandent de recalibrer. **QUITTER L'AR** libère la caméra ; le PC ne l'allume pas à distance.
+## Téléphone ou lunettes ?
 
-Le mode **LUNETTES XREAL** est distinct : XREAL Air 2 Ultra + Beam Pro, APK ouverte depuis MyGlasses, marqueurs A/B/C imprimés à 100 % (carrés 160 mm) et placés aux positions indiquées dans StageMark. Relancez l'APK pour changer de mode. Les images XREAL doivent encore être qualifiées sur le matériel réel.
+L'APK **StageMark AR** accompagne l'unique application StageMark pour ordinateur. Choisissez **CAMÉRA DU TÉLÉPHONE** pour un Android ARCore (le Galaxy A54 5G figure dans la liste officielle Google), ou **LUNETTES XREAL** pour Air 2 Ultra + Beam Pro depuis MyGlasses. Le mode est choisi au démarrage ; relancez l'APK pour en changer. Le numéro visible reste 0.1.1 : vérifiez **build 4** à l'accueil pour distinguer cette mise à jour. Sur le PC, **Connexion → Réalité augmentée** guide matériel, placement A/B/C, connexion et validation. L’AR seule ne demande pas d’ouvrir la sortie vidéo.
 
-**Limites :** prototype de primitives, pas de garantie de rendu complet de tous les symboles complexes, de précision ou de stabilité après déplacement. Ne pas utiliser pour du positionnement critique. L'APK reçoit le plan en lecture seule ; aucune modification du projet, commande de projection ou levée de BLACKOUT. Pour des marques visibles par toute l'équipe, il faut un ou plusieurs vidéoprojecteurs.
+## Premier essai sur téléphone
 
-## English — first phone test
+1. Sur le PC, créez par exemple une scène **2 m de large et 2 m de profondeur** dans un espace dégagé réellement mesuré. Ajoutez une croix nommée MIC 1 au centre (X 0, Y 1 m). Enregistrez votre projet normalement.
+2. Repérez physiquement A = X -1 m / Y 0, B = X +1 m / Y 0 et C = X 0 / Y 2 m. Trois petits repères adhésifs dont les centres sont mesurés suffisent pour ce mode manuel ; ne changez pas d'échelle après mesure.
+3. Activez **Connexion → Réalité augmentée → ACTIVER STAGEMARK AR** sur le PC et utilisez le même Wi-Fi privé.
+4. Dans l'APK, choisissez **CAMÉRA DU TÉLÉPHONE**, autorisez la caméra. Si demandé, choisissez **INSTALLER LES SERVICES AR** : cette installation Google initiale peut nécessiter Internet. Aucun enregistrement ou transfert de caméra n'est effectué par StageMark.
+5. Saisissez le code à six chiffres du PC et **CONNECTER**. Bougez lentement le téléphone pour détecter un sol horizontal bien éclairé et texturé. Évitez tapis uni, reflets, obscurité et table.
+6. Visez précisément le centre A avec la croix centrale. Quand elle devient turquoise, touchez **RELEVER LE POINT A**, puis faites de même pour B et C. Touchez **VALIDER ET AFFICHER LES REPÈRES** : le calcul est automatique, aucun autre réglage manuel n’est demandé. Ce mode ne reconnaît pas automatiquement la lettre : c'est vous qui choisissez le bon centre. En cas d’échec, lisez la raison, comparez les distances mesurées/attendues et utilisez **Refaire A/B/C** pour reprendre seulement le point concerné.
+7. Sur le PC, choisissez **AFFICHER AR** (la session démarre masquée). Vérifiez la croix MIC 1 à l'endroit mesuré. Marchez doucement, revenez et constatez l'écart. Un résidu faible de calibration ne garantit pas la précision réelle du suivi. Un plan vide est signalé : ajoutez un objet visible sur le PC.
+8. **RÉGLAGES** ouvre le panneau complet ; **RECOMMENCER A / B / C** efface la calibration. Pause, perte de suivi/réseau ou changement de géométrie masquent les marques et demandent de recalibrer. **QUITTER L'AR** libère la caméra. Le PC n'allume pas cette caméra à distance.
 
-Install **0.1.1 build 3** over the previous companion and check the build number on its home screen. Requires Android 10+, ARM64 and ARCore support. Real-device camera, accuracy and drift testing is still required.
+Les autres téléphones doivent être compatibles ARCore, Android 10 minimum et ARM64. Le démarrage vérifie la disponibilité ; une incompatibilité ou un refus caméra est affiché, pas masqué par un faux aperçu. La caméra donne une vue personnelle sur l'écran, pas des marques lumineuses réelles sur le sol.
 
-1. Prepare a measured 2 × 2 m floor area. In StageMark create the matching stage and a MIC 1 cross at X 0 / Y 1 m.
-2. Mark measured centres A(-1 m, 0), B(+1 m, 0), C(0, 2 m) on the floor. Their coordinates must match the project.
-3. Start StageMark AR from the Desktop Connection panel. Use the same private Wi-Fi on both devices.
-4. In the companion choose **CAMÉRA DU TÉLÉPHONE**, allow camera access and explicitly install Google AR Services if requested. Initial installation may need Internet. StageMark does not record or upload camera images.
-5. Enter the PC's six-digit code and connect. Slowly scan a textured, well-lit horizontal floor.
-6. Aim at A with the centre reticle; when turquoise, capture A. Repeat for B and C, then validate calibration. This is manual centre selection, not letter recognition.
-7. Physically check MIC 1, walk away and return. Tracking/network loss, pause or changed geometry hides marks and requires recalibration. Quit AR to release the camera. Restart the APK to switch between phone and XREAL modes.
+Si « Recherche de StageMark… » reste affiché, vérifier l'activation sur le PC et le réseau Wi-Fi privé commun. Si « StageMark trouvé » et le nom du projet apparaissent, la découverte a réussi : saisir le code du PC, puis **CONNECTER**. La découverte seule ne prouve ni la connexion, ni le suivi des lunettes, ni la calibration.
 
-This is a personal screen overlay, not light projected onto the floor. Debug-signed primitive-rendering preview, not suitable for critical positioning. The companion cannot edit projects, start projection or remove BLACKOUT. See the [bilingual release notes](../RELEASE_NOTES_AR_0.1.1.md).
+## Connexion et calibration dans les lunettes
+
+### Feuilles permanentes, placement propre au projet
+
+Les motifs A/B/C ne changent pas avec la scène. Gardez un jeu imprimé à 100 % et réutilisez-le. **Connexion → Réalité augmentée → Placement A/B/C** indique les coordonnées des centres en mètres (calculées en millimètres entiers). **Fiche de placement PDF du projet** et **Imprimer le placement** donnent une page séparée avec vue de dessus et tableau ; régénérez-la après changement de dimensions.
+
+Deux cases indépendantes permettent **Afficher A/B/C sur le plan** et **Inclure A/B/C dans la projection**. Toutes deux sont désactivées par défaut. Ce sont des croix de position, pas les images à scanner. Cocher la projection n’ouvre aucune sortie et ne retire jamais le BLACKOUT : utilisez les commandes vidéo habituelles. Masquez les aides après installation. Sur une scène non rectangulaire, vérifiez l’accessibilité des centres ; les portions hors contour ne sont pas projetées. La précision du placement projeté dépend de la calibration du vidéoprojecteur : contrôlez les distances au mètre avant de calibrer l’AR.
+
+### Procédure lunettes
+
+1. Dans StageMark, ouvrez **Connexion → Réalité augmentée**, puis choisissez **Marqueurs PDF réutilisables** ou **Imprimer les marqueurs**. Un seul jeu A/B/C sert pour toutes vos scènes ; les feuilles déjà imprimées restent compatibles. Imprimez à **100 % sans ajustement** : l’image complète, marge blanche comprise, mesure 160 × 160 mm. Chaque page rappelle où retrouver son emplacement dans le logiciel.
+2. Placez **A**, **B** et **C** exactement aux positions affichées dans StageMark : A au nez Jardin, B au nez Cour, C au fond-centre.
+3. Connectez le PC StageMark et le Beam Pro au même Wi-Fi privé.
+4. Dans le même panneau Desktop, choisissez ce réseau puis cliquez **ACTIVER STAGEMARK AR**.
+5. Dans les lunettes, ouvrez StageMark AR. Le message **StageMark trouvé : NOM-DU-PC** apparaît.
+6. Recopiez le code à six chiffres affiché sur le PC, puis choisissez **CONNECTER**.
+7. Regardez successivement A, B et C. Quand les trois sont relevés, choisissez **VALIDER ET AFFICHER LES REPÈRES**, puis **AFFICHER AR** sur le PC. Le SDK signale une faible richesse visuelle de ces images : leur reconnaissance réelle reste à qualifier.
+8. N'utilisez les marques que si le statut indique **Tracking OK** ou **Calibration cohérente**. En cas de statut dégradé, arrêtez de vous fier aux positions et regardez à nouveau les marqueurs.
+9. Vérifiez physiquement une croix connue avant de marcher sur toute la scène.
+
+## Masquer et réafficher, sans couper l’autre diffusion
+
+**AFFICHER AR / MASQUER AR** sur le PC concernent tous les compagnons AR, sans toucher à **AFFICHER / BLACKOUT** vidéo. Les quatre combinaisons sont possibles : vidéo seule, AR seule, les deux, rien. Masquer conserve connexion et calibration si le suivi reste valide ; **Arrêter la session AR** déconnecte les compagnons. **MASQUER POUR MOI / RÉAFFICHER POUR MOI** dans l’APK ne concerne que cette personne et ne peut jamais annuler un masquage du PC. La caméra reste visible et le suivi continue quand les repères sont masqués.
+
+**Écran du PC couvert par la projection ?** Ctrl+Maj+F12 (Cmd+Maj+F12 sur Mac), Échap dans la fenêtre de sortie, ou **FERMER LA SORTIE** ferment la vidéo, son rideau noir et Spout, sans quitter le projet ni arrêter l’AR. **BLACKOUT** garde volontairement l’écran noir ; fermer la sortie peut montrer le bureau sur le projecteur, ce n’est pas une extinction électrique.
+
+Téléchargements, empreintes et limites : [notes actuelles FR/EN](../RELEASE_NOTES_GUIDED_2027.0.5.md). Cette distribution ne contient aucun code source ni SDK de développement.

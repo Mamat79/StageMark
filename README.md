@@ -122,7 +122,9 @@ réel et les conditions du lieu.
 
 ### Préversion technique StageMark AR
 
-Le compagnon **0.1.1 build 3**, réédité le 9 septembre 2026, ajoute la **caméra Android ARCore** tout en conservant le mode XREAL, l'icône **AR** et l'accueil adapté aux hautes résolutions. Il accompagne l'unique StageMark pour ordinateur : pas d'édition Desktop AR séparée. Choisissez le mode téléphone, autorisez la caméra, puis relevez manuellement les centres A/B/C au sol avant de calibrer. [Démarrage rapide](guides/StageMark-AR-Demarrage.md) · [Détails et limites](RELEASE_NOTES_AR_0.1.1.md).
+Le compagnon **0.1.1 build 4**, réédité le 9 septembre 2026, propose la **caméra Android ARCore** et XREAL, un guidage A → B → C → validation automatique et la reprise de chaque point. **AFFICHER AR / MASQUER AR** sur le PC sont indépendants de la vidéo : vidéo seule, AR seule, les deux ou rien. **MASQUER POUR MOI** ne concerne qu’une personne et ne peut pas annuler le masque PC. Les feuilles A/B/C sont réutilisables, avec fiche de placement facultative par projet. [Démarrage rapide](guides/StageMark-AR-Demarrage.md) · [Réédition, téléchargements et limites](RELEASE_NOTES_GUIDED_2027.0.5.md).
+
+**Écran noir qui recouvre le bureau ? Ctrl+Maj+F12**, Échap dans la sortie ou **FERMER SORTIE** ferment vidéo/rideau noir/Spout sans quitter le projet ni arrêter l’AR. BLACKOUT garde volontairement une fenêtre noire ouverte ; fermer peut montrer le bureau sur le projecteur.
 
 Le compagnon reçoit le plan actif en lecture seule sur le réseau local et s'associe par code éphémère. Le mode téléphone nécessite Android 10 minimum, ARM64 et la compatibilité ARCore ; la première installation des services AR Google peut demander Internet. Les images caméra ne sont ni enregistrées ni envoyées par StageMark. Le mode XREAL conserve ses marqueurs imprimables A/B/C.
 
@@ -194,7 +196,7 @@ L’APK reste explicitement expérimental et ne constitue pas une application
 Android de production. Les anciennes Releases restent disponibles pour un
 retour à une version antérieure.
 
-[Manifeste SHA-256 actualisé de la version 2027.0.5](SHA256SUMS-2027.0.5), incluant l'APK 0.1.1 build 3 et les DMG existants inchangés. Le numéro Desktop étant conservé, téléchargez et réinstallez manuellement pour obtenir cette réédition. L'APK build 3 met à jour la précédente sans désinstallation.
+[Manifeste SHA-256 actualisé de la version 2027.0.5](SHA256SUMS-2027.0.5), incluant l'APK 0.1.1 build 4 et les DMG existants inchangés. Le numéro Desktop étant conservé, téléchargez et réinstallez manuellement pour obtenir cette réédition. L'APK build 4 met à jour la précédente sans désinstallation.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
@@ -328,9 +330,9 @@ Desktop packages and SHA-256 files are grouped in one stable Release. The APK
 is debug-signed and remains a technical preview: software checks passed, but
 physical accuracy, drift and relocalisation still require real phone and XREAL testing.
 
-[Updated 2027.0.5 SHA-256 manifest](SHA256SUMS-2027.0.5), including APK 0.1.1 build 3 and unchanged Mac DMGs. Since the Desktop version number is retained, download and reinstall manually to obtain this reissue. APK build 3 updates the previous package in place.
+[Updated 2027.0.5 SHA-256 manifest](SHA256SUMS-2027.0.5), including APK 0.1.1 build 4 and unchanged Mac DMGs. Since the Desktop version number is retained, download and reinstall manually to obtain this reissue. APK build 4 updates the previous package in place.
 
-Companion **0.1.1 build 3** adds an explicit ARCore phone-camera mode alongside XREAL. Allow camera access, scan a horizontal floor, aim and capture the measured A/B/C centres, then validate calibration. Android 10+, ARM64 and ARCore support are required; initial Google AR Services installation may need Internet. StageMark does not record or upload camera images. There is only one StageMark Desktop application. [Update details and limitations](RELEASE_NOTES_AR_0.1.1.md).
+Companion **0.1.1 build 4** offers ARCore and XREAL, guided automatic A/B/C calibration, visible errors and individual recapture. **SHOW AR / HIDE AR** are independent of video; **hide for me** only affects one wearer and cannot override PC hide. Reusable marker sheets and an optional project placement PDF simplify setup. **Ctrl+Shift+F12** closes video/black curtain/Spout without quitting the project or stopping AR. Android 10+, ARM64 and ARCore support are required for phone mode; initial Google AR Services setup may need Internet. No camera recording/upload. [Downloads and limitations](RELEASE_NOTES_GUIDED_2027.0.5.md).
 
 [StageMark 2027.0.5 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.5).
 

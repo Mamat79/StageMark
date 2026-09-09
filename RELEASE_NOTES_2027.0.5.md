@@ -1,5 +1,7 @@
 # StageMark 2027.0.5
 
+**Dernière réédition : guidage AR build 4, marqueurs réutilisables et sortie vidéo de secours.** [Notes actuelles et empreintes](RELEASE_NOTES_GUIDED_2027.0.5.md). Les sections suivantes conservent l’historique des éditions précédentes.
+
 ## Réédition Windows et Android du 9 septembre 2026
 
 **StageMark AR 0.1.1 build 3** ajoute la vue caméra pour téléphones ARCore, dont le Galaxy A54 5G, avec relevé manuel A/B/C et calibration à l'échelle réelle. Le mode XREAL reste distinct et disponible. Windows 2027.0.5 et les notices FR/EN sont actualisés ; licences, fichiers, projection et BLACKOUT sont inchangés. Les DMG Mac existants sont conservés dans l'attente du build Codemagic, sans prétendre qu'ils sont reconstruits.

@@ -195,7 +195,7 @@ votre production.
 - [macOS Apple Silicon — 2027.0.8](https://github.com/Mamat79/StageMark/releases/download/v2027.0.8/StageMark-2027.0.8-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.8/StageMark-2027.0.8-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 16 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk.sha256)
 
-Les paquets de bureau et leurs SHA-256 sont réunis dans la même Release stable.
+Chaque paquet et son SHA-256 restent liés à leur Release : Windows 2027.0.9, Mac 2027.0.8 en attente de Codemagic.
 L’APK reste explicitement expérimental et ne constitue pas une application
 Android de production. Les anciennes Releases restent disponibles pour un
 retour à une version antérieure.
@@ -204,7 +204,7 @@ retour à une version antérieure.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
-**[Release StageMark 2027.0.8](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.8)**
+**[Release StageMark 2027.0.9](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.9)**
 
 Les notices française et anglaise sont intégrées à l’application et accessibles
 depuis le bouton **Guide** ; **Aide** propose aussi le guide de la suite.
@@ -327,7 +327,7 @@ Remote remain available on Mac.
 - [Apple Silicon Mac — 2027.0.8](https://github.com/Mamat79/StageMark/releases/download/v2027.0.8/StageMark-2027.0.8-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.8/StageMark-2027.0.8-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 16 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk.sha256)
 
-Desktop packages and SHA-256 files are grouped in one stable Release. The APK
+Each desktop package and checksum stays linked to its own release: Windows 2027.0.9, Mac 2027.0.8 pending Codemagic. The APK
 is debug-signed and remains a technical preview: software checks passed, but
 physical accuracy, drift and relocalisation still require real phone and XREAL testing.
 
@@ -335,7 +335,7 @@ physical accuracy, drift and relocalisation still require real phone and XREAL t
 
 Companion **0.1.1 build 16** adds expected-letter recognition on phones, smoothed capture and floor/vertical targets with a measured centre height. Retrying one target retains the other tracked anchors; manual floor aiming remains available. Print full 160 mm patterns at 100%; keep raised target centres directly above the project X/Y. The hideable consistency score is not guaranteed accuracy. **SHOW AR / HIDE AR** are independent of video; **hide for me** cannot override PC hide. An optional project placement PDF records mounting and heights. **Ctrl+Shift+F12** closes video/black curtain/Spout without quitting the project or stopping AR. Android 10+, ARM64 and ARCore are required for phone mode; initial Google AR Services setup may need Internet. No camera recording/upload. [Workflow and limitations](RELEASE_NOTES_2027.0.9.md).
 
-[StageMark 2027.0.8 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.8).
+[StageMark 2027.0.9 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.9).
 
 **Workflow:** StageFlow connection contains network/remote tools; Outputs & setup contains video, AR and calibration. Live mode concentrates on plans, cues and visibility controls. Start AR creates the session and authorises marks in one action; pairing/calibration remain mandatory and the guided path is optional. The APK preserves the native camera-input fix and does not add internal labels such as Cross. Raised-target recognition, physical accuracy, drift, relocalisation and XREAL still require hardware qualification.
 

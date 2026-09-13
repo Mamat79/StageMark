@@ -1,6 +1,6 @@
 # StageMark AR — démarrage rapide plateau
 
-> Desktop 2027.0.9 et APK 0.1.1 build 16. APK en préversion signée développement, Android 10+ ARM64. Les tests logiciels ne prouvent pas la précision sur votre scène : vérifiez toujours un emplacement connu. Aucun usage de repérage critique.
+> Desktop 2027.0.10 et APK 0.1.1 build 17. APK en préversion signée développement, Android 10+ ARM64. Les tests logiciels ne prouvent pas la précision sur votre scène : vérifiez toujours un emplacement connu. Aucun usage de repérage critique.
 
 ## Choisir l’affichage
 
@@ -36,6 +36,10 @@ Pour un placement imparfait, le consentement peut accepter jusqu’à **1 m de r
 
 Touchez **Cohérence A/B/C · … %** pour masquer l’indicateur ; réaffichez-le dans Réglages. Même 100 % nécessite un contrôle indépendant.
 
+## Caméra dégagée après calibration
+
+Sur téléphone calibré, le grand bandeau et le panneau inférieur disparaissent automatiquement. Le petit bouton **Réglages** conserve l’accès à **Masquer pour moi**, aux détails de calibration et à **Recalibrer**. Revenez ensuite à la caméra sans refaire A/B/C. L’indice de cohérence reste compact et masquable ; les avertissements utiles en cas de perte de suivi, de plan vide ou de marques masquées restent disponibles. Cette vue dégagée concerne le téléphone, pas les lunettes.
+
 ## Perte de suivi et interruption
 
 - Pendant le relevé sur téléphone : les points ancrés sont conservés jusqu’à 15 s. Regardez une zone déjà scannée et ralentissez. Seuls les points perdus sont à reprendre si le suivi revient.
@@ -46,7 +50,7 @@ Touchez **Cohérence A/B/C · … %** pour masquer l’indicateur ; réaffichez-
 
 ## Dessins et masques
 
-Desktop 2027.0.9 avec APK 16 transmet les remplissages, leurs couleurs/opacités, les contours composés et leurs trous, ainsi que la taille métrique des textes. Les courbes restent approximées pour le rendu. Les cotations sont des annotations du plan, pas des objets AR. Les tracés de plus de 2 048 points sont refusés explicitement plutôt que coupés ; simplifiez-les. Un rejet de dessin masque l’AR.
+Desktop 2027.0.10 avec APK 17 transmet les remplissages, leurs couleurs/opacités, les contours composés et leurs trous, ainsi que la taille métrique des textes. Les courbes restent approximées pour le rendu. Les cotations sont des annotations du plan, pas des objets AR. Les tracés de plus de 2 048 points sont refusés explicitement plutôt que coupés ; simplifiez-les. Un rejet de dessin masque l’AR.
 
 Les anciennes APK sont privées de dessins enrichis qu’elles ne sauraient afficher correctement. Mettez à jour l’APK et le Desktop ensemble. Conservez une copie avant d’ouvrir un projet dans une version ancienne qui ignore les hauteurs.
 

@@ -27,7 +27,7 @@ Captures du vrai renderer, projet fictif, sorties arrêtées ; aucune démonstra
 
 ![Conduite StageMark 2027.0.8 : plans, cues et commandes indépendantes](https://github.com/Mamat79/StageMark/releases/download/v2027.0.8/stagemark-2027.0.8-live-fr.png)
 
-**Windows 2027.0.10 : épaisseur des nouveaux traits et import/export de plans et de scène.** Liaisons groupes-plans et suivi facultatif, nécessitant des mises à jour StageFlow/StageMon compatibles préparées séparément, non encore publiées. [Notes et limites FR/EN](RELEASE_NOTES_2027.0.10.md). Mac Intel et Apple Silicon 2027.0.10 également disponibles ; APK publique 16 inchangée.
+**Windows 2027.0.10 : épaisseur des nouveaux traits et import/export de plans et de scène.** Liaisons groupes-plans et suivi facultatif, nécessitant des mises à jour StageFlow/StageMon compatibles préparées séparément, non encore publiées. [Notes et limites FR/EN](RELEASE_NOTES_2027.0.10.md). Mac Intel et Apple Silicon 2027.0.10 également disponibles ; APK publique 17 avec caméra dégagée.
 
 ---
 
@@ -126,9 +126,11 @@ réel et les conditions du lieu.
 
 ### Préversion technique StageMark AR
 
-**StageMark 2027.0.9 et APK 0.1.1 build 16.** « Connexion StageFlow » regroupe le réseau et la télécommande ; « Sorties & installation » regroupe vidéo, AR et calibration. La Conduite conserve plans, cues et commandes de diffusion. « Démarrer l’AR » crée la session et autorise les repères en une action ; l’association et la calibration restent obligatoires. Un guide pas à pas est facultatif.
+**StageMark 2027.0.10 et APK 0.1.1 build 17.** « Connexion StageFlow » regroupe le réseau et la télécommande ; « Sorties & installation » regroupe vidéo, AR et calibration. La Conduite conserve plans, cues et commandes de diffusion. « Démarrer l’AR » crée la session et autorise les repères en une action ; l’association et la calibration restent obligatoires. Un guide pas à pas est facultatif.
 
-Le compagnon **0.1.1 build 16** conserve l’interface tactile défilante et ajoute la reconnaissance des feuilles A/B/C sur téléphone, le relevé lissé et les cibles verticales sur pied. Mesurez la hauteur du centre au-dessus du sol local et conservez son aplomb aux X/Y du projet. Au sol, le relevé manuel reste possible. Les autres points encore suivis sont conservés lors d’une reprise individuelle. Précision, reconnaissance optique, dérive et relocalisation restent à qualifier sur place ; l’indice de cohérence masquable n’est pas une précision garantie. **AFFICHER AR / MASQUER AR** sont indépendants de la vidéo ; **MASQUER POUR MOI** concerne seulement une personne. Feuilles de 160 mm imprimées à 100 %, réutilisables et fiche de placement facultative par projet. [Démarrage rapide](guides/StageMark-AR-Demarrage.md) · [Parcours et limites](RELEASE_NOTES_2027.0.9.md).
+Après calibration sur téléphone, le build 17 masque automatiquement le grand bandeau et le panneau inférieur. Un petit bouton Réglages donne accès aux commandes ; la cohérence reste facultative.
+
+Le compagnon **0.1.1 build 17** conserve l’interface tactile défilante et ajoute la reconnaissance des feuilles A/B/C sur téléphone, le relevé lissé et les cibles verticales sur pied. Mesurez la hauteur du centre au-dessus du sol local et conservez son aplomb aux X/Y du projet. Au sol, le relevé manuel reste possible. Les autres points encore suivis sont conservés lors d’une reprise individuelle. Précision, reconnaissance optique, dérive et relocalisation restent à qualifier sur place ; l’indice de cohérence masquable n’est pas une précision garantie. **AFFICHER AR / MASQUER AR** sont indépendants de la vidéo ; **MASQUER POUR MOI** concerne seulement une personne. Feuilles de 160 mm imprimées à 100 %, réutilisables et fiche de placement facultative par projet. [Démarrage rapide](guides/StageMark-AR-Demarrage.md) · [Parcours et limites](RELEASE_NOTES_2027.0.9.md).
 
 **Écran noir qui recouvre le bureau ? Ctrl+Maj+F12**, Échap dans la sortie ou **FERMER SORTIE** ferment vidéo/rideau noir/Spout sans quitter le projet ni arrêter l’AR. BLACKOUT garde volontairement une fenêtre noire ouverte ; fermer peut montrer le bureau sur le projecteur.
 
@@ -188,19 +190,19 @@ votre production.
 
 ## Télécharger StageMark
 
-**StageMark 2027.0.10 pour Windows, Mac Intel et Apple Silicon**, avec **APK 0.1.1 build 16** inchangée. Les deux DMG Codemagic ont été téléchargés et leurs SHA-256 vérifiés. [Livraison Mac et limites](RELEASE_MACOS_2027.0.10.md).
+**StageMark 2027.0.10 pour Windows, Mac Intel et Apple Silicon**, avec **APK 0.1.1 build 17** avec caméra dégagée. Les deux DMG Codemagic ont été téléchargés et leurs SHA-256 vérifiés. [Livraison Mac et limites](RELEASE_MACOS_2027.0.10.md).
 
 - [Windows x64 — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-Setup.exe.sha256)
 - [macOS Intel — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-x64.dmg.sha256)
 - [macOS Apple Silicon — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-arm64.dmg.sha256)
-- [StageMark AR 0.1.1 build 16 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk.sha256)
+- [StageMark AR 0.1.1 build 17 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-AR-0.1.1-build17.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-AR-0.1.1-build17.apk.sha256)
 
 Chaque lien précise la version réellement disponible. [Empreintes Mac](SHA256SUMS-MACOS-2027.0.10).
 L’APK reste explicitement expérimental et ne constitue pas une application
 Android de production. Les anciennes Releases restent disponibles pour un
 retour à une version antérieure.
 
-[Manifeste SHA-256 2027.0.9](SHA256SUMS-2027.0.9), incluant l’APK 16 et les notices.
+[SHA-256 APK 17](SHA256SUMS-AR-BUILD17) · [Nouveautés et limites APK 17](RELEASE_NOTES_AR_BUILD17.md).
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
@@ -320,20 +322,22 @@ Remote remain available on Mac.
 
 ### Download
 
-**StageMark 2027.0.10 for Windows, Intel Mac and Apple Silicon**, with unchanged **APK 0.1.1 build 16**. Both Codemagic DMGs were downloaded and their SHA-256 checksums verified. [Mac delivery and limitations](RELEASE_MACOS_2027.0.10.md).
+**StageMark 2027.0.10 for Windows, Intel Mac and Apple Silicon**, with **APK 0.1.1 build 17**. Both Codemagic DMGs were downloaded and their SHA-256 checksums verified. [Mac delivery and limitations](RELEASE_MACOS_2027.0.10.md).
 
 - [Windows x64 — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-Setup.exe.sha256)
 - [Intel Mac — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-x64.dmg.sha256)
 - [Apple Silicon Mac — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-arm64.dmg.sha256)
-- [StageMark AR 0.1.1 build 16 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk.sha256)
+- [StageMark AR 0.1.1 build 17 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-AR-0.1.1-build17.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-AR-0.1.1-build17.apk.sha256)
 
 Each link identifies its available version. [Mac checksums](SHA256SUMS-MACOS-2027.0.10). The APK
 is debug-signed and remains a technical preview: software checks passed, but
 physical accuracy, drift and relocalisation still require real phone and XREAL testing.
 
-[2027.0.9 SHA-256 manifest](SHA256SUMS-2027.0.9), including APK 16 and the manuals.
+[APK 17 SHA-256](SHA256SUMS-AR-BUILD17) · [APK 17 changes and limitations](RELEASE_NOTES_AR_BUILD17.md).
 
-Companion **0.1.1 build 16** adds expected-letter recognition on phones, smoothed capture and floor/vertical targets with a measured centre height. Retrying one target retains the other tracked anchors; manual floor aiming remains available. Print full 160 mm patterns at 100%; keep raised target centres directly above the project X/Y. The hideable consistency score is not guaranteed accuracy. **SHOW AR / HIDE AR** are independent of video; **hide for me** cannot override PC hide. An optional project placement PDF records mounting and heights. **Ctrl+Shift+F12** closes video/black curtain/Spout without quitting the project or stopping AR. Android 10+, ARM64 and ARCore are required for phone mode; initial Google AR Services setup may need Internet. No camera recording/upload. [Workflow and limitations](RELEASE_NOTES_2027.0.9.md).
+Build 17 automatically clears the large header and lower panel after phone calibration. A small Settings button keeps controls accessible; the consistency badge is optional.
+
+Companion **0.1.1 build 17** retains expected-letter recognition on phones, smoothed capture and floor/vertical targets with a measured centre height. Retrying one target retains the other tracked anchors; manual floor aiming remains available. Print full 160 mm patterns at 100%; keep raised target centres directly above the project X/Y. The hideable consistency score is not guaranteed accuracy. **SHOW AR / HIDE AR** are independent of video; **hide for me** cannot override PC hide. An optional project placement PDF records mounting and heights. **Ctrl+Shift+F12** closes video/black curtain/Spout without quitting the project or stopping AR. Android 10+, ARM64 and ARCore are required for phone mode; initial Google AR Services setup may need Internet. No camera recording/upload. [Workflow and limitations](RELEASE_NOTES_2027.0.9.md).
 
 [StageMark 2027.0.10 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.10). Optional LIVE group following requires compatible StageFlow/StageMon updates; those are separate and not yet publicly released.
 

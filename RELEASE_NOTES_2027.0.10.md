@@ -14,7 +14,7 @@ Windows x64 : tests complets et quatre contrôles du paquet réussis (démarrage
 
 macOS Intel/Apple Silicon : construction via Codemagic après publication Windows ; seuls les fichiers effectivement présents dans cette Release sont disponibles. En attendant, les Mac 2027.0.9 restent accessibles. Pas de signature Apple Developer ID ni de notarisation. Le runner Apple Silicon exécute le paquet ARM64 ; Intel reçoit un contrôle d'architecture, pas un essai natif Intel.
 
-L'APK publique reste **0.1.1 build 16**, disponible dans la Release 2027.0.9. La candidate APK 17 avec caméra dégagée reste distincte et locale. Aucune nouvelle qualification physique AR ou lunettes n'est déduite de cette livraison Desktop.
+L’APK publique est maintenant **0.1.1 build 17**, disponible dans cette Release : caméra dégagée après calibration, réglages et cohérence compacts. [Notes APK 17](https://github.com/Mamat79/StageMark/blob/main/RELEASE_NOTES_AR_BUILD17.md). Préversion signée développement ; essais A54 et lunettes à qualifier.
 
 ## English
 
@@ -24,4 +24,4 @@ Link musical groups to existing plans or create missing plans. Optional bidirect
 
 **Requires compatible StageFlow/StageMon versions supporting `group-selection-v1`. Those companion updates are prepared separately and are not installed or publicly released by this StageMark delivery.** Older versions remain usable without group following. Automated cross-application checks do not replace rehearsal on two real computers.
 
-Windows x64 package checks passed. Updated 16-page FR/EN manuals included. Unsigned installer. Mac DMGs are built through Codemagic; only actual assets in this release are available. Until then use Mac 2027.0.9. No Developer ID signature or notarisation; ARM64 runtime smoke and Intel architecture-only checks. Public Android companion stays build 16 in release 2027.0.9; local build 17 is separate. No new AR or glasses hardware qualification.
+Windows x64 package checks passed. Updated 16-page FR/EN manuals included. Unsigned installer. Mac DMGs are built through Codemagic; only actual assets in this release are available. Until then use Mac 2027.0.9. No Developer ID signature or notarisation; ARM64 runtime smoke and Intel architecture-only checks. Public Android companion is now build 17 in this release, with a cleared camera view after calibration. See RELEASE_NOTES_AR_BUILD17.md for checks and remaining device tests. No new AR or glasses hardware qualification.

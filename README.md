@@ -27,7 +27,7 @@ Captures du vrai renderer, projet fictif, sorties arrêtées ; aucune démonstra
 
 ![Conduite StageMark 2027.0.8 : plans, cues et commandes indépendantes](https://github.com/Mamat79/StageMark/releases/download/v2027.0.8/stagemark-2027.0.8-live-fr.png)
 
-**2027.0.9 et APK 16 : remplissages et contours composés en AR, relevé rapide facultatif et reprise courte contrôlée sur téléphone.** Même atelier de dessin et mêmes marqueurs réutilisables. [Notes et limites FR/EN](RELEASE_NOTES_2027.0.9.md). RayNeo reste un diagnostic local sans marques au sol ; la précision et les lunettes nécessitent des essais physiques.
+**Windows 2027.0.10 : épaisseur des nouveaux traits et import/export de plans et de scène.** Liaisons groupes-plans et suivi facultatif, nécessitant des mises à jour StageFlow/StageMon compatibles préparées séparément, non encore publiées. [Notes et limites FR/EN](RELEASE_NOTES_2027.0.10.md). Mac 2027.0.9 et APK 16 restent disponibles pendant la préparation des nouveaux Mac.
 
 ---
 
@@ -188,14 +188,14 @@ votre production.
 
 ## Télécharger StageMark
 
-**StageMark 2027.0.9 pour Windows, macOS Intel et Apple Silicon**, avec **APK 0.1.1 build 16**. Les deux DMG Codemagic et leurs SHA-256 ont été vérifiés. [Livraison Mac et limites](RELEASE_MACOS_2027.0.9.md).
+**StageMark Windows 2027.0.10**, avec **Mac 2027.0.9** et **APK 0.1.1 build 16**. Les nouveaux DMG 2027.0.10 seront ajoutés après vérification Codemagic ; les liens ci-dessous restent explicites par plateforme. [Livraison Mac et limites](RELEASE_MACOS_2027.0.9.md).
 
-- [Windows x64 — 2027.0.9](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-Setup.exe.sha256)
+- [Windows x64 — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-Setup.exe.sha256)
 - [macOS Intel — 2027.0.9](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-macOS-x64.dmg.sha256)
 - [macOS Apple Silicon — 2027.0.9](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 16 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk.sha256)
 
-Chaque paquet et son SHA-256 sont liés à la Release 2027.0.9. [Empreintes Mac](SHA256SUMS-MACOS-2027.0.9).
+Chaque lien précise la version réellement disponible. [Empreintes Mac](SHA256SUMS-MACOS-2027.0.9).
 L’APK reste explicitement expérimental et ne constitue pas une application
 Android de production. Les anciennes Releases restent disponibles pour un
 retour à une version antérieure.
@@ -204,7 +204,7 @@ retour à une version antérieure.
 Les notices et guides propres à chaque paquet sont embarqués dans l’application.
 Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
-**[Release StageMark 2027.0.9](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.9)**
+**[Release StageMark 2027.0.10](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.10)**
 
 Les notices française et anglaise sont intégrées à l’application et accessibles
 depuis le bouton **Guide** ; **Aide** propose aussi le guide de la suite.
@@ -320,14 +320,14 @@ Remote remain available on Mac.
 
 ### Download
 
-**StageMark 2027.0.9 for Windows, Intel Mac and Apple Silicon**, with **APK 0.1.1 build 16**. Both Codemagic DMGs and their SHA-256 checksums have been verified. [Mac delivery and limitations](RELEASE_MACOS_2027.0.9.md).
+**StageMark Windows 2027.0.10**, with **Mac 2027.0.9** and **APK 0.1.1 build 16**. New 2027.0.10 DMGs will be added after Codemagic verification; platform-specific links below show the actual versions. [Mac delivery and limitations](RELEASE_MACOS_2027.0.9.md).
 
-- [Windows x64 — 2027.0.9](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-Setup.exe.sha256)
+- [Windows x64 — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-Setup.exe.sha256)
 - [Intel Mac — 2027.0.9](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-macOS-x64.dmg.sha256)
 - [Apple Silicon Mac — 2027.0.9](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-2027.0.9-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 16 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.9/StageMark-AR-0.1.1-build16.apk.sha256)
 
-Each desktop package and checksum is linked to release 2027.0.9. [Mac checksums](SHA256SUMS-MACOS-2027.0.9). The APK
+Each link identifies its available version. [Mac checksums](SHA256SUMS-MACOS-2027.0.9). The APK
 is debug-signed and remains a technical preview: software checks passed, but
 physical accuracy, drift and relocalisation still require real phone and XREAL testing.
 
@@ -335,7 +335,7 @@ physical accuracy, drift and relocalisation still require real phone and XREAL t
 
 Companion **0.1.1 build 16** adds expected-letter recognition on phones, smoothed capture and floor/vertical targets with a measured centre height. Retrying one target retains the other tracked anchors; manual floor aiming remains available. Print full 160 mm patterns at 100%; keep raised target centres directly above the project X/Y. The hideable consistency score is not guaranteed accuracy. **SHOW AR / HIDE AR** are independent of video; **hide for me** cannot override PC hide. An optional project placement PDF records mounting and heights. **Ctrl+Shift+F12** closes video/black curtain/Spout without quitting the project or stopping AR. Android 10+, ARM64 and ARCore are required for phone mode; initial Google AR Services setup may need Internet. No camera recording/upload. [Workflow and limitations](RELEASE_NOTES_2027.0.9.md).
 
-[StageMark 2027.0.9 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.9).
+[StageMark 2027.0.10 release](https://github.com/Mamat79/StageMark/releases/tag/v2027.0.10). Optional LIVE group following requires compatible StageFlow/StageMon updates; those are separate and not yet publicly released.
 
 **Workflow:** StageFlow connection contains network/remote tools; Outputs & setup contains video, AR and calibration. Live mode concentrates on plans, cues and visibility controls. Start AR creates the session and authorises marks in one action; pairing/calibration remain mandatory and the guided path is optional. The APK preserves the native camera-input fix and does not add internal labels such as Cross. Raised-target recognition, physical accuracy, drift, relocalisation and XREAL still require hardware qualification.
 

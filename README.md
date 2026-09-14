@@ -27,7 +27,7 @@ Captures du vrai renderer, projet fictif, sorties arrêtées ; aucune démonstra
 
 ![Conduite StageMark 2027.0.8 : plans, cues et commandes indépendantes](https://github.com/Mamat79/StageMark/releases/download/v2027.0.8/stagemark-2027.0.8-live-fr.png)
 
-**Windows 2027.0.11 et APK 18 disponibles.** Installation Windows corrigée, calibration téléphone simplifiée et déplacement d’objets depuis l’AR après autorisation du PC. [Notes et limites FR/EN](RELEASE_NOTES_2027.0.11.md) · [APK 18](RELEASE_NOTES_AR_BUILD18.md). L’AR sur téléphone Android compatible est disponible ; les lunettes restent en cours d’intégration et d’essais. Mac Intel et Apple Silicon : 2027.0.10 disponible en attendant la nouvelle construction.
+**Windows 2027.0.11 et APK 18 disponibles.** Installation Windows corrigée, calibration téléphone simplifiée et déplacement d’objets depuis l’AR après autorisation du PC. [Notes et limites FR/EN](RELEASE_NOTES_2027.0.11.md) · [APK 18](RELEASE_NOTES_AR_BUILD18.md). L’AR sur téléphone Android compatible est disponible ; les lunettes restent en cours d’intégration et d’essais. Mac Intel et Apple Silicon 2027.0.11 également disponibles, avec empreintes vérifiées.
 
 ---
 
@@ -190,14 +190,14 @@ votre production.
 
 ## Télécharger StageMark
 
-**StageMark 2027.0.11 pour Windows**, avec **APK 0.1.1 build 18**. Mac Intel et Apple Silicon restent en 2027.0.10 jusqu’à validation de la nouvelle construction. [Livraison Mac et limites](RELEASE_MACOS_2027.0.10.md).
+**StageMark 2027.0.11 pour Windows**, avec **APK 0.1.1 build 18**. Mac Intel et Apple Silicon 2027.0.11 également disponibles. [Livraison Mac et limites](RELEASE_MACOS_2027.0.11.md).
 
 - [Windows x64 — 2027.0.11](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-Setup.exe.sha256)
-- [macOS Intel — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-x64.dmg.sha256)
-- [macOS Apple Silicon — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-arm64.dmg.sha256)
+- [macOS Intel — 2027.0.11](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-macOS-x64.dmg.sha256)
+- [macOS Apple Silicon — 2027.0.11](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 18 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk.sha256)
 
-Chaque lien précise la version réellement disponible. [Empreintes Mac](SHA256SUMS-MACOS-2027.0.10).
+Chaque lien précise la version réellement disponible. [Empreintes Mac](SHA256SUMS-MACOS-2027.0.11).
 L’APK reste explicitement expérimental et ne constitue pas une application
 Android de production. Les anciennes Releases restent disponibles pour un
 retour à une version antérieure.
@@ -234,7 +234,7 @@ Une licence permanente à **49 € TTC**, en paiement unique, supprime ce rappel
   afficher un avertissement.
 - Les images macOS actuelles ne sont ni signées avec un certificat Developer ID
   ni notariées par Apple ; macOS peut donc afficher un avertissement Gatekeeper.
-- Le minimum macOS déclaré est 12. Pour 2027.0.10, le paquet Apple Silicon a été lancé sur le runner M2 ; l’architecture Intel a été contrôlée, sans lancement natif Intel. Toutes les versions de macOS ne sont pas qualifiées.
+- Le minimum macOS déclaré est 12. Pour 2027.0.11, le paquet Apple Silicon a été lancé sur le runner M2 ; l’architecture Intel a été contrôlée, sans lancement natif Intel. Toutes les versions de macOS ne sont pas qualifiées.
   Les signatures d’intégrité existantes sont préservées ; ne désactivez pas les
   protections macOS.
 - La calibration doit être vérifiée sur le vidéoprojecteur et dans le lieu réel.
@@ -322,14 +322,14 @@ Remote remain available on Mac.
 
 ### Download
 
-**StageMark 2027.0.11 for Windows**, with **APK 0.1.1 build 18**. Intel and Apple Silicon Mac 2027.0.10 remain available until the new build is validated. [Mac delivery and limitations](RELEASE_MACOS_2027.0.10.md).
+**StageMark 2027.0.11 for Windows**, with **APK 0.1.1 build 18**. Intel and Apple Silicon Mac 2027.0.11 are also available. [Mac delivery and limitations](RELEASE_MACOS_2027.0.11.md).
 
 - [Windows x64 — 2027.0.11](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-Setup.exe.sha256)
-- [Intel Mac — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-x64.dmg.sha256)
-- [Apple Silicon Mac — 2027.0.10](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.10/StageMark-2027.0.10-macOS-arm64.dmg.sha256)
+- [Intel Mac — 2027.0.11](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-macOS-x64.dmg.sha256)
+- [Apple Silicon Mac — 2027.0.11](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-2027.0.11-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 18 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk.sha256)
 
-Each link identifies its available version. [Mac checksums](SHA256SUMS-MACOS-2027.0.10). The APK
+Each link identifies its available version. [Mac checksums](SHA256SUMS-MACOS-2027.0.11). The APK
 is debug-signed and remains a technical preview: software checks passed, but
 physical accuracy, drift and relocalisation still require real phone and XREAL testing.
 
@@ -360,7 +360,7 @@ A permanent **€49 tax-included** one-time license removes this reminder.
 
 The current Windows installer is unsigned. The macOS disk images are not signed
 with an Apple Developer ID and are not notarized, so Gatekeeper may display a
-warning. The declared macOS minimum is 12. For 2027.0.10, the Apple Silicon package was smoke-tested on the M2 runner; Intel architecture was checked without a native Intel launch. Not every macOS release is qualified. Existing integrity signatures
+warning. The declared macOS minimum is 12. For 2027.0.11, the Apple Silicon package was smoke-tested on the M2 runner; Intel architecture was checked without a native Intel launch. Not every macOS release is qualified. Existing integrity signatures
 are preserved; do not disable macOS protections. Always validate the projector,
 calibration, output, blackout and controls with real hardware before a production.
 

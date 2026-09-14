@@ -11,7 +11,7 @@ Windows : installation complète vérifiée, raccourci et fichiers contrôlés, 
 
 L’AR sur téléphone Android compatible est disponible. Les lunettes restent en cours d’intégration et d’essais ; aucun support universel n’est annoncé. Les ajouts de déplacement et de reprise de l’APK 18 ont été testés en logiciel ; contrôlez les positions sur votre lieu d’utilisation. La cohérence des repères n’est pas une garantie de précision.
 
-Les Mac Intel et Apple Silicon 2027.0.11 seront ajoutés après construction et validation par Codemagic. D’ici là, la version Mac disponible reste 2027.0.10. Les DMG ne sont pas signés Apple Developer ID ni notariés.
+Les Mac Intel et Apple Silicon 2027.0.11 sont disponibles après construction et validation par Codemagic. Les deux téléchargements publics et leurs SHA-256 ont été vérifiés. Les DMG ne sont pas signés Apple Developer ID ni notariés ; les contrôles Apple Silicon ne constituent pas un essai natif Intel.
 
 ## English
 
@@ -24,4 +24,4 @@ The complete Windows installation, shortcut, installed files and startup/Spout/e
 
 AR is available on compatible Android phones. Glasses integration and testing are ongoing; universal compatibility is not claimed. APK 18 movement and recovery additions were software-tested; verify positions at your venue. Marker consistency is not guaranteed physical accuracy.
 
-Intel and Apple Silicon Mac 2027.0.11 packages will be added after Codemagic build and validation. Until then, Mac 2027.0.10 remains available. DMGs have no Apple Developer ID signature or notarisation.
+Intel and Apple Silicon Mac 2027.0.11 packages are available after Codemagic build and validation. Both public downloads and SHA-256 checksums were verified. DMGs have no Apple Developer ID signature or notarisation; Apple Silicon checks do not constitute native Intel testing.

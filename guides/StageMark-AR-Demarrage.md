@@ -1,6 +1,12 @@
 # StageMark AR — démarrage rapide plateau
 
-> Desktop 2027.0.10 et APK 0.1.1 build 17. APK en préversion signée développement, Android 10+ ARM64. Les tests logiciels ne prouvent pas la précision sur votre scène : vérifiez toujours un emplacement connu. Aucun usage de repérage critique.
+> Desktop 2027.0.11 et APK 0.1.1 build 18. AR disponible sur téléphone Android 10+ ARM64 compatible ARCore ; lunettes en cours d’intégration et d’essais. Installation manuelle avec le certificat de développement existant. Vérifiez toujours un emplacement connu après calibration.
+
+## Nouveautés du build 18
+
+La visée manuelle du sol est proposée par défaut et vous pouvez choisir librement A, B ou C comme premier point. La reconnaissance des feuilles reste disponible ; elle est nécessaire pour une cible verticale sur pied. Une calibration terminée n’expire plus par simple durée lors du passage à une autre application : la reprise demande une connexion fraîche, un suivi cohérent et votre confirmation. Perte réelle des ancres ou fermeture du processus par Android : recalibration nécessaire.
+
+Pour déplacer un objet dans l’AR, autorisez explicitement le téléphone depuis le PC (Desktop 2027.0.11), puis sélectionnez l’objet, déplacez-le et validez ou annulez. Les objets verrouillés et les groupes restent protégés ; l’historique Annuler du PC est conservé. Création, suppression, rotation et redimensionnement ne sont pas encore proposés sur téléphone.
 
 ## Choisir l’affichage
 

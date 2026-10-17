@@ -11,9 +11,9 @@
 
 <p align="center">
   <a href="#downloads"><strong>⬇ Télécharger StageMark</strong></a>
-  · <a href="guides/StageMark-Notice-FR.pdf">Notice FR</a>
-  · <a href="guides/StageMark-Notice-EN.pdf">Guide EN</a>
-  · <a href="guides/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-Notice-FR.pdf">Notice FR</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-Notice-EN.pdf">Guide EN</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite</a>
 </p>
 
 <p align="center">
@@ -27,7 +27,9 @@ Captures du vrai renderer, projet fictif, sorties arrêtées ; aucune démonstra
 
 ![Conduite StageMark 2027.0.8 : plans, cues et commandes indépendantes](https://github.com/Mamat79/StageMark/releases/download/v2027.0.8/stagemark-2027.0.8-live-fr.png)
 
-**StageMark 2027.1.2 — Windows, Mac Intel et Apple Silicon.** Les correctifs de 2027.1.1 r3 sont conservés. Après les 30 jours d’essai, le rappel au démarrage dure cinq secondes, une seule fois par processus ; toutes les fonctions restent disponibles. Une licence valide supprime cette attente. [Notes FR](RELEASE_NOTES_2027.1.2_FR.md) · [EN](RELEASE_NOTES_2027.1.2_EN.md) · [Qualification Mac et limites](RELEASE_MACOS_2027.1.2.md). APK 18 inchangée. L’AR sur téléphone Android compatible est disponible ; les lunettes restent en cours d’intégration et d’essais.
+**Livraison actuelle / Current release — Windows et Apple Silicon 2027.1.5.** Le paquet Windows sans maps de débogage est installé et contrôlé, avec sauvegardes et conservation des données. Les paquets Windows et Mac sont qualifiés séparément ; leurs limites sont détaillées ci-dessous. **Mac Intel reste en 2027.1.3, V1 uniquement.** [Contrôles et limites FR/EN](QUALIFICATION-WINDOWS-2027.1.5.md). Aucun matériel de projection, calibration, AR ou réseau n'est qualifié par ces contrôles. V1 reste par défaut ; V2 nécessite une copie locale explicite, sans V2 LIVE réseau/AutoCAD.
+
+**Historique / Previous release:** **StageMark 2027.1.2 — Windows, Mac Intel et Apple Silicon.** Les correctifs de 2027.1.1 r3 sont conservés. Après les 30 jours d’essai, le rappel au démarrage dure cinq secondes, une seule fois par processus ; toutes les fonctions restent disponibles. Une licence valide supprime cette attente. [Notes FR](RELEASE_NOTES_2027.1.2_FR.md) · [EN](RELEASE_NOTES_2027.1.2_EN.md) · [Qualification Mac et limites](RELEASE_MACOS_2027.1.2.md). APK 18 inchangée. L’AR sur téléphone Android compatible est disponible ; les lunettes restent en cours d’intégration et d’essais.
 
 ---
 
@@ -190,14 +192,14 @@ votre production.
 
 ## Télécharger StageMark
 
-**StageMark 2027.1.2 pour Windows**, avec **APK 0.1.1 build 18**. Mac Intel et Apple Silicon 2027.1.2 également disponibles. [Livraison Mac et limites](RELEASE_MACOS_2027.1.2.md).
+**Windows et Mac Apple Silicon 2027.1.5**, avec **Mac Intel 2027.1.3 conservé** et **APK 0.1.1 build 18 inchangée**. [Qualification actuelle et limites](QUALIFICATION-WINDOWS-2027.1.5.md).
 
-- [Windows x64 — 2027.1.2](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-Setup.exe.sha256)
-- [macOS Intel — 2027.1.2](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-macOS-x64.dmg.sha256)
-- [macOS Apple Silicon — 2027.1.2](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-macOS-arm64.dmg.sha256)
+- [Windows x64 — 2027.1.5](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-Setup.exe.sha256)
+- [macOS Intel — version précédente / previous — 2027.1.3](https://github.com/Mamat79/StageMark/releases/download/v2027.1.3/StageMark-2027.1.3-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.3/StageMark-2027.1.3-macOS-x64.dmg.sha256)
+- [macOS Apple Silicon — 2027.1.5](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 18 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk.sha256)
 
-Chaque lien précise la version réellement disponible. [Empreintes Mac](SHA256SUMS-MACOS-2027.1.2).
+Chaque lien précise la version réellement disponible. [Archives des empreintes Mac 2027.1.2](SHA256SUMS-MACOS-2027.1.2).
 L’AR sur téléphone Android compatible est disponible. L’APK reste signée pour le développement et s’installe manuellement ; les lunettes restent en intégration et en essais. La précision et la calibration doivent être contrôlées sur place. Les anciennes Releases restent disponibles pour un retour à une version antérieure.
 
 [SHA-256 APK 18](SHA256SUMS-AR-BUILD18) · [Nouveautés et limites APK 18](RELEASE_NOTES_AR_BUILD18.md).
@@ -319,14 +321,14 @@ Remote remain available on Mac.
 
 ### Download
 
-**StageMark 2027.1.2 for Windows**, with **APK 0.1.1 build 18**. Intel and Apple Silicon Mac 2027.1.2 are also available. [Mac delivery and limitations](RELEASE_MACOS_2027.1.2.md).
+**Windows and Apple Silicon Mac 2027.1.5**, with **previous Intel Mac 2027.1.3 retained** and **APK 0.1.1 build 18 unchanged**. [Current qualification and limitations](QUALIFICATION-WINDOWS-2027.1.5.md).
 
-- [Windows x64 — 2027.1.2](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-Setup.exe.sha256)
-- [Intel Mac — 2027.1.2](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-macOS-x64.dmg.sha256)
-- [Apple Silicon Mac — 2027.1.2](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.2/StageMark-2027.1.2-macOS-arm64.dmg.sha256)
+- [Windows x64 — 2027.1.5](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-Setup.exe.sha256)
+- [Intel Mac — previous version — 2027.1.3](https://github.com/Mamat79/StageMark/releases/download/v2027.1.3/StageMark-2027.1.3-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.3/StageMark-2027.1.3-macOS-x64.dmg.sha256)
+- [Apple Silicon Mac — 2027.1.5](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 18 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk.sha256)
 
-Each link identifies its available version. [Mac checksums](SHA256SUMS-MACOS-2027.1.2). The APK
+Each link identifies its available version. [Historical Mac 2027.1.2 checksums](SHA256SUMS-MACOS-2027.1.2). The APK
 is debug-signed and installed manually. AR on compatible Android phones is available; glasses remain under integration and testing. Physical accuracy, drift and relocalisation must be checked on location.
 
 [APK 18 SHA-256](SHA256SUMS-AR-BUILD18) · [APK 18 changes and limitations](RELEASE_NOTES_AR_BUILD18.md).

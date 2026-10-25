@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="#downloads"><strong>⬇ Télécharger StageMark</strong></a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-Notice-FR.pdf">Notice FR</a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-Notice-EN.pdf">Guide EN</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-Notice-FR.pdf">Notice Windows FR</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-Notice-EN.pdf">Windows guide EN</a>
   · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite</a>
 </p>
 
@@ -27,7 +27,13 @@ Captures du vrai renderer, projet fictif, sorties arrêtées ; aucune démonstra
 
 ![Conduite StageMark 2027.0.8 : plans, cues et commandes indépendantes](https://github.com/Mamat79/StageMark/releases/download/v2027.0.8/stagemark-2027.0.8-live-fr.png)
 
-**Livraison actuelle / Current release — Windows 2027.1.6 ; Apple Silicon 2027.1.5 conservé.** Le paquet Windows sans maps de débogage est installé et contrôlé, avec sauvegardes et conservation des données. Les paquets Windows et Mac sont qualifiés séparément ; leurs limites sont détaillées ci-dessous. **Mac Intel reste en 2027.1.3, V1 uniquement.** [Contrôles et limites FR/EN](QUALIFICATION-WINDOWS-2027.1.6.md). Aucun matériel de projection, calibration, AR ou réseau n'est qualifié par ces contrôles. V1 reste par défaut ; V2 nécessite une copie locale explicite, sans V2 LIVE réseau/AutoCAD.
+**Livraison actuelle / Current release — Windows, Mac Apple Silicon et Intel 2027.1.6.** Le paquet Windows sans maps de débogage est installé et contrôlé, avec sauvegardes et conservation des données. Les paquets Windows et Mac sont qualifiés séparément ; leurs limites sont détaillées ci-dessous. **Mac Intel contrôlé sous Rosetta, sans qualification sur un Mac Intel physique.** [Contrôles et limites FR/EN](QUALIFICATION-WINDOWS-2027.1.6.md). Aucun matériel de projection, calibration, AR ou réseau n'est qualifié par ces contrôles. V1 reste par défaut ; V2 nécessite une copie locale explicite, sans V2 LIVE réseau/AutoCAD.
+
+**Qualification Mac 2027.1.6 distincte :** 1 271 tests Vitest réussis, 27 ignorés et 95 tests Node réussis, sans échec. Le paquet Apple Silicon monté en lecture seule a passé les contrôles Electron/React/CLI/PDF/PNG non visuels. L'exécutable Electron Intel et son Canvas embarqué ont chargé et produit un PNG sous Rosetta, sans essai sur un Mac Intel physique ni recette Intel GUI complète. Minimum macOS 12 déclaré ; pas de matrice des anciens macOS, de qualification humaine visuelle complète, de projection/calibration/audio/téléphone/LAN réels, ni d'activation commerciale. Pas de Developer ID ni de notarisation. Les paquets et preuves Windows sont conservés.
+
+Notices Mac 2027.1.6 : [FR](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-Notice-macOS-FR.pdf) · [EN](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-Notice-macOS-EN.pdf). Elles correspondent aux documents réellement embarqués dans les deux DMG ; les notices Windows restent distinctes.
+
+Mac 2027.1.6 qualification is separate: 1,271 Vitest passed, 27 skipped and 95 Node passed, zero failed. The mounted Apple Silicon package passed nonvisual Electron/React/CLI/PDF/PNG checks. The actual packaged Intel Electron and Canvas loaded and generated PNG under existing Rosetta; this is not a physical Intel Mac or full Intel GUI acceptance. Requires macOS 12 or later. No complete human visual, projector/calibration/phone/LAN/audio hardware, older-macOS matrix or commercial activation acceptance is claimed. No Apple Developer ID or notarization. Windows packages and prior Mac releases are preserved.
 
 **Historique / Previous release:** **StageMark 2027.1.2 — Windows, Mac Intel et Apple Silicon.** Les correctifs de 2027.1.1 r3 sont conservés. Après les 30 jours d’essai, le rappel au démarrage dure cinq secondes, une seule fois par processus ; toutes les fonctions restent disponibles. Une licence valide supprime cette attente. [Notes FR](RELEASE_NOTES_2027.1.2_FR.md) · [EN](RELEASE_NOTES_2027.1.2_EN.md) · [Qualification Mac et limites](RELEASE_MACOS_2027.1.2.md). APK 18 inchangée. L’AR sur téléphone Android compatible est disponible ; les lunettes restent en cours d’intégration et d’essais.
 
@@ -192,11 +198,11 @@ votre production.
 
 ## Télécharger StageMark
 
-**Windows 2027.1.6 ; Mac Apple Silicon 2027.1.5 conservé**, avec **Mac Intel 2027.1.3 conservé** et **APK 0.1.1 build 18 inchangée**. [Qualification actuelle et limites](QUALIFICATION-WINDOWS-2027.1.6.md).
+**Windows, Mac Apple Silicon et Intel 2027.1.6** et **APK 0.1.1 build 18 inchangée**. [Qualification actuelle et limites](QUALIFICATION-WINDOWS-2027.1.6.md).
 
 - [Windows x64 — 2027.1.6](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-Setup.exe.sha256)
-- [macOS Intel — version précédente / previous — 2027.1.3](https://github.com/Mamat79/StageMark/releases/download/v2027.1.3/StageMark-2027.1.3-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.3/StageMark-2027.1.3-macOS-x64.dmg.sha256)
-- [macOS Apple Silicon — 2027.1.5](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-macOS-arm64.dmg.sha256)
+- [macOS Intel — 2027.1.6](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-x64.dmg.sha256)
+- [macOS Apple Silicon — 2027.1.6](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 18 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk.sha256)
 
 Chaque lien précise la version réellement disponible. [Archives des empreintes Mac 2027.1.2](SHA256SUMS-MACOS-2027.1.2).
@@ -321,11 +327,11 @@ Remote remain available on Mac.
 
 ### Download
 
-**Windows 2027.1.6; Apple Silicon Mac 2027.1.5 retained**, with **previous Intel Mac 2027.1.3 retained** and **APK 0.1.1 build 18 unchanged**. [Current qualification and limitations](QUALIFICATION-WINDOWS-2027.1.6.md).
+**Windows, Apple Silicon Mac and Intel Mac 2027.1.6** and **APK 0.1.1 build 18 unchanged**. [Current qualification and limitations](QUALIFICATION-WINDOWS-2027.1.6.md).
 
 - [Windows x64 — 2027.1.6](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-Setup.exe.sha256)
-- [Intel Mac — previous version — 2027.1.3](https://github.com/Mamat79/StageMark/releases/download/v2027.1.3/StageMark-2027.1.3-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.3/StageMark-2027.1.3-macOS-x64.dmg.sha256)
-- [Apple Silicon Mac — 2027.1.5](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.5/StageMark-2027.1.5-macOS-arm64.dmg.sha256)
+- [Intel Mac — 2027.1.6](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-x64.dmg.sha256)
+- [Apple Silicon Mac — 2027.1.6](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 18 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk.sha256)
 
 Each link identifies its available version. [Historical Mac 2027.1.2 checksums](SHA256SUMS-MACOS-2027.1.2). The APK

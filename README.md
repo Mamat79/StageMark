@@ -27,11 +27,17 @@ Captures du vrai renderer, projet fictif, sorties arrêtées ; aucune démonstra
 
 ![Conduite StageMark 2027.0.8 : plans, cues et commandes indépendantes](https://github.com/Mamat79/StageMark/releases/download/v2027.0.8/stagemark-2027.0.8-live-fr.png)
 
-**Livraison actuelle / Current release — Windows 2027.1.7 ; Mac Apple Silicon et Intel 2027.1.6.** Nouvelle disposition Dessin : plans/calques à gauche, propriétés à droite, palette sous le canevas et bande fixe AFFICHER/BLACKOUT/FERMER SORTIE. La sortie reste fermée pendant les vérifications. Installation Windows et conservation des données contrôlées. [Notes FR](RELEASE_NOTES_2027.1.7_FR.md) · [EN](RELEASE_NOTES_2027.1.7_EN.md) · [Qualification Windows et limites](QUALIFICATION-WINDOWS-2027.1.7.md). Les paquets et notices Mac ci-dessous restent ceux de 2027.1.6, avec leur qualification distincte. Aucun matériel de projection, AR ou réseau qualifié ; V1 reste par défaut, V2 en copie locale explicite.
+**Livraison actuelle / Current release — Windows 2027.1.7 ; Mac Apple Silicon et Intel 2027.1.7.** Nouvelle disposition Dessin : plans/calques à gauche, propriétés à droite, palette sous le canevas et bande fixe AFFICHER/BLACKOUT/FERMER SORTIE. La sortie reste fermée pendant les vérifications. Installation Windows et conservation des données contrôlées. [Notes FR](RELEASE_NOTES_2027.1.7_FR.md) · [EN](RELEASE_NOTES_2027.1.7_EN.md) · [Qualification Windows et limites](QUALIFICATION-WINDOWS-2027.1.7.md). Les paquets et notices Mac 2027.1.7 ont leur qualification distincte, décrite ci-dessous. Aucun matériel de projection, AR ou réseau qualifié ; V1 reste par défaut, V2 en copie locale explicite.
 
-**Qualification Mac 2027.1.6 distincte :** 1 271 tests Vitest réussis, 27 ignorés et 95 tests Node réussis, sans échec. Le paquet Apple Silicon monté en lecture seule a passé les contrôles Electron/React/CLI/PDF/PNG non visuels. L'exécutable Electron Intel et son Canvas embarqué ont chargé et produit un PNG sous Rosetta, sans essai sur un Mac Intel physique ni recette Intel GUI complète. Minimum macOS 12 déclaré ; pas de matrice des anciens macOS, de qualification humaine visuelle complète, de projection/calibration/audio/téléphone/LAN réels, ni d'activation commerciale. Pas de Developer ID ni de notarisation. Les paquets et preuves Windows sont conservés.
+**Mac 2027.1.7 — complément du 1er novembre 2026 :** paquets distincts Apple Silicon et Intel, avec notices macOS [FR](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-Notice-macOS-FR.pdf) et [EN](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-Notice-macOS-EN.pdf). Les fichiers Windows restent inchangés.
 
-Notices Mac 2027.1.6 : [FR](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-Notice-macOS-FR.pdf) · [EN](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-Notice-macOS-EN.pdf). Elles correspondent aux documents réellement embarqués dans les deux DMG ; les notices Windows restent distinctes.
+Les contrôles Mac rapportent 1 273 tests Vitest réussis, 27 ignorés et 111 tests Node réussis. Le paquet Apple Silicon monté en lecture seule a passé les contrôles applicatifs, fichier et exports non visuels. L'exécutable Intel et sa dépendance de rendu ont été exécutés sous Rosetta ; aucun Mac Intel physique ni parcours graphique Intel complet n'est qualifié. Minimum macOS 12 déclaré, sans essai des anciens macOS. Pas de qualification de vidéoprojecteur, téléphone, LAN ou matériel audio ; pas de Developer ID ni de notarisation.
+
+Mac 2027.1.7 has separate Apple Silicon and Intel downloads and Mac-specific guides. Reported checks: 1,273 Vitest passed, 27 skipped and 111 Node passed; nonvisual Apple Silicon application/file/export checks, and an actual packaged Intel rendering check under Rosetta. This is not physical Intel, full Intel GUI, older macOS, projector, phone, LAN or audio-hardware acceptance. macOS 12 minimum is declared; the applications have no Developer ID signature or notarization. Windows files and previous releases are preserved.
+
+**Historique — qualification Mac 2027.1.6 :** 1 271 tests Vitest réussis, 27 ignorés et 95 tests Node réussis, sans échec. Le paquet Apple Silicon monté en lecture seule a passé les contrôles Electron/React/CLI/PDF/PNG non visuels. L'exécutable Electron Intel et son Canvas embarqué ont chargé et produit un PNG sous Rosetta, sans essai sur un Mac Intel physique ni recette Intel GUI complète. Minimum macOS 12 déclaré ; pas de matrice des anciens macOS, de qualification humaine visuelle complète, de projection/calibration/audio/téléphone/LAN réels, ni d'activation commerciale. Pas de Developer ID ni de notarisation. Les paquets et preuves Windows sont conservés.
+
+Anciennes notices Mac 2027.1.6 : [FR](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-Notice-macOS-FR.pdf) · [EN](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-Notice-macOS-EN.pdf). Elles correspondent aux documents réellement embarqués dans les deux DMG ; les notices Windows restent distinctes.
 
 Mac 2027.1.6 qualification is separate: 1,271 Vitest passed, 27 skipped and 95 Node passed, zero failed. The mounted Apple Silicon package passed nonvisual Electron/React/CLI/PDF/PNG checks. The actual packaged Intel Electron and Canvas loaded and generated PNG under existing Rosetta; this is not a physical Intel Mac or full Intel GUI acceptance. Requires macOS 12 or later. No complete human visual, projector/calibration/phone/LAN/audio hardware, older-macOS matrix or commercial activation acceptance is claimed. No Apple Developer ID or notarization. Windows packages and prior Mac releases are preserved.
 
@@ -198,11 +204,11 @@ votre production.
 
 ## Télécharger StageMark
 
-**Windows 2027.1.7 ; Mac Apple Silicon et Intel 2027.1.6** et **APK 0.1.1 build 18 inchangée**. [Qualification Windows actuelle et limites](QUALIFICATION-WINDOWS-2027.1.7.md).
+**Windows 2027.1.7 ; Mac Apple Silicon et Intel 2027.1.7** et **APK 0.1.1 build 18 inchangée**. [Qualification Windows actuelle et limites](QUALIFICATION-WINDOWS-2027.1.7.md).
 
 - [Windows x64 — 2027.1.7](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-Setup.exe.sha256)
-- [macOS Intel — 2027.1.6](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-x64.dmg.sha256)
-- [macOS Apple Silicon — 2027.1.6](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-arm64.dmg.sha256)
+- [macOS Intel — 2027.1.7](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-macOS-x64.dmg.sha256)
+- [macOS Apple Silicon — 2027.1.7](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 18 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk.sha256)
 
 Chaque lien précise la version réellement disponible. [Archives des empreintes Mac 2027.1.2](SHA256SUMS-MACOS-2027.1.2).
@@ -327,11 +333,11 @@ Remote remain available on Mac.
 
 ### Download
 
-**Windows 2027.1.7; Apple Silicon Mac and Intel Mac 2027.1.6** and **APK 0.1.1 build 18 unchanged**. [Current Windows qualification and limitations](QUALIFICATION-WINDOWS-2027.1.7.md).
+**Windows 2027.1.7; Apple Silicon Mac and Intel Mac 2027.1.7** and **APK 0.1.1 build 18 unchanged**. [Current Windows qualification and limitations](QUALIFICATION-WINDOWS-2027.1.7.md).
 
 - [Windows x64 — 2027.1.7](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-Setup.exe.sha256)
-- [Intel Mac — 2027.1.6](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-x64.dmg.sha256)
-- [Apple Silicon Mac — 2027.1.6](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.6/StageMark-2027.1.6-macOS-arm64.dmg.sha256)
+- [Intel Mac — 2027.1.7](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-macOS-x64.dmg.sha256)
+- [Apple Silicon Mac — 2027.1.7](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.7/StageMark-2027.1.7-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 18 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.0.11/StageMark-AR-0.1.1-build18.apk.sha256)
 
 Each link identifies its available version. [Historical Mac 2027.1.2 checksums](SHA256SUMS-MACOS-2027.1.2). The APK

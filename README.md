@@ -11,9 +11,9 @@
 
 <p align="center">
   <a href="#downloads"><strong>⬇ Télécharger StageMark</strong></a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-Notice-FR.pdf">Notice Windows FR</a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-Notice-EN.pdf">Windows guide EN</a>
-  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-Notice-FR.pdf">Notice Windows FR</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-Notice-EN.pdf">Windows guide EN</a>
+  · <a href="https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite</a>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ Captures du vrai renderer, projet fictif, sorties arrêtées ; aucune démonstra
 
 *Illustration historique — Conduite StageMark 2027.0.8 : plans, cues et commandes indépendantes. La capture appartient à cette ancienne version et est conservée dans les archives. Pour les visuels actuels, consultez la présentation du logiciel sur le site. / Historical StageMark 2027.0.8 live-workspace illustration: plans, cues and independent output commands; retained in the archives. See the product website for current visuals.*
 
-**Livraison actuelle / Current release — Windows 2027.1.10 ; Mac Apple Silicon et Intel 2027.1.10.** Le panneau Patch affiche le plan de référence StageFlow du groupe sélectionné dans un projet local enregistré. La projection conserve le plan et la calibration StageMark. / The Patch panel displays the selected group’s reference plot from a saved local StageFlow project; projection keeps the StageMark plan and calibration. [Notes FR/EN](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/RELEASE_NOTES_2027.1.10.md) · [Qualification Windows/Mac et limites / Windows/Mac qualification and limitations](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/RELEASE_NOTES_2027.1.10.md). Les notices Mac restent distinctes des notices Windows. Aucun matériel de projection, AR ou réseau n’est qualifié par cette annonce. / Mac guides remain separate from Windows guides; this announcement does not qualify projection, AR or network hardware.
+**Livraison actuelle / Current release — 2027.1.11.** Ouvrez le même projet local dans StageFlow et StageMark pour éditer le plan du groupe depuis le panneau Patch. Les repères et tracés sont partagés. / Open the same local project in StageFlow and StageMark to edit its group stage plan from the Patch panel. Markers and outlines are shared. [Notes FR/EN](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/RELEASE_NOTES_2027.1.11.md).
 
 **Qualification de la livraison 2027.1.10 :** Windows installé et vérifié sur ce PC ; profils et licences sauvegardés et conservés, contrôles natifs sur profils isolés. Mac Apple Silicon natif et Intel sous Rosetta qualifiés ; aucun Mac Intel physique testé. Sur Mac : 1 388 tests Vitest et 111 tests Node réussis, 28 cas Vitest ignorés. Les 208 tests ciblés Dell recouvrent ces tests et ne sont pas additionnés. Pas de qualification de vidéoprojecteur, téléphone, LAN à deux postes ou activation commerciale réelle ; pas de signature Apple Developer ID ni de notarisation.
 
@@ -210,11 +210,11 @@ votre production.
 
 ## Télécharger StageMark
 
-**Windows 2027.1.10 ; Mac Apple Silicon et Intel 2027.1.10** et **APK 0.1.1 build 18 inchangée**. [Qualification actuelle Windows/Mac et limites](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/RELEASE_NOTES_2027.1.10.md).
+**Windows 2027.1.11 ; Mac Apple Silicon et Intel 2027.1.11** et **APK 0.1.1 build 18 inchangée**. [Qualification actuelle Windows/Mac et limites](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/RELEASE_NOTES_2027.1.11.md).
 
-- [Windows x64 — 2027.1.10](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-Setup.exe.sha256)
-- [macOS Intel — 2027.1.10](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-macOS-x64.dmg.sha256)
-- [macOS Apple Silicon — 2027.1.10](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-macOS-arm64.dmg.sha256)
+- [Windows x64 — 2027.1.11](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-Setup.exe.sha256)
+- [macOS Intel — 2027.1.11](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-macOS-x64.dmg.sha256)
+- [macOS Apple Silicon — 2027.1.11](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 18 — APK de développement](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-AR-0.1.1-build18.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-AR-0.1.1-build18.apk.sha256)
 
 Chaque lien précise la version réellement disponible. [Archives des empreintes Mac 2027.1.2](SHA256SUMS-MACOS-2027.1.2).
@@ -336,11 +336,11 @@ Remote remain available on Mac.
 
 ### Download
 
-**Windows 2027.1.10; Apple Silicon Mac and Intel Mac 2027.1.10** and **APK 0.1.1 build 18 unchanged**. [Current Windows/Mac qualification and limitations](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/RELEASE_NOTES_2027.1.10.md).
+**Windows 2027.1.11; Apple Silicon Mac and Intel Mac 2027.1.11** and **APK 0.1.1 build 18 unchanged**. [Current Windows/Mac qualification and limitations](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/RELEASE_NOTES_2027.1.11.md).
 
-- [Windows x64 — 2027.1.10](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-Setup.exe.sha256)
-- [Intel Mac — 2027.1.10](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-macOS-x64.dmg.sha256)
-- [Apple Silicon Mac — 2027.1.10](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-2027.1.10-macOS-arm64.dmg.sha256)
+- [Windows x64 — 2027.1.11](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-Setup.exe) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-Setup.exe.sha256)
+- [Intel Mac — 2027.1.11](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-macOS-x64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-macOS-x64.dmg.sha256)
+- [Apple Silicon Mac — 2027.1.11](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-macOS-arm64.dmg) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.11/StageMark-2027.1.11-macOS-arm64.dmg.sha256)
 - [StageMark AR 0.1.1 build 18 — development APK](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-AR-0.1.1-build18.apk) · [SHA-256](https://github.com/Mamat79/StageMark/releases/download/v2027.1.10/StageMark-AR-0.1.1-build18.apk.sha256)
 
 Each link identifies its available version. [Historical Mac 2027.1.2 checksums](SHA256SUMS-MACOS-2027.1.2). The APK
@@ -377,3 +377,4 @@ calibration, output, blackout and controls with real hardware before a productio
 ---
 
 <p align="center"><strong>SiLeMI/O · By Mamat----[]---</strong></p>
+
